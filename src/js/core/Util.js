@@ -303,14 +303,6 @@ export function maxDepth(ary) {
     return max_depth;
 }
 
-/**
- * @deprecated classMixin is no longer needed - use class inheritance instead
- * This function is kept for backward compatibility but should not be used in new code
- */
-export function classMixin(cls, ...src) {
-    console.warn('classMixin is deprecated - use class inheritance instead');
-}
-
 export function ensureUniqueKey(obj, candidate) {
     if (!candidate) { candidate = unique_ID(6); }
 
