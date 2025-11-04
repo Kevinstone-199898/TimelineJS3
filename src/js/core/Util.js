@@ -304,17 +304,11 @@ export function maxDepth(ary) {
 }
 
 /**
- * Implement mixin behavior. Based on 
- *     https://blog.bitsrc.io/understanding-mixins-in-javascript-de5d3e02b466
- * @param {class} cls 
- * @param  {...class} src 
+ * @deprecated classMixin is no longer needed - use class inheritance instead
+ * This function is kept for backward compatibility but should not be used in new code
  */
 export function classMixin(cls, ...src) {
-    for (let _cl of src) {
-        for (var key of Object.getOwnPropertyNames(_cl.prototype)) {
-            cls.prototype[key] = _cl.prototype[key]
-        }
-    }
+    console.warn('classMixin is deprecated - use class inheritance instead');
 }
 
 export function ensureUniqueKey(obj, candidate) {
