@@ -1,0 +1,114 @@
+{
+  "project": "TimelineJS3",
+  "branchName": "ralph/openai-timeline-scraper",
+  "description": "OpenAI 官网 News 抓取与 Timeline 数据生成 — 分阶段工作流：一次抓取全量文章缓存到本地，再按年份阶段分批分类+翻译，最终合并为 TimelineJS3 兼容的 new_openai_data.json",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "搭建脚本基础结构并抓取全量文章缓存",
+      "description": "As a developer, I want a script that fetches all OpenAI news articles once and saves them to a local cache file (scripts/raw_articles.json), so that subsequent phase stories can work offline without re-fetching.",
+      "acceptanceCriteria": [
+        "脚本位于 scripts/scrape_openai_news.py，支持子命令：python scrape_openai_news.py fetch | phase <N> | merge",
+        "fetch 子命令：访问 https://openai.com/news/?sortBy=old，自动翻页抓取所有文章",
+        "每条文章保存三个字段：title（英文）、url、date_str（原始日期字符串）",
+        "抓取结果保存到 scripts/raw_articles.json（JSON 数组，2 空格缩进，ensure_ascii=False）",
+        "爬取每页间隔 1.5 秒，完成后打印「已抓取 N 篇文章，保存至 raw_articles.json」",
+        "若 raw_articles.json 已存在，提示「文件已存在，将覆盖」",
+        "Typecheck passes"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Phase 1（2015–2019）：分类 + 翻译 + 保存",
+      "description": "As a developer, I want to process OpenAI news articles from 2015 to 2019 — classify, translate to Chinese, and save to a phase file — so that early-era events are ready for the final merge.",
+      "acceptanceCriteria": [
+        "运行命令：python scripts/scrape_openai_news.py phase 1",
+        "从 scripts/raw_articles.json 读取文章，仅处理 date_str 年份在 2015–2019 范围内的条目",
+        "classify_article(title, url) 函数按关键词将文章归入：产品 / 融资 / 合作 / 研究 / 政策，无法归类返回 None 并跳过",
+        "对入选文章逐条调用 OpenAI API（gpt-4o-mini）生成中文标题和一句话摘要（≤80字）",
+        "OPENAI_API_KEY 通过环境变量读取，未设置则打印错误并退出",
+        "处理结果保存到 scripts/phase1.json（格式与 raw_articles.json 一致，新增 headline_zh / summary_zh / category 字段）",
+        "完成后打印「Phase 1 完成：入选 N 条，跳过 M 条」",
+        "Typecheck passes"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-003",
+      "title": "Phase 2（2020–2021）：分类 + 翻译 + 保存",
+      "description": "As a developer, I want to process OpenAI news articles from 2020 to 2021 — classify, translate to Chinese, and save to a phase file — so that the GPT-3 and DALL-E era events are ready for the final merge.",
+      "acceptanceCriteria": [
+        "运行命令：python scripts/scrape_openai_news.py phase 2",
+        "从 scripts/raw_articles.json 读取文章，仅处理年份在 2020–2021 的条目",
+        "使用与 US-002 相同的 classify_article 函数和 5 类分类规则",
+        "对入选文章调用 OpenAI API 翻译并生成摘要",
+        "结果保存到 scripts/phase2.json（格式同 phase1.json）",
+        "完成后打印「Phase 2 完成：入选 N 条，跳过 M 条」",
+        "Typecheck passes"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-004",
+      "title": "Phase 3（2022–2023）：分类 + 翻译 + 保存",
+      "description": "As a developer, I want to process OpenAI news articles from 2022 to 2023 — classify, translate to Chinese, and save to a phase file — so that the ChatGPT and GPT-4 era events are ready for the final merge.",
+      "acceptanceCriteria": [
+        "运行命令：python scripts/scrape_openai_news.py phase 3",
+        "从 scripts/raw_articles.json 读取文章，仅处理年份在 2022–2023 的条目",
+        "使用与 US-002 相同的 classify_article 函数",
+        "对入选文章调用 OpenAI API 翻译并生成摘要",
+        "结果保存到 scripts/phase3.json（格式同 phase1.json）",
+        "完成后打印「Phase 3 完成：入选 N 条，跳过 M 条」",
+        "Typecheck passes"
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-005",
+      "title": "Phase 4（2024–至今）：分类 + 翻译 + 保存",
+      "description": "As a developer, I want to process OpenAI news articles from 2024 to present — classify, translate to Chinese, and save to a phase file — so that the latest era events are ready for the final merge.",
+      "acceptanceCriteria": [
+        "运行命令：python scripts/scrape_openai_news.py phase 4",
+        "从 scripts/raw_articles.json 读取文章，仅处理年份 >= 2024 的条目",
+        "使用与 US-002 相同的 classify_article 函数",
+        "对入选文章调用 OpenAI API 翻译并生成摘要",
+        "结果保存到 scripts/phase4.json（格式同 phase1.json）",
+        "完成后打印「Phase 4 完成：入选 N 条，跳过 M 条」",
+        "Typecheck passes"
+      ],
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-006",
+      "title": "合并所有阶段数据，生成 new_openai_data.json",
+      "description": "As a developer, I want to merge phase1–4.json into a single TimelineJS3-compatible JSON file saved at contrib/examples/new_openai_data.json, without touching the original openai_data.json.",
+      "acceptanceCriteria": [
+        "运行命令：python scripts/scrape_openai_news.py merge",
+        "读取 scripts/phase1.json 至 scripts/phase4.json，若某个文件不存在则打印警告并跳过",
+        "合并所有阶段的 events，按 start_date 从早到晚升序排列",
+        "输出 JSON 结构与 contrib/examples/openai_data.json 完全一致（含顶层 title 字段）",
+        "每条 event 包含：start_date（year/month，有 day 则加 day）、text.headline（中文）、text.text（中文摘要 + HTML 链接）、group",
+        "text.text 中链接格式：<a href=\"{url}\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>",
+        "输出路径固定为 contrib/examples/new_openai_data.json，若已存在提示「将覆盖」",
+        "原文件 contrib/examples/openai_data.json 不被修改或删除",
+        "JSON 使用 2 空格缩进，ensure_ascii=False",
+        "完成后打印「已写入 N 条事件到 new_openai_data.json」",
+        "Typecheck passes"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
