@@ -1,0 +1,20 @@
+## Codebase Patterns
+- Script is Python 3, uses requests + BeautifulSoup for scraping, with type annotations in comments (not PEP 526 style)
+- Phase files (phase1.json - phase4.json) stored in scripts/ directory alongside the main script
+- Output goes to contrib/examples/new_openai_data.json; original openai_data.json must not be touched
+- SiliconFlow API (deepseek-ai/DeepSeek-V3) is used instead of OpenAI API for translation (env var: SILICONFLOW_API_KEY)
+- py_compile is the typecheck method (no mypy installed)
+
+# Ralph Progress Log
+Started: Wed Feb 18 16:11:56 CST 2026
+---
+
+## 2026-02-18 - US-001
+- What was implemented: Verified that scripts/scrape_openai_news.py already fully implements US-001 (fetch subcommand, raw_articles.json output, 1.5s delay, exists warning). Committed the untracked files.
+- Files changed: scripts/scrape_openai_news.py (added to git), prd.json, tasks/prd-openai-timeline-scraper.md
+- **Learnings for future iterations:**
+  - The script uses SILICONFLOW_API_KEY (not OPENAI_API_KEY as the PRD states) — this is the actual implementation choice
+  - py_compile is used for typecheck (no mypy/pyflakes installed)
+  - All scripts are stored in scripts/ directory; phase files (phase1-4.json) live there too
+  - The script uses HTML-comment type annotations (e.g., `# type: (str) -> str`) for Python 2/3 compatibility style
+---
