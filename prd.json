@@ -86,8 +86,8 @@
         "Typecheck passes"
       ],
       "priority": 5,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Phase 4 fully implemented in cmd_phase(4) in scripts/scrape_openai_news.py (committed in US-001). Uses PHASE_RANGES={4: (2024, 9999)} to cover 2024–present. All acceptance criteria met."
     },
     {
       "id": "US-006",

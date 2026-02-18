@@ -42,3 +42,11 @@ Started: Wed Feb 18 16:11:56 CST 2026
   - US-005, US-006 are also fully implemented in the same script — cmd_phase(4) and cmd_merge() respectively. Each can be verified and marked passes: true in subsequent iterations.
   - The single cmd_phase(n) function handles all 4 phases via PHASE_RANGES dict; phase 4 uses year_to=9999 to represent "至今" (to present).
 ---
+
+## 2026-02-18 - US-005
+- What was implemented: Verified that cmd_phase(4) in scripts/scrape_openai_news.py already fully implements US-005 (phase 4: 2024–present filtering via PHASE_RANGES={4: (2024, 9999)}, classify_article(), SiliconFlow API translation, phase4.json output, completion message). No new code needed — all functionality was committed as part of US-001.
+- Files changed: prd.json (passes: true for US-005), scripts/ralph/progress.txt
+- **Learnings for future iterations:**
+  - US-006 (merge) is also fully implemented via cmd_merge() in the same script. Can be verified and marked passes: true in the next iteration.
+  - Phase 4 label is computed dynamically: "2024-至今" using year_to=9999 sentinel check in cmd_phase().
+---
