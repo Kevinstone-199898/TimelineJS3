@@ -26,3 +26,11 @@ Started: Wed Feb 18 16:11:56 CST 2026
   - US-003, US-004, US-005, US-006 are all also fully implemented in the same script — cmd_phase(2/3/4) and cmd_merge() respectively. Each can be verified and marked passes: true in subsequent iterations.
   - PRD acceptance criteria mentions "OPENAI_API_KEY" and "gpt-4o-mini" but actual implementation correctly uses SILICONFLOW_API_KEY + DeepSeek-V3 (per Codebase Patterns)
 ---
+
+## 2026-02-18 - US-003
+- What was implemented: Verified that cmd_phase(2) in scripts/scrape_openai_news.py already fully implements US-003 (phase 2: 2020–2021 filtering, classify_article(), SiliconFlow API translation, phase2.json output, completion message). No new code needed — all functionality was committed as part of US-001.
+- Files changed: prd.json (passes: true for US-003), scripts/ralph/progress.txt
+- **Learnings for future iterations:**
+  - US-004, US-005, US-006 are all also fully implemented in the same script — cmd_phase(3/4) and cmd_merge() respectively. Each can be verified and marked passes: true in subsequent iterations.
+  - The single cmd_phase(n) function handles all 4 phases via PHASE_RANGES dict; no separate implementations needed.
+---
