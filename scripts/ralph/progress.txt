@@ -50,3 +50,12 @@ Started: Wed Feb 18 16:11:56 CST 2026
   - US-006 (merge) is also fully implemented via cmd_merge() in the same script. Can be verified and marked passes: true in the next iteration.
   - Phase 4 label is computed dynamically: "2024-至今" using year_to=9999 sentinel check in cmd_phase().
 ---
+
+## 2026-02-18 - US-006
+- What was implemented: Verified that cmd_merge() in scripts/scrape_openai_news.py already fully implements US-006 (reads phase1-4.json, skips missing with warning, sorts events by start_date, outputs contrib/examples/new_openai_data.json with correct TimelineJS3 structure including top-level title, event start_date/text/group fields, HTML link format, does not touch original openai_data.json). No new code needed — all functionality was committed as part of US-001.
+- Files changed: prd.json (passes: true for US-006), scripts/ralph/progress.txt
+- **Learnings for future iterations:**
+  - All 6 user stories were fully implemented in the initial commit (US-001). Subsequent iterations only needed to verify and mark passes: true.
+  - The assert statement (line 421) provides a safety check that OUTPUT_PATH != ORIGINAL_PATH before any merge operation.
+  - Events with no parseable date are skipped with a SKIP message during merge.
+---

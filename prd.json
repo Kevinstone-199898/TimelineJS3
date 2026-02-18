@@ -107,8 +107,8 @@
         "Typecheck passes"
       ],
       "priority": 6,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Merge fully implemented in cmd_merge() in scripts/scrape_openai_news.py (committed in US-001). Reads phase1-4.json, merges events sorted by start_date, outputs to contrib/examples/new_openai_data.json with correct structure. Original openai_data.json not touched. All acceptance criteria met."
     }
   ]
 }
