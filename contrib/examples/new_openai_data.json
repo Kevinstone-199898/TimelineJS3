@@ -1,0 +1,2463 @@
+{
+  "title": {
+    "text": {
+      "headline": "OpenAI 发展历程",
+      "text": "产品发布 · 融资轮次 · 商业合作"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "2015",
+        "month": "12"
+      },
+      "text": {
+        "headline": "OpenAI 成立",
+        "text": "OpenAI 正式成立，旨在推动人工智能的安全和普惠发展。<a href=\"https://openai.com/index/introducing-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2016",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI Gym测试版",
+        "text": "OpenAI推出强化学习研究平台Gym的测试版本。<a href=\"https://openai.com/index/openai-gym-beta/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2016",
+        "month": "06"
+      },
+      "text": {
+        "headline": "AI安全问题研究",
+        "text": "OpenAI早期关于AI安全具体问题的研究论文。<a href=\"https://openai.com/index/concrete-ai-safety-problems/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2016",
+        "month": "12"
+      },
+      "text": {
+        "headline": "Universe平台发布",
+        "text": "OpenAI推出Universe平台，用于训练AI玩电子游戏和使用应用程序。<a href=\"https://openai.com/index/universe/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2017",
+        "month": "03"
+      },
+      "text": {
+        "headline": "人类偏好学习研究",
+        "text": "OpenAI发表通过人类反馈优化强化学习算法的研究成果。<a href=\"https://openai.com/index/learning-from-human-preferences/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2017",
+        "month": "04"
+      },
+      "text": {
+        "headline": "无监督情感神经元",
+        "text": "OpenAI发现神经网络可以无监督学习情感分析能力。<a href=\"https://openai.com/index/unsupervised-sentiment-neuron/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "02"
+      },
+      "text": {
+        "headline": "马斯克离开OpenAI",
+        "text": "埃隆·马斯克因利益冲突退出OpenAI董事会，专注于特斯拉和SpaceX。<a href=\"https://openai.com/index/openai-elon-musk/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "02"
+      },
+      "text": {
+        "headline": "应对AI恶意使用",
+        "text": "OpenAI 发布政策声明，呼吁关注并预防AI技术的恶意使用。<a href=\"https://openai.com/index/preparing-for-malicious-uses-of-ai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "05"
+      },
+      "text": {
+        "headline": "AI辩论研究",
+        "text": "OpenAI提出通过AI辩论来验证AI系统决策的方法。<a href=\"https://openai.com/index/debate/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI Five基准测试",
+        "text": "OpenAI Five在Dota 2中击败业余人类团队，展示强化学习进展<a href=\"https://openai.com/index/openai-five-benchmark-results/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI Five发布",
+        "text": "OpenAI发布OpenAI Five，这是首个在Dota 2中击败职业战队的AI系统。<a href=\"https://openai.com/index/openai-five/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "06"
+      },
+      "text": {
+        "headline": "Gym Retro发布",
+        "text": "OpenAI推出Gym Retro平台，支持经典游戏环境用于强化学习研究。<a href=\"https://openai.com/index/gym-retro/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI Five基准测试",
+        "text": "OpenAI Five在Dota 2中达到职业玩家水平，展示了多智能体强化学习的突破。<a href=\"https://openai.com/index/openai-five-benchmark/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "06"
+      },
+      "text": {
+        "headline": "AI安全合作",
+        "text": "OpenAI宣布与其他机构合作研究AI安全问题。<a href=\"https://openai.com/index/cooperation-on-safety/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "06"
+      },
+      "text": {
+        "headline": "Dota 2 AI突破",
+        "text": "OpenAI的AI在Dota 2中击败职业玩家，展示强化学习强大能力。<a href=\"https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "month": "08"
+      },
+      "text": {
+        "headline": "OpenAI Five决赛",
+        "text": "OpenAI Five在Dota 2比赛中击败人类职业选手，展示AI在复杂游戏中的能力。<a href=\"https://openai.com/index/openai-five-finals/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "02"
+      },
+      "text": {
+        "headline": "GPT-2发布",
+        "text": "OpenAI发布GPT-2语言模型，但因担忧滥用最初未完全开源<a href=\"https://openai.com/index/better-language-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI转为营利性",
+        "text": "OpenAI宣布重组为营利性公司，以更好地实现其使命。<a href=\"https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI非营利与营利架构声明",
+        "text": "OpenAI发布声明，解释其非营利与营利并行的组织结构。<a href=\"https://openai.com/index/statement-on-openai-nonprofit-and-pbc/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI结构调整",
+        "text": "OpenAI宣布从非营利组织转变为有限营利组织，以更好地筹集资金。<a href=\"https://openai.com/index/evolving-our-structure/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "04"
+      },
+      "text": {
+        "headline": "MuseNet发布",
+        "text": "OpenAI推出音乐生成模型MuseNet，可创作多种风格音乐<a href=\"https://openai.com/index/musenet/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI Five击败世界冠军",
+        "text": "OpenAI Five在Dota 2中击败世界冠军团队，创AI里程碑<a href=\"https://openai.com/index/openai-five-defeats-dota-2-world-champions/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "04"
+      },
+      "text": {
+        "headline": "稀疏Transformer发布",
+        "text": "OpenAI发布稀疏Transformer，显著提升长序列处理效率。<a href=\"https://openai.com/index/sparse-transformer/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "07"
+      },
+      "text": {
+        "headline": "微软投资并合作OpenAI",
+        "text": "微软宣布投资10亿美元并与OpenAI建立战略合作伙伴关系，共同开发AI技术。<a href=\"https://openai.com/index/microsoft-invests-in-and-partners-with-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "07"
+      },
+      "text": {
+        "headline": "GPT-2微调研究",
+        "text": "OpenAI发布关于GPT-2模型微调技术的研究论文。<a href=\"https://openai.com/index/fine-tuning-gpt-2/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "10"
+      },
+      "text": {
+        "headline": "解魔方机器人",
+        "text": "OpenAI展示机械手解魔方能力，展示强化学习在机器人领域的应用<a href=\"https://openai.com/index/solving-rubiks-cube/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "11"
+      },
+      "text": {
+        "headline": "GPT-2 1.5B发布",
+        "text": "OpenAI发布完整版GPT-2模型，参数量达15亿。<a href=\"https://openai.com/index/gpt-2-1-5b-release/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "11"
+      },
+      "text": {
+        "headline": "GPT-2六个月跟进",
+        "text": "OpenAI发布GPT-2模型六个月后的使用情况和影响报告。<a href=\"https://openai.com/index/gpt-2-6-month-follow-up/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "12"
+      },
+      "text": {
+        "headline": "深度双下降现象",
+        "text": "OpenAI研究发现深度学习模型在参数过多时会出现性能再次提升的现象，挑战传统偏差-方差权衡理论。<a href=\"https://openai.com/index/deep-double-descent/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "01"
+      },
+      "text": {
+        "headline": "神经语言模型缩放定律",
+        "text": "OpenAI发布关于神经语言模型性能与计算资源、数据量和模型规模之间关系的重要研究成果。<a href=\"https://openai.com/index/scaling-laws-for-neural-language-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "04"
+      },
+      "text": {
+        "headline": "Jukebox发布",
+        "text": "OpenAI发布Jukebox，一个能生成音乐（包括歌词）的神经网络模型。<a href=\"https://openai.com/index/jukebox/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "05"
+      },
+      "text": {
+        "headline": "GPT-3论文发表",
+        "text": "OpenAI发表GPT-3论文，展示少样本学习能力<a href=\"https://openai.com/index/language-models-are-few-shot-learners/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI API发布",
+        "text": "OpenAI推出通用API，允许开发者访问其强大的AI模型。<a href=\"https://openai.com/index/openai-api/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "06"
+      },
+      "text": {
+        "headline": "Image GPT发布",
+        "text": "OpenAI推出基于GPT架构的图像生成模型Image GPT。<a href=\"https://openai.com/index/image-gpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "09"
+      },
+      "text": {
+        "headline": "OpenAI 授权 GPT-3 技术给微软",
+        "text": "OpenAI 与微软达成协议，授权其 GPT-3 技术，标志着重要的商业合作。<a href=\"https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "month": "09"
+      },
+      "text": {
+        "headline": "人类反馈学习摘要",
+        "text": "OpenAI展示如何通过人类反馈训练AI模型生成更好的文本摘要。<a href=\"https://openai.com/index/learning-to-summarize-with-human-feedback/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "01"
+      },
+      "text": {
+        "headline": "DALL-E发布",
+        "text": "OpenAI推出文本生成图像模型DALL-E，开创AI图像生成新领域<a href=\"https://openai.com/index/dall-e/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "01"
+      },
+      "text": {
+        "headline": "CLIP模型发布",
+        "text": "OpenAI发布CLIP模型，实现图像与文本的跨模态理解<a href=\"https://openai.com/index/clip/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "01"
+      },
+      "text": {
+        "headline": "图像生成API发布",
+        "text": "OpenAI推出DALL·E图像生成API，允许开发者创建AI生成图像。<a href=\"https://openai.com/index/image-generation-api/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "01"
+      },
+      "text": {
+        "headline": "DALL-E Beta版发布",
+        "text": "OpenAI发布DALL-E的Beta版本，开启AI生成图像的新时代。<a href=\"https://openai.com/index/dall-e-now-available-in-beta/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "04"
+      },
+      "text": {
+        "headline": "改进语言模型行为",
+        "text": "OpenAI发布研究，探讨如何使语言模型行为更符合人类价值观。<a href=\"https://openai.com/index/improving-language-model-behavior/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "07"
+      },
+      "text": {
+        "headline": "大模型进化研究",
+        "text": "OpenAI探索通过大型语言模型实现AI系统自我进化的方法。<a href=\"https://openai.com/index/evolution-through-large-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "08"
+      },
+      "text": {
+        "headline": "Codex发布",
+        "text": "OpenAI发布Codex模型，为GitHub Copilot提供技术支持。<a href=\"https://openai.com/index/introducing-codex/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "08"
+      },
+      "text": {
+        "headline": "Codex全面开放",
+        "text": "OpenAI宣布Codex API全面开放，支持开发者使用。<a href=\"https://openai.com/index/codex-now-generally-available/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "08"
+      },
+      "text": {
+        "headline": "Codex应用发布",
+        "text": "OpenAI推出基于GPT-3的Codex应用，专注于代码生成。<a href=\"https://openai.com/index/introducing-the-codex-app/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "08"
+      },
+      "text": {
+        "headline": "大型语言模型的社会影响",
+        "text": "OpenAI 发布研究报告，探讨大型语言模型的能力、局限性和社会影响。<a href=\"https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "09"
+      },
+      "text": {
+        "headline": "TruthfulQA基准",
+        "text": "OpenAI发布用于评估AI系统真实性的TruthfulQA基准测试。<a href=\"https://openai.com/index/truthfulqa/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "11"
+      },
+      "text": {
+        "headline": "API取消等待名单",
+        "text": "OpenAI宣布取消API访问的等待名单，全面开放使用。<a href=\"https://openai.com/index/api-no-waitlist/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "12"
+      },
+      "text": {
+        "headline": "WebGPT发布",
+        "text": "OpenAI推出能够浏览网页回答问题的人工智能系统WebGPT。<a href=\"https://openai.com/index/webgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "01"
+      },
+      "text": {
+        "headline": "发布文本和代码嵌入模型",
+        "text": "OpenAI 发布了新的文本和代码嵌入模型，提升了自然语言处理和代码理解能力。<a href=\"https://openai.com/index/introducing-text-and-code-embeddings/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "01"
+      },
+      "text": {
+        "headline": "指令遵循研究",
+        "text": "OpenAI发布关于如何训练AI模型更好遵循人类指令的研究成果。<a href=\"https://openai.com/index/instruction-following/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "01"
+      },
+      "text": {
+        "headline": "文本与代码嵌入模型",
+        "text": "OpenAI 发布文本与代码嵌入模型，通过对比预训练提升语义理解能力。<a href=\"https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "04"
+      },
+      "text": {
+        "headline": "DALL-E 2发布",
+        "text": "OpenAI发布第二代图像生成模型DALL-E 2，图像生成能力大幅提升。<a href=\"https://openai.com/index/dall-e-2/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "04"
+      },
+      "text": {
+        "headline": "DALL-E 2更新",
+        "text": "OpenAI发布DALL-E 2的重大更新，提升图像生成质量和多样性。<a href=\"https://openai.com/index/dall-e-2-update/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "07"
+      },
+      "text": {
+        "headline": "DALL·E开放访问",
+        "text": "OpenAI宣布DALL·E图像生成系统取消等待名单，向公众开放。<a href=\"https://openai.com/index/dall-e-now-available-without-waitlist/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "08"
+      },
+      "text": {
+        "headline": "DALL·E推出外绘功能",
+        "text": "DALL·E新增外绘功能，允许用户扩展图像边界并生成新内容。<a href=\"https://openai.com/index/dall-e-introducing-outpainting/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "09"
+      },
+      "text": {
+        "headline": "Whisper发布",
+        "text": "OpenAI发布Whisper语音识别模型，支持多语言转录和翻译。<a href=\"https://openai.com/index/whisper/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "09"
+      },
+      "text": {
+        "headline": "推出NextGenAI",
+        "text": "OpenAI发布NextGenAI，新一代AI模型，性能大幅提升。<a href=\"https://openai.com/index/introducing-nextgenai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "11"
+      },
+      "text": {
+        "headline": "ChatGPT发布",
+        "text": "OpenAI发布ChatGPT，引发全球AI聊天机器人热潮。<a href=\"https://openai.com/index/chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "11"
+      },
+      "text": {
+        "headline": "DALL·E API公测版发布",
+        "text": "DALL·E API正式进入公测阶段，开发者可集成图像生成功能。<a href=\"https://openai.com/index/dall-e-api-now-available-in-public-beta/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "12"
+      },
+      "text": {
+        "headline": "发布改进的嵌入模型",
+        "text": "OpenAI 发布了新的嵌入模型，提升了文本和代码的表示能力。<a href=\"https://openai.com/index/new-and-improved-embedding-model/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "12"
+      },
+      "text": {
+        "headline": "Point-E 3D生成模型",
+        "text": "OpenAI 发布Point-E，一种高效生成3D点云的AI模型。<a href=\"https://openai.com/index/point-e/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "推出ChatGPT团队版",
+        "text": "OpenAI推出面向团队的ChatGPT订阅服务，提供更高效的协作功能。<a href=\"https://openai.com/index/introducing-chatgpt-team/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "推出非营利组织计划",
+        "text": "OpenAI为非营利组织提供特殊访问权限和折扣，支持其使用AI技术。<a href=\"https://openai.com/index/introducing-openai-for-nonprofits/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "推出AI文本检测器",
+        "text": "OpenAI发布AI文本检测器，帮助识别AI生成的内容。<a href=\"https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "新嵌入模型与API更新",
+        "text": "OpenAI发布新的文本嵌入模型和API更新，提升开发者体验。<a href=\"https://openai.com/index/new-embedding-models-and-api-updates/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "与微软扩展合作",
+        "text": "OpenAI与微软宣布扩展合作伙伴关系，共同推进AI技术发展。<a href=\"https://openai.com/index/openai-and-microsoft-extend-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "微软与OpenAI深化合作",
+        "text": "微软宣布扩大与OpenAI的合作伙伴关系，投资数十亿美元并整合AI技术到其产品中。<a href=\"https://openai.com/index/next-chapter-of-microsoft-openai-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "OpenAI与微软深化合作",
+        "text": "OpenAI与微软宣布扩大合作伙伴关系，微软将增加对OpenAI的投资。<a href=\"https://openai.com/index/openai-and-microsoft/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "01"
+      },
+      "text": {
+        "headline": "OpenAI与ServiceNow合作",
+        "text": "OpenAI与ServiceNow合作，为企业提供可操作的AI解决方案。<a href=\"https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "02"
+      },
+      "text": {
+        "headline": "ChatGPT Plus发布",
+        "text": "OpenAI推出ChatGPT Plus订阅服务，提供更快的响应时间和优先访问。<a href=\"https://openai.com/index/chatgpt-plus/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "02"
+      },
+      "text": {
+        "headline": "AI系统行为准则",
+        "text": "OpenAI探讨AI系统应如何行为，提出伦理和行为准则。<a href=\"https://openai.com/index/how-should-ai-systems-behave/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "02"
+      },
+      "text": {
+        "headline": "AGI及未来规划",
+        "text": "OpenAI发布关于AGI及未来发展的规划与愿景。<a href=\"https://openai.com/index/planning-for-agi-and-beyond/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "02"
+      },
+      "text": {
+        "headline": "AI安全方法",
+        "text": "OpenAI阐述其在AI安全方面的研究方法与策略。<a href=\"https://openai.com/index/our-approach-to-ai-safety/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "GPT-4研究发布",
+        "text": "OpenAI发布GPT-4技术报告，展示其多模态能力和性能提升<a href=\"https://openai.com/index/gpt-4-research/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "GPT-4发布",
+        "text": "OpenAI发布GPT-4多模态大模型，性能显著提升并支持图像输入。<a href=\"https://openai.com/index/gpt-4/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "ChatGPT开放应用提交",
+        "text": "OpenAI允许开发者向ChatGPT提交应用，扩展其功能生态。<a href=\"https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "ChatGPT插件",
+        "text": "OpenAI推出ChatGPT插件功能，扩展其应用场景和能力。<a href=\"https://openai.com/index/chatgpt-plugins/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "推出ChatGPT和Whisper API",
+        "text": "OpenAI发布ChatGPT和Whisper的API，支持开发者集成对话和语音转文本功能。<a href=\"https://openai.com/index/introducing-chatgpt-and-whisper-apis/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI与Intuit合作",
+        "text": "OpenAI与财务软件公司Intuit达成合作，将AI技术整合到其财务产品中。<a href=\"https://openai.com/index/intuit-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI融资更新",
+        "text": "OpenAI宣布新一轮融资进展，进一步支持其AI研发。<a href=\"https://openai.com/index/march-funding-updates/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "GPT-5系统卡",
+        "text": "OpenAI发布GPT-5的系统卡，详细说明其能力与安全措施。<a href=\"https://openai.com/index/gpt-5-system-card/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI与Instacart合作",
+        "text": "OpenAI与Instacart合作，提升其购物体验的AI能力。<a href=\"https://openai.com/index/instacart-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "03"
+      },
+      "text": {
+        "headline": "一致性模型发布",
+        "text": "OpenAI发布一致性模型，一种新的生成模型方法，提高了生成效率和质量。<a href=\"https://openai.com/index/consistency-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI与德国电信合作",
+        "text": "OpenAI与德国电信合作，推动AI技术在电信领域的应用。<a href=\"https://openai.com/index/deutsche-telekom-collaboration/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI与Retro Biosciences合作",
+        "text": "OpenAI宣布与Retro Biosciences合作，加速生命科学研究。<a href=\"https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "ChatGPT测试广告",
+        "text": "OpenAI开始在ChatGPT中测试广告功能，探索商业化路径。<a href=\"https://openai.com/index/testing-ads-in-chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "广告与访问扩展策略",
+        "text": "OpenAI公布广告策略和扩大ChatGPT访问的计划。<a href=\"https://openai.com/index/our-approach-to-advertising-and-expanding-access/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "推出iOS版ChatGPT应用",
+        "text": "OpenAI发布iOS版ChatGPT应用，方便用户随时随地使用。<a href=\"https://openai.com/index/introducing-the-chatgpt-app-for-ios/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "推出 OpenAI Frontier",
+        "text": "OpenAI 宣布 Frontier 项目，旨在推动 AI 技术的边界。<a href=\"https://openai.com/index/introducing-openai-frontier/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "SearchGPT原型发布",
+        "text": "OpenAI展示SearchGPT原型，探索AI驱动的搜索引擎技术。<a href=\"https://openai.com/index/searchgpt-prototype/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "与Scale合作",
+        "text": "OpenAI与Scale合作，为企业提供模型微调支持。<a href=\"https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "推进AI治理",
+        "text": "OpenAI发布关于推进AI治理的声明，强调全球合作的重要性。<a href=\"https://openai.com/index/moving-ai-governance-forward/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "超级智能治理",
+        "text": "OpenAI发布关于超级智能治理的声明，呼吁全球合作。<a href=\"https://openai.com/index/governance-of-superintelligence/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI担忧政策",
+        "text": "OpenAI发布政策，鼓励员工报告AI安全担忧。<a href=\"https://openai.com/index/openai-raising-concerns-policy/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与BBVA扩大合作",
+        "text": "OpenAI与西班牙BBVA银行扩大合作，提升金融服务AI能力。<a href=\"https://openai.com/index/bbva-collaboration-expansion/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "API功能调用更新",
+        "text": "OpenAI为API添加函数调用功能，提升开发者灵活性。<a href=\"https://openai.com/index/function-calling-and-other-api-updates/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI进军医疗领域",
+        "text": "OpenAI宣布与医疗机构合作，探索AI在医疗领域的应用。<a href=\"https://openai.com/index/openai-for-healthcare/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "与埃森哲合作",
+        "text": "OpenAI与埃森哲达成合作，共同推进企业AI解决方案的开发与应用。<a href=\"https://openai.com/index/accenture-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI伦敦办公室",
+        "text": "OpenAI宣布在伦敦设立首个国际办公室，扩展全球业务。<a href=\"https://openai.com/index/introducing-openai-london/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI收购Neptune",
+        "text": "OpenAI宣布收购Neptune，以增强其AI基础设施能力。<a href=\"https://openai.com/index/openai-to-acquire-neptune/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "5000万美元社区建设基金",
+        "text": "OpenAI宣布设立5000万美元基金，用于支持社区驱动的AI项目和创新。<a href=\"https://openai.com/index/50-million-fund-to-build-with-communities/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "美英AI安全合作",
+        "text": "OpenAI参与美英AI安全研究所合作，推动全球AI安全标准。<a href=\"https://openai.com/index/us-caisi-uk-aisi-ai-update/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "欧盟AI新篇章",
+        "text": "OpenAI宣布在欧盟地区推进AI技术应用与合规发展的重要政策声明。<a href=\"https://openai.com/index/the-next-chapter-for-ai-in-the-eu/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "与Snowflake合作",
+        "text": "OpenAI宣布与数据云公司Snowflake建立战略合作伙伴关系，整合AI与数据分析能力。<a href=\"https://openai.com/index/snowflake-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI与Cerebras合作",
+        "text": "OpenAI与Cerebras合作，加速AI模型的训练与推理。<a href=\"https://openai.com/index/cerebras-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "06"
+      },
+      "text": {
+        "headline": "AI临床助手合作",
+        "text": "OpenAI与Penda Health合作推出AI临床助手，提升医疗诊断效率。<a href=\"https://openai.com/index/ai-clinical-copilot-penda-health/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "ChatGPT锁定模式",
+        "text": "OpenAI在ChatGPT中引入锁定模式和提升风险标签，增强内容安全控制。<a href=\"https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "GPT-4 API 全面开放",
+        "text": "GPT-4 API 正式向公众开放，开发者可以广泛使用这一强大模型。<a href=\"https://openai.com/index/gpt-4-api-general-availability/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "支持本地新闻合作",
+        "text": "OpenAI与美国新闻项目合作，支持本地新闻业发展。<a href=\"https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "OpenAI与《大西洋》合作新闻增强",
+        "text": "OpenAI与《大西洋》杂志合作，提升ChatGPT中的新闻内容质量。<a href=\"https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "OpenAI与全球新闻媒体合作",
+        "text": "OpenAI宣布与法国《世界报》和西班牙Prisa Media建立全球新闻合作伙伴关系。<a href=\"https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "OpenAI与卫报媒体集团合作",
+        "text": "OpenAI与卫报媒体集团达成内容合作，探索AI在新闻行业的应用。<a href=\"https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "超级对齐快速资助",
+        "text": "OpenAI宣布超级对齐计划，提供资金支持AI对齐研究。<a href=\"https://openai.com/index/superalignment-fast-grants/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "前沿模型论坛",
+        "text": "OpenAI联合其他公司成立前沿模型论坛，推动AI安全发展。<a href=\"https://openai.com/index/frontier-model-forum/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "07"
+      },
+      "text": {
+        "headline": "爱沙尼亚学校引入ChatGPT",
+        "text": "OpenAI与爱沙尼亚合作，将ChatGPT引入学校教育系统。<a href=\"https://openai.com/index/estonia-schools-and-chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "欧洲数据驻留",
+        "text": "OpenAI宣布在欧洲建立数据驻留，满足当地数据隐私法规要求。<a href=\"https://openai.com/index/introducing-data-residency-in-europe/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "ChatGPT企业版新工具",
+        "text": "OpenAI为企业用户推出新工具，增强ChatGPT在企业环境中的应用。<a href=\"https://openai.com/index/new-tools-for-chatgpt-enterprise/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "微调API改进",
+        "text": "OpenAI改进微调API并扩展自定义模型计划，提升开发者体验。<a href=\"https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "GPT-3.5 Turbo微调更新",
+        "text": "OpenAI推出GPT-3.5 Turbo的微调功能和API更新，提升模型性能。<a href=\"https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "收购Global Illumination",
+        "text": "OpenAI收购创意工具公司Global Illumination，以增强AI产品设计能力。<a href=\"https://openai.com/index/openai-acquires-global-illumination/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "推出ChatGPT企业版",
+        "text": "OpenAI发布ChatGPT企业版，为企业提供定制化AI解决方案。<a href=\"https://openai.com/index/introducing-chatgpt-enterprise/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "向全美联邦雇员提供ChatGPT",
+        "text": "OpenAI与美国政府合作，为所有联邦雇员提供ChatGPT访问权限。<a href=\"https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "OpenAI与Axios合作",
+        "text": "OpenAI与新闻机构Axios合作，进一步拓展AI在新闻行业的应用。<a href=\"https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "OpenAI与美国国家实验室合作",
+        "text": "OpenAI宣布与美国国家实验室合作，加强美国在人工智能领域的领导地位。<a href=\"https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "OpenAI与加州州立大学系统合作",
+        "text": "OpenAI与加州州立大学系统达成合作，推动AI在教育领域的应用。<a href=\"https://openai.com/index/openai-and-the-csu-system/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "OpenAI与贝塔斯曼合作",
+        "text": "OpenAI与贝塔斯曼合作，利用AI提升创造力和生产力。<a href=\"https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "08"
+      },
+      "text": {
+        "headline": "OpenAI与AARP合作",
+        "text": "OpenAI与AARP合作，提升老年人网络安全意识。<a href=\"https://openai.com/index/aarp-partnership-older-adults-online-safety/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "DALL-E 3系统卡",
+        "text": "发布DALL-E 3图像生成模型的系统卡，详细说明其安全性和性能。<a href=\"https://openai.com/index/dall-e-3-system-card/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "GPT-4V系统卡",
+        "text": "发布GPT-4V多模态模型的系统卡，详细说明其视觉能力。<a href=\"https://openai.com/index/gpt-4v-system-card/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "DALL-E 3发布",
+        "text": "OpenAI发布第三代图像生成模型DALL-E 3，图像质量显著提升。<a href=\"https://openai.com/index/dall-e-3/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "亚洲数据驻留",
+        "text": "OpenAI宣布在亚洲建立数据驻留，扩展全球数据合规能力。<a href=\"https://openai.com/index/introducing-data-residency-in-asia/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "ChatGPT支持多模态",
+        "text": "ChatGPT新增视觉和语音功能，支持更丰富的交互方式。<a href=\"https://openai.com/index/chatgpt-can-now-see-hear-and-speak/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "微调API支持视觉",
+        "text": "OpenAI为微调API添加视觉功能，支持多模态模型定制。<a href=\"https://openai.com/index/introducing-vision-to-the-fine-tuning-api/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "前沿模型论坛更新",
+        "text": "OpenAI参与的前沿模型论坛发布新进展，旨在推动AI安全与治理。<a href=\"https://openai.com/index/frontier-model-forum-updates/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "OpenAI都柏林办公室",
+        "text": "OpenAI宣布在都柏林设立欧洲办公室，进一步扩展全球业务。<a href=\"https://openai.com/index/introducing-openai-dublin/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "Stargate项目落户阿联酋",
+        "text": "OpenAI宣布在阿联酋建立Stargate项目，推动全球AI基础设施发展。<a href=\"https://openai.com/index/introducing-stargate-uae/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "Stargate项目落户挪威",
+        "text": "OpenAI宣布在挪威建立Stargate项目，加强欧洲AI基础设施建设。<a href=\"https://openai.com/index/introducing-stargate-norway/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "Stargate项目落户英国",
+        "text": "OpenAI宣布在英国建立Stargate项目，推动欧洲AI技术发展。<a href=\"https://openai.com/index/introducing-stargate-uk/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "OpenAI与Schibsted媒体集团合作",
+        "text": "OpenAI与北欧媒体巨头Schibsted达成合作，推动AI在新闻领域的创新。<a href=\"https://openai.com/index/openai-partners-with-schibsted-media-group/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "09"
+      },
+      "text": {
+        "headline": "构建生物威胁预警系统",
+        "text": "OpenAI发布研究，构建LLM辅助生物威胁创建的预警系统。<a href=\"https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "ChatGPT支持图像",
+        "text": "ChatGPT新增图像生成和识别功能，提升多模态交互体验。<a href=\"https://openai.com/index/new-chatgpt-images-is-here/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "DALL-E 3上线",
+        "text": "DALL-E 3图像生成模型正式在ChatGPT Plus和企业版中提供。<a href=\"https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "推出 Canvas 工具",
+        "text": "OpenAI 发布 Canvas，一款用于协作和创意的 AI 工具。<a href=\"https://openai.com/index/introducing-canvas/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "推出ChatGPT Pulse",
+        "text": "OpenAI发布ChatGPT Pulse功能，提供实时对话分析。<a href=\"https://openai.com/index/introducing-chatgpt-pulse/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "三星和SK加入Stargate",
+        "text": "三星和SK集团宣布加入OpenAI的Stargate项目，共同推进AI基础设施。<a href=\"https://openai.com/index/samsung-and-sk-join-stargate/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "新增五个Stargate站点",
+        "text": "OpenAI宣布在全球新增五个Stargate项目站点，扩大AI基础设施网络。<a href=\"https://openai.com/index/five-new-stargate-sites/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "红队网络计划",
+        "text": "OpenAI启动红队网络计划，加强AI模型的安全测试。<a href=\"https://openai.com/index/red-teaming-network/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "前沿风险与准备",
+        "text": "OpenAI发布前沿AI风险与准备框架，应对潜在风险。<a href=\"https://openai.com/index/frontier-risk-and-preparedness/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "10"
+      },
+      "text": {
+        "headline": "代理AI系统治理实践",
+        "text": "OpenAI发布代理AI系统治理的最佳实践指南。<a href=\"https://openai.com/index/practices-for-governing-agentic-ai-systems/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "GPT-5发布",
+        "text": "OpenAI发布新一代语言模型GPT-5，性能大幅提升。<a href=\"https://openai.com/index/introducing-gpt-5/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "GPT实时版发布",
+        "text": "OpenAI推出GPT实时版，支持更低延迟的交互体验。<a href=\"https://openai.com/index/introducing-gpt-realtime/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "ChatGPT代理发布",
+        "text": "OpenAI推出ChatGPT代理功能，支持自动化任务处理。<a href=\"https://openai.com/index/introducing-chatgpt-agent/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "推出GPTs",
+        "text": "OpenAI推出GPTs，允许用户创建自定义版本的ChatGPT。<a href=\"https://openai.com/index/introducing-gpts/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "DevDay发布新模型",
+        "text": "OpenAI在DevDay上宣布新模型和开发者产品，推动AI技术发展。<a href=\"https://openai.com/index/new-models-and-developer-products-announced-at-devday/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "推出 GPT 商店",
+        "text": "OpenAI 推出 GPT 商店，允许用户分享和下载定制化的 GPT 模型。<a href=\"https://openai.com/index/introducing-the-gpt-store/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "GPT-4 Turbo 发布",
+        "text": "OpenAI 推出 GPT-4 Turbo，性能更强且成本更低。<a href=\"https://openai.com/index/gpt-4-1/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "推出实时API",
+        "text": "OpenAI发布实时API，支持低延迟的AI交互体验。<a href=\"https://openai.com/index/introducing-the-realtime-api/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "O1及开发者工具发布",
+        "text": "OpenAI推出O1模型及一系列新开发者工具，提升开发效率。<a href=\"https://openai.com/index/o1-and-new-tools-for-developers/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "GPT-5发布",
+        "text": "OpenAI发布GPT-5，标志着AI在工作场景中的新时代。<a href=\"https://openai.com/index/gpt-5-new-era-of-work/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "宣布 OpenAI DevDay",
+        "text": "OpenAI 宣布首届开发者大会 DevDay，展示最新技术和产品。<a href=\"https://openai.com/index/announcing-openai-devday/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "领导层变动",
+        "text": "OpenAI宣布领导层变动，Sam Altman短暂离职后回归。<a href=\"https://openai.com/index/openai-announces-leadership-transition/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "Sam Altman回归",
+        "text": "Sam Altman回归OpenAI担任CEO，并组建新董事会。<a href=\"https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "Altman和Brockman继续领导OpenAI",
+        "text": "OpenAI完成审查，宣布Sam Altman和Greg Brockman将继续领导公司。<a href=\"https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "Stargate扩展至密歇根",
+        "text": "OpenAI宣布将Stargate项目扩展至美国密歇根州，加强本地AI能力。<a href=\"https://openai.com/index/expanding-stargate-to-michigan/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "Stargate与SB能源合作",
+        "text": "OpenAI与SB能源达成合作，为Stargate项目提供可持续能源支持。<a href=\"https://openai.com/index/stargate-sb-energy-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "OpenAI与微软联合声明",
+        "text": "OpenAI与微软发布联合声明，重申双方的长期合作伙伴关系。<a href=\"https://openai.com/index/joint-statement-from-openai-and-microsoft/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11"
+      },
+      "text": {
+        "headline": "前沿AI监管政策",
+        "text": "OpenAI发布关于前沿AI技术监管的政策声明。<a href=\"https://openai.com/index/frontier-ai-regulation/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "推出ChatGPT Atlas",
+        "text": "OpenAI发布ChatGPT Atlas，增强多语言支持能力。<a href=\"https://openai.com/index/introducing-chatgpt-atlas/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "数据合作伙伴计划",
+        "text": "OpenAI推出数据合作伙伴计划，旨在获取高质量数据以改进AI模型。<a href=\"https://openai.com/index/data-partnerships/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "董事会新成员",
+        "text": "OpenAI宣布新增董事会成员，以加强公司治理。<a href=\"https://openai.com/index/openai-announces-new-members-to-board-of-directors/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "与阿克塞尔·斯普林格合作",
+        "text": "OpenAI与媒体巨头阿克塞尔·斯普林格合作，推进新闻内容AI应用。<a href=\"https://openai.com/index/axel-springer-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "OpenAI与Future合作专业内容",
+        "text": "OpenAI与Future合作，为其提供专业内容支持，增强AI生成内容的专业性。<a href=\"https://openai.com/index/openai-and-future-partner-on-specialist-content/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "OpenAI与Vox Media合作",
+        "text": "OpenAI与Vox Media达成内容与产品合作，丰富AI生成内容。<a href=\"https://openai.com/index/a-content-and-product-partnership-with-vox-media/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "新闻机构OpenAI学院",
+        "text": "OpenAI推出面向新闻机构的培训学院，帮助行业适应AI技术。<a href=\"https://openai.com/index/openai-academy-for-news-organizations/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "AI进展与建议报告",
+        "text": "OpenAI发布AI技术进展报告，并提出相关政策建议。<a href=\"https://openai.com/index/ai-progress-and-recommendations/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "OpenAI与英伟达系统合作",
+        "text": "OpenAI与英伟达达成系统合作，共同优化AI硬件基础设施。<a href=\"https://openai.com/index/openai-nvidia-systems-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "弱到强泛化研究",
+        "text": "OpenAI发布弱到强泛化研究，探索AI模型的泛化能力。<a href=\"https://openai.com/index/weak-to-strong-generalization/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "12"
+      },
+      "text": {
+        "headline": "改进数学推理能力",
+        "text": "OpenAI发布研究，通过过程监督改进AI的数学推理能力。<a href=\"https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "01"
+      },
+      "text": {
+        "headline": "推出企业知识功能",
+        "text": "OpenAI发布企业知识功能，支持企业内部知识管理与应用。<a href=\"https://openai.com/index/introducing-company-knowledge/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "01"
+      },
+      "text": {
+        "headline": "应对2024全球选举",
+        "text": "OpenAI发布应对2024年全球选举的政策，确保AI技术不被滥用。<a href=\"https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "01"
+      },
+      "text": {
+        "headline": "与美国能源部合作",
+        "text": "OpenAI与美国能源部达成合作，推动AI在能源领域的应用。<a href=\"https://openai.com/index/us-department-of-energy-collaboration/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "01"
+      },
+      "text": {
+        "headline": "OpenAI收购Software Applications",
+        "text": "OpenAI宣布收购Software Applications公司，增强其企业软件能力。<a href=\"https://openai.com/index/openai-acquires-software-applications-incorporated/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "Sora发布",
+        "text": "OpenAI推出文本生成视频模型Sora，实现高质量视频生成<a href=\"https://openai.com/index/sora/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "Sora 视频生成模型发布",
+        "text": "OpenAI 发布 Sora，一款能够生成高质量视频的 AI 模型。<a href=\"https://openai.com/index/sora-is-here/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "全球数据驻留扩展",
+        "text": "OpenAI扩展全球企业客户的数据驻留访问权限，满足合规需求。<a href=\"https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "与AWS达成合作",
+        "text": "OpenAI宣布与亚马逊AWS建立战略合作伙伴关系，共同推进AI云服务。<a href=\"https://openai.com/index/aws-and-openai-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "OpenAI与博通战略合作",
+        "text": "OpenAI与半导体公司博通宣布战略合作，优化AI芯片性能。<a href=\"https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "Sora系统卡",
+        "text": "OpenAI发布视频生成模型Sora的系统卡，详细说明其能力与限制。<a href=\"https://openai.com/index/sora-system-card/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "02"
+      },
+      "text": {
+        "headline": "Sora视频生成模型",
+        "text": "OpenAI 发布Sora，一种能够模拟物理世界的视频生成模型。<a href=\"https://openai.com/index/video-generation-models-as-world-simulators/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "03"
+      },
+      "text": {
+        "headline": "与迪士尼达成 Sora 合作",
+        "text": "OpenAI 与迪士尼达成协议，将 Sora 技术应用于影视制作。<a href=\"https://openai.com/index/disney-sora-agreement/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "03"
+      },
+      "text": {
+        "headline": "ChatGPT应用商店",
+        "text": "OpenAI在ChatGPT中推出应用商店，支持第三方AI应用集成。<a href=\"https://openai.com/index/introducing-apps-in-chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "03"
+      },
+      "text": {
+        "headline": "宣布星际之门项目",
+        "text": "OpenAI宣布星际之门项目，计划开发下一代AI超级计算机。<a href=\"https://openai.com/index/announcing-the-stargate-project/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "03"
+      },
+      "text": {
+        "headline": "百万企业使用AI",
+        "text": "OpenAI宣布已有超过100万家企业正在使用其AI产品和服务。<a href=\"https://openai.com/index/1-million-businesses-putting-ai-to-work/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "03"
+      },
+      "text": {
+        "headline": "OpenAI与Oracle合作推进Stargate",
+        "text": "OpenAI与Oracle合作推进Stargate项目，共同开发下一代AI基础设施。<a href=\"https://openai.com/index/stargate-advances-with-partnership-with-oracle/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "04"
+      },
+      "text": {
+        "headline": "推出 ChatGPT Go",
+        "text": "OpenAI 发布轻量级 ChatGPT Go，适用于移动设备。<a href=\"https://openai.com/index/introducing-chatgpt-go/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "04"
+      },
+      "text": {
+        "headline": "推出AgentKit",
+        "text": "OpenAI发布AgentKit工具包，支持构建自定义AI代理。<a href=\"https://openai.com/index/introducing-agentkit/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI进入日本市场",
+        "text": "OpenAI宣布在日本设立办事处，并推出针对日语优化的GPT-4模型。<a href=\"https://openai.com/index/introducing-openai-japan/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI与《金融时报》合作",
+        "text": "OpenAI宣布与英国《金融时报》达成内容合作伙伴关系。<a href=\"https://openai.com/index/content-partnership-with-financial-times/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "04"
+      },
+      "text": {
+        "headline": "OpenAI与富士康合作",
+        "text": "OpenAI与富士康宣布合作，探索AI在制造业的应用。<a href=\"https://openai.com/index/openai-and-foxconn-collaborate/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "GPT-4o发布",
+        "text": "OpenAI发布GPT-4o模型，实现更快、更便宜的多模态交互<a href=\"https://openai.com/index/hello-gpt-4o/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "GPT-4o Mini发布",
+        "text": "OpenAI发布GPT-4o Mini，一款更高效、成本更低的智能模型。<a href=\"https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "GPT-4o发布",
+        "text": "OpenAI发布GPT-4o模型，并向免费用户开放更多功能。<a href=\"https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "淘汰 GPT-4o 及旧模型",
+        "text": "OpenAI 宣布逐步淘汰 GPT-4o 及更早的模型，推动技术更新。<a href=\"https://openai.com/index/retiring-gpt-4o-and-older-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "推出ChatGPT教育版",
+        "text": "OpenAI推出专为教育机构设计的ChatGPT版本，支持教育场景下的AI应用。<a href=\"https://openai.com/index/introducing-chatgpt-edu/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "GPT-4o微调功能发布",
+        "text": "OpenAI推出GPT-4o模型的微调功能，允许开发者定制模型行为。<a href=\"https://openai.com/index/gpt-4o-fine-tuning/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "发布模型规范",
+        "text": "OpenAI 发布模型规范，旨在指导 AI 模型的开发和使用行为。<a href=\"https://openai.com/index/introducing-the-model-spec/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "推出青少年安全蓝图",
+        "text": "OpenAI 发布青少年安全蓝图，旨在保护年轻用户的安全和隐私。<a href=\"https://openai.com/index/introducing-the-teen-safety-blueprint/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "政策"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "Adebayo Ogunlesi 加入董事会",
+        "text": "Adebayo Ogunlesi 加入 OpenAI 董事会，带来丰富的商业和金融经验。<a href=\"https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与新闻集团达成全球合作",
+        "text": "OpenAI与新闻集团签署多年全球合作协议，推动新闻内容的AI应用。<a href=\"https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与Stack Overflow合作",
+        "text": "OpenAI宣布与Stack Overflow建立API合作伙伴关系，整合开发者问答数据。<a href=\"https://openai.com/index/api-partnership-with-stack-overflow/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与Reddit合作",
+        "text": "OpenAI宣布与Reddit建立数据合作伙伴关系，获取平台内容训练AI模型。<a href=\"https://openai.com/index/openai-and-reddit-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与《时代》周刊合作",
+        "text": "OpenAI宣布与美国《时代》周刊达成战略内容合作伙伴关系。<a href=\"https://openai.com/index/strategic-content-partnership-with-time/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与康泰纳仕合作",
+        "text": "OpenAI宣布与出版巨头康泰纳仕达成内容合作伙伴关系。<a href=\"https://openai.com/index/conde-nast/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与赫斯特集团合作",
+        "text": "OpenAI宣布与美国媒体巨头赫斯特集团达成内容合作伙伴关系。<a href=\"https://openai.com/index/hearst/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "OpenAI与AMD战略合作",
+        "text": "OpenAI与AMD宣布战略合作，共同开发高性能AI计算解决方案。<a href=\"https://openai.com/index/openai-amd-strategic-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "05"
+      },
+      "text": {
+        "headline": "GPT-4o系统卡",
+        "text": "OpenAI发布GPT-4o模型的系统卡，详细介绍了其能力和安全措施。<a href=\"https://openai.com/index/gpt-4o-system-card/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "06"
+      },
+      "text": {
+        "headline": "与洛斯阿拉莫斯合作",
+        "text": "OpenAI与洛斯阿拉莫斯国家实验室合作研究AI安全<a href=\"https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "06"
+      },
+      "text": {
+        "headline": "GPT-5.1开发者版发布",
+        "text": "OpenAI推出GPT-5.1开发者版本，提供更强大的模型能力。<a href=\"https://openai.com/index/gpt-5-1-for-developers/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "06"
+      },
+      "text": {
+        "headline": "GPT-5开发者版发布",
+        "text": "OpenAI正式推出GPT-5开发者版本，标志着新一代模型的商用化。<a href=\"https://openai.com/index/introducing-gpt-5-for-developers/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "06"
+      },
+      "text": {
+        "headline": "收购Rockset",
+        "text": "OpenAI收购实时分析数据库公司Rockset，以增强数据处理能力。<a href=\"https://openai.com/index/openai-acquires-rockset/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI与苹果合作",
+        "text": "OpenAI宣布与苹果达成战略合作，将ChatGPT整合到iOS系统中。<a href=\"https://openai.com/index/openai-and-apple-announce-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "month": "06"
+      },
+      "text": {
+        "headline": "OpenAI收购Statsig",
+        "text": "OpenAI收购Statsig公司，其创始人Vijaye Raji将担任应用CTO。<a href=\"https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    }
+  ]
+}

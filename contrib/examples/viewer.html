@@ -29,6 +29,7 @@
       font-size: 1em;
       line-height: 1.8;
     }
+    .tl-timegroup-message { color: #000 !important; }
   </style>
 </head>
 <body>
@@ -58,15 +59,35 @@
           return r.json();
         })
         .then(function(data) {
-          new TL.Timeline('timeline-embed', data, {
+          var tl = new TL.Timeline('timeline-embed', data, {
             language: 'zh-cn',
             timenav_position: 'bottom',
             start_at_slide: 1
           });
+          tl.on('ready', colorGroups);
+          tl.on('change', colorGroups);
         })
         .catch(function(err) {
           showError(err.message + '<br><br>请确认文件 <code>' + dataFile + '</code> 存在，且通过 HTTP 服务器访问。');
         });
+    }
+
+    var GROUP_COLORS = {
+      '政策': 'rgba(30, 90, 160, 0.25)',
+      '研究': 'rgba(30, 140, 80, 0.25)',
+      '产品': 'rgba(130, 50, 160, 0.25)',
+      '融资': 'rgba(210, 90, 20, 0.25)',
+      '合作': 'rgba(180, 150, 20, 0.25)'
+    };
+
+    function colorGroups() {
+      document.querySelectorAll('.tl-timegroup').forEach(function(row) {
+        var label = row.querySelector('.tl-timegroup-message');
+        if (label) {
+          var color = GROUP_COLORS[label.textContent.trim()];
+          if (color) row.style.background = color;
+        }
+      });
     }
 
     function showError(msg) {
