@@ -1,0 +1,298 @@
+{
+  "title": {
+    "text": {
+      "headline": "OpenAI 发展历程",
+      "text": "产品发布 · 融资轮次 · 商业合作"
+    }
+  },
+  "events": [
+    {
+      "start_date": { "year": "2015", "month": "12" },
+      "text": {
+        "headline": "OpenAI 成立",
+        "text": "由萨姆·奥特曼、伊隆·马斯克、伊利亚·苏茨克维等人联合创立，初始承诺资金达 10 亿美元。以非营利组织形式运营，使命是确保人工通用智能（AGI）造福全人类。<a href=\"https://openai.com/index/introducing-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2016", "month": "4" },
+      "text": {
+        "headline": "OpenAI Gym 发布",
+        "text": "强化学习研究工具包，提供标准化环境用于训练和评估 AI 算法，迅速成为强化学习领域的标准平台。<a href=\"https://openai.com/index/openai-gym-beta/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2016", "month": "12" },
+      "text": {
+        "headline": "OpenAI Universe 发布",
+        "text": "跨游戏、网站和应用程序的通用 AI 训练平台，让智能体像人类一样通过屏幕像素和虚拟键鼠操作计算机。发布时包含 1000 余个环境，包括 Atari 游戏和浏览器任务。<a href=\"https://openai.com/index/universe/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2018", "month": "6" },
+      "text": {
+        "headline": "GPT-1 发布",
+        "text": "首个 GPT 模型，拥有 1.17 亿参数，基于 Transformer 架构，首次证明了大规模预训练后微调可在多项 NLP 任务上取得突破，开创了预训练语言模型的新范式。<a href=\"https://openai.com/index/language-unsupervised/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2019", "month": "2" },
+      "text": {
+        "headline": "GPT-2 发布",
+        "text": "拥有 15 亿参数，文本生成能力大幅提升。因担忧被滥用于生成虚假信息，OpenAI 分阶段发布，引发 AI 安全领域广泛讨论。展现出令人惊讶的零样本迁移能力。<a href=\"https://openai.com/index/better-language-models/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2019", "month": "4" },
+      "text": {
+        "headline": "OpenAI Five 战胜 Dota 2 世界冠军",
+        "text": "OpenAI Five 成为首个在电子竞技领域击败职业世界冠军的 AI 系统，在 Dota 2 比赛中战胜卫冕冠军 OG 战队。五个协作神经网络通过自我博弈训练了相当于 45000 年的游戏经验，展示了强化学习在复杂多智能体策略游戏中的潜力。<a href=\"https://openai.com/index/openai-five-defeats-dota-2-world-champions/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2019", "month": "7" },
+      "text": {
+        "headline": "微软投资 $10 亿美元",
+        "text": "微软战略投资 10 亿美元，成为 OpenAI 独家云计算合作伙伴，共同开发基于 Azure 的 AI 超算技术。OpenAI 同步转型为「利润封顶」公司，引入商业资本。<a href=\"https://openai.com/index/microsoft-invests-in-and-partners-with-openai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资/合作"
+    },
+    {
+      "start_date": { "year": "2020", "month": "4" },
+      "text": {
+        "headline": "Jukebox 发布",
+        "text": "能够以多种音乐流派和艺术家风格生成包含演唱的音乐的神经网络，以原始音频格式生成音乐并完全开源。是 OpenAI 在多模态 AI 领域的早期重要探索。<a href=\"https://openai.com/index/jukebox/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2020", "month": "5" },
+      "text": {
+        "headline": "GPT-3 发布",
+        "text": "拥有 1750 亿参数，展现出惊人的少样本学习能力，被认为是 AI 发展的里程碑。通过 API 向开发者开放，开创了 AI 即服务（AIaaS）的商业模式。<a href=\"https://openai.com/index/language-models-are-few-shot-learners/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2021", "month": "1" },
+      "text": {
+        "headline": "DALL-E 与 CLIP 发布",
+        "text": "同日发布两个重要多模态模型：DALL-E 是首个能根据文字描述生成图像的 AI 模型；CLIP 通过对比学习将图像与文本对齐，实现强大的零样本视觉分类。共同标志着 OpenAI 在多模态 AI 的重大突破。<a href=\"https://openai.com/index/dall-e/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2021", "month": "8" },
+      "text": {
+        "headline": "Codex 发布",
+        "text": "专为代码生成训练的模型，是 GitHub Copilot 的底层基础。能理解并生成多种编程语言代码，开创了 AI 辅助编程的新时代，深刻改变了软件开发方式。<a href=\"https://openai.com/index/introducing-codex/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品/合作"
+    },
+    {
+      "start_date": { "year": "2022", "month": "1" },
+      "text": {
+        "headline": "InstructGPT 发布",
+        "text": "采用基于人类反馈的强化学习（RLHF）技术训练模型更好地遵循人类指令，并成为 API 默认模型。13 亿参数的 InstructGPT 在人类评估中优于 1750 亿参数的 GPT-3，证明了对齐技术的有效性。<a href=\"https://openai.com/index/instruction-following/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2022", "month": "4" },
+      "text": {
+        "headline": "DALL-E 2 发布",
+        "text": "图像生成质量大幅提升，分辨率更高、真实感更强，并支持图像编辑和变体生成功能。结合 CLIP 和扩散模型技术，最终向公众开放使用。<a href=\"https://openai.com/index/dall-e-2/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2022", "month": "9" },
+      "text": {
+        "headline": "Whisper 发布",
+        "text": "基于 68 万小时多语言音频数据训练的开源语音识别系统，支持近 100 种语言的转录和翻译，在噪声环境和带口音语音方面表现出色。模型权重和代码完全开源。<a href=\"https://openai.com/index/whisper/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2022", "month": "11" },
+      "text": {
+        "headline": "ChatGPT 发布",
+        "text": "基于 GPT-3.5 的对话 AI，上线 5 天突破百万用户，两个月达到 1 亿用户，成为史上增长最快的消费级应用。引发全球 AI 热潮，深刻改变了科技行业格局。<a href=\"https://openai.com/index/chatgpt/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2022", "month": "12" },
+      "text": {
+        "headline": "Point-E 发布",
+        "text": "能根据文字提示快速生成 3D 点云模型的开源系统，在单张消费级 GPU 上仅需 1-2 分钟即可生成 3D 模型。是 OpenAI 在 3D 内容生成领域的早期探索。<a href=\"https://openai.com/index/point-e/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "1" },
+      "text": {
+        "headline": "微软追加投资约 $100 亿",
+        "text": "微软承诺追加约 100 亿美元投资，进一步深化战略合作，将 OpenAI 技术深度整合进 Azure、Office 365、Bing 等全系产品。这是 OpenAI 历史上最大单笔外部融资。<a href=\"https://openai.com/index/openai-and-microsoft-extend-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资/合作"
+    },
+    {
+      "start_date": { "year": "2023", "month": "2" },
+      "text": {
+        "headline": "ChatGPT Plus 订阅上线",
+        "text": "推出月费 20 美元的 ChatGPT Plus 付费订阅，为付费用户提供高峰时段优先访问、更快响应速度及新功能优先体验权。这是 OpenAI 面向消费者的首个商业化订阅产品。<a href=\"https://openai.com/index/chatgpt-plus/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "3" },
+      "text": {
+        "headline": "GPT-4 发布",
+        "text": "多模态大模型，支持图像输入，在模拟律师资格考试中达到前 10% 的成绩。在推理、创意写作和复杂任务处理方面大幅超越 GPT-3.5，率先在 ChatGPT Plus 和 API 中开放。<a href=\"https://openai.com/index/gpt-4-research/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "3" },
+      "text": {
+        "headline": "ChatGPT 插件（Plugins）发布",
+        "text": "ChatGPT 可连接互联网、运行代码并调用第三方服务，升级为可执行动作的平台。首批合作伙伴包括 Expedia、Shopify、Slack、Wolfram 等。是 OpenAI 构建 AI 生态系统的重要一步。<a href=\"https://openai.com/index/chatgpt-plugins/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品/合作"
+    },
+    {
+      "start_date": { "year": "2023", "month": "8" },
+      "text": {
+        "headline": "ChatGPT Enterprise 发布",
+        "text": "面向企业用户，提供企业级安全与隐私保护、无限制 GPT-4 高速访问、32K 超长上下文窗口及高级数据分析功能。用户数据不用于训练 OpenAI 模型，满足企业合规需求。<a href=\"https://openai.com/index/introducing-chatgpt-enterprise/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "11" },
+      "text": {
+        "headline": "首届 DevDay：GPT-4 Turbo 与 Assistants API",
+        "text": "举办首届开发者大会，发布 GPT-4 Turbo（128K 超长上下文，价格降低 3 倍）、Assistants API（支持代码解释器、知识检索和函数调用）和自定义 GPT 功能，正式启动平台化战略。<a href=\"https://openai.com/index/new-models-and-developer-products-announced-at-devday/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "1" },
+      "text": {
+        "headline": "GPT Store 上线",
+        "text": "正式上线自定义 GPT 应用市场，发布时已有超过 300 万个自定义 GPT 版本。类似 App Store，ChatGPT Plus/Team/Enterprise 用户可访问专属 GPT，标志着 OpenAI AI 应用生态系统正式建立。<a href=\"https://openai.com/index/introducing-the-gpt-store/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "2" },
+      "text": {
+        "headline": "Sora 文生视频模型发布",
+        "text": "能生成长达 60 秒高质量视频的模型，展示了对物理世界的深度理解，引发视频生成 AI 浪潮。以研究预览形式发布，生成质量震惊业界，但暂未向公众全面开放。<a href=\"https://openai.com/index/sora/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "5" },
+      "text": {
+        "headline": "GPT-4o 发布",
+        "text": "全能多模态模型，首个原生支持文本、音频、图像多模态输入输出，实现接近人类的实时语音对话（延迟低至 320ms）。响应速度大幅提升，免费用户也可使用，是 ChatGPT 自发布以来最重要的一次升级。<a href=\"https://openai.com/index/hello-gpt-4o/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "6" },
+      "text": {
+        "headline": "Apple 与 OpenAI 合作",
+        "text": "苹果在 WWDC 2024 宣布与 OpenAI 合作，将 ChatGPT 深度集成到 iOS、iPadOS 和 macOS 的 Apple Intelligence 中。用户可通过 Siri 调用 ChatGPT，无需账号即可免费使用基础功能。这是 OpenAI 与全球最大消费科技公司的里程碑级合作。<a href=\"https://openai.com/index/openai-and-apple-announce-partnership/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品/合作"
+    },
+    {
+      "start_date": { "year": "2024", "month": "9" },
+      "text": {
+        "headline": "o1 推理模型发布（预览版）",
+        "text": "首个 o 系列推理模型，通过深度思考链推理显著提升复杂数学、科学和编程问题的解决能力。在国际数学奥林匹克预选题上达到 83% 准确率（GPT-4o 仅 13%），标志着 OpenAI 在 AI 推理能力的重大技术突破。<a href=\"https://openai.com/index/introducing-openai-o1-preview/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "10" },
+      "text": {
+        "headline": "融资 $66 亿，估值 $1570 亿",
+        "text": "完成 66 亿美元融资，成为有史以来最大的风险投资单笔融资，公司估值达 1570 亿美元。由 Thrive Capital 领投，微软、英伟达、软银、富达等机构参投，另附 40 亿美元信贷额度。<a href=\"https://openai.com/index/scale-the-benefits-of-ai/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2024", "month": "12" },
+      "text": {
+        "headline": "「12 天发布」：o1 正式版、ChatGPT Pro、Sora 公开",
+        "text": "密集发布周期：o1 推理模型正式版上线（错误率降低 34%）；ChatGPT Pro 月费 200 美元提供最强算力；Sora 视频生成向 Plus/Pro 用户正式开放；o3 模型预览版在 ARC-AGI 基准测试中大幅超越前作。<a href=\"https://openai.com/index/introducing-chatgpt-pro/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2025", "month": "1" },
+      "text": {
+        "headline": "Stargate 项目发布",
+        "text": "OpenAI、软银、甲骨文联合宣布 Stargate 项目，计划未来四年向美国 AI 基础设施投资 5000 亿美元，首期立即部署 1000 亿美元。由特朗普在白宫发布，旨在确保美国 AI 全球领导地位并创造 10 万个就业岗位。<a href=\"https://openai.com/index/announcing-the-stargate-project/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "合作"
+    },
+    {
+      "start_date": { "year": "2025", "month": "1" },
+      "text": {
+        "headline": "Operator 智能体发布",
+        "text": "能够自主使用浏览器执行用户任务的 AI 智能体，由全新 Computer-Using Agent（CUA）模型驱动。可独立浏览网页、填写表格、预订餐厅等，是 OpenAI 在 AI 智能体产品化方向迈出的重要一步。<a href=\"https://openai.com/index/introducing-operator/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2025", "month": "2" },
+      "text": {
+        "headline": "Deep Research 发布",
+        "text": "能够在互联网上进行多步骤自主研究并综合大量信息的 AI 智能体功能，由 o3 模型驱动，数分钟内完成传统上需要数小时的深度研究任务。最初向 ChatGPT Pro 用户开放。<a href=\"https://openai.com/index/introducing-deep-research/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2025", "month": "2" },
+      "text": {
+        "headline": "GPT-4.5 发布",
+        "text": "GPT 系列最大的聊天优化模型，在情商、知识广度和遵循用户意图方面取得显著提升。首先向 ChatGPT Pro 用户和 API 开发者开放，是 OpenAI 在推理模型系列之外继续扩展传统 GPT 系列的重要节点。<a href=\"https://openai.com/index/introducing-gpt-4-5/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2025", "month": "3" },
+      "text": {
+        "headline": "软银领投 $400 亿融资，估值 $3000 亿",
+        "text": "完成约 400 亿美元融资，估值达 3000 亿美元，成为有史以来最大的私募科技融资交易。由软银领投，Coatue、Altimeter、Thrive 等机构参投，部分资金用于 Stargate 项目建设。<a href=\"https://openai.com/index/march-funding-updates/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2025", "month": "4" },
+      "text": {
+        "headline": "GPT-4.1 与 o3/o4-mini 发布",
+        "text": "GPT-4.1 系列支持高达 100 万 token 的超长上下文，在编程和指令遵循方面大幅超越 GPT-4o；o3 和 o4-mini 正式上线，首次将推理能力与全工具使用（网络浏览、图像生成等）结合。o3 在 SWE-bench 编程测试中达到最优成绩。<a href=\"https://openai.com/index/gpt-4-1/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2025", "month": "5" },
+      "text": {
+        "headline": "GPT-5 发布",
+        "text": "OpenAI 迄今最强大的统一模型，在编程、数学、写作、健康和视觉感知等方面全面超越前代所有模型。能够判断何时快速回答、何时深度思考，整合推理能力以提供专家级回应。通过 ChatGPT 和 API 同步向用户开放。<a href=\"https://openai.com/index/introducing-gpt-5/\" target=\"_blank\" style=\"display:block;margin-top:6px;color:#10a37f\">→ OpenAI 官方报道</a>"
+      },
+      "group": "产品"
+    }
+  ]
+}

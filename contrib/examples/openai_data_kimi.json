@@ -1,0 +1,512 @@
+{
+    "title": {
+        "text": {
+            "headline": "OpenAI 发展历程",
+            "text": "产品发布 · 融资轮次 · 商业合作"
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year": "2015",
+                "month": "12",
+                "day": "11"
+            },
+            "text": {
+                "headline": "OpenAI 成立",
+                "text": "由马斯克、Sam Altman、Greg Brockman、Ilya Sutskever 等人联合创立，获得初始承诺捐款 $10 亿美元。非营利机构，使命是确保人工通用智能造福全人类。"
+            },
+            "group": "公司",
+            "url": "https://openai.com/index/introducing-openai/"
+        },
+        {
+            "start_date": {
+                "year": "2016",
+                "month": "4"
+            },
+            "text": {
+                "headline": "OpenAI Gym 发布",
+                "text": "强化学习研究工具包，提供标准化环境用于训练和评估 AI 算法，迅速成为强化学习领域的标准平台。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/openai-gym-beta"
+        },
+        {
+            "start_date": {
+                "year": "2016",
+                "month": "11",
+                "day": "15"
+            },
+            "text": {
+                "headline": "OpenAI 与 Microsoft 达成合作",
+                "text": "Microsoft 与 OpenAI 建立合作关系，共同推进 AI 技术发展。"
+            },
+            "group": "合作",
+            "url": "https://openai.com/index/openai-and-microsoft/"
+        },
+        {
+            "start_date": {
+                "year": "2018",
+                "month": "6"
+            },
+            "text": {
+                "headline": "GPT-1 发布",
+                "text": "首个 GPT 模型，拥有 1.17 亿参数，基于 Transformer 架构，开创了预训练语言模型的新范式。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/language-unsupervised"
+        },
+        {
+            "start_date": {
+                "year": "2019",
+                "month": "2"
+            },
+            "text": {
+                "headline": "GPT-2 发布",
+                "text": "拥有 15 亿参数，文本生成能力大幅提升。因担忧滥用风险，OpenAI 分阶段发布，引发广泛讨论。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/better-language-models"
+        },
+        {
+            "start_date": {
+                "year": "2019",
+                "month": "3",
+                "day": "11"
+            },
+            "text": {
+                "headline": "OpenAI LP 成立",
+                "text": "OpenAI 转型为「利润封顶」公司（capped-profit），引入商业资本，确保 AGI 使命与商业可持续性平衡。"
+            },
+            "group": "公司",
+            "url": "https://openai.com/index/openai-lp/"
+        },
+        {
+            "start_date": {
+                "year": "2019",
+                "month": "7",
+                "day": "22"
+            },
+            "text": {
+                "headline": "微软投资 $10 亿美元",
+                "text": "微软战略投资 10 亿美元，成为 OpenAI 独家云计算合作伙伴。OpenAI 转型为「利润封顶」公司，引入商业资本。"
+            },
+            "group": "融资/合作",
+            "url": "https://openai.com/index/microsoft-invests-10-billion-in-openai/"
+        },
+        {
+            "start_date": {
+                "year": "2020",
+                "month": "5"
+            },
+            "text": {
+                "headline": "GPT-3 发布",
+                "text": "拥有 1750 亿参数，展现出惊人的少样本学习能力，被认为是 AI 发展的里程碑。通过 API 向开发者开放。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/language-models-are-few-shot-learners"
+        },
+        {
+            "start_date": {
+                "year": "2020",
+                "month": "6",
+                "day": "11"
+            },
+            "text": {
+                "headline": "OpenAI API 发布",
+                "text": "推出 OpenAI API，让开发者可以通过简单的 API 调用访问 GPT-3 等先进 AI 模型。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/openai-api/"
+        },
+        {
+            "start_date": {
+                "year": "2020",
+                "month": "9",
+                "day": "22"
+            },
+            "text": {
+                "headline": "OpenAI 授权 GPT-3 技术给 Microsoft",
+                "text": "Microsoft 获得 GPT-3 技术的独家授权，用于其产品和服务。"
+            },
+            "group": "合作",
+            "url": "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft/"
+        },
+        {
+            "start_date": {
+                "year": "2021",
+                "month": "1"
+            },
+            "text": {
+                "headline": "DALL-E 发布",
+                "text": "首个文本生成图像模型，能根据自然语言描述生成创意图像，开创了 AI 图像生成的新时代。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/dall-e"
+        },
+        {
+            "start_date": {
+                "year": "2021",
+                "month": "8",
+                "day": "10"
+            },
+            "text": {
+                "headline": "OpenAI Codex 发布",
+                "text": "专为代码生成训练的模型，是 GitHub Copilot 的底层基础。能理解并生成多种编程语言代码，改变了软件开发方式。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/openai-codex/"
+        },
+        {
+            "start_date": {
+                "year": "2022",
+                "month": "4"
+            },
+            "text": {
+                "headline": "DALL-E 2 发布",
+                "text": "分辨率和真实感大幅提升，支持图像编辑和变体生成，向公众开放使用。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/dall-e-2"
+        },
+        {
+            "start_date": {
+                "year": "2022",
+                "month": "11",
+                "day": "30"
+            },
+            "text": {
+                "headline": "ChatGPT 发布",
+                "text": "基于 GPT-3.5 的对话 AI，上线 5 天突破百万用户，两个月达到 1 亿用户，成为史上增长最快的消费级应用。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/chatgpt/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "1",
+                "day": "23"
+            },
+            "text": {
+                "headline": "微软追加投资 $100 亿",
+                "text": "微软承诺追加约 100 亿美元投资，将 OpenAI 技术深度整合进 Azure、Office 365、Bing 等全系产品。"
+            },
+            "group": "融资/合作",
+            "url": "https://openai.com/index/openai-and-microsoft-extend-partnership/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "2",
+                "day": "1"
+            },
+            "text": {
+                "headline": "ChatGPT Plus 发布",
+                "text": "推出 ChatGPT Plus 订阅服务，提供更快的响应速度、优先访问权和新功能。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/chatgpt-plus/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "3",
+                "day": "14"
+            },
+            "text": {
+                "headline": "GPT-4 发布",
+                "text": "多模态大模型，支持图像输入，在多项专业考试中达到人类顶尖水平。同日发布 GPT-4 API 及插件系统。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/research/gpt-4"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "3",
+                "day": "23"
+            },
+            "text": {
+                "headline": "ChatGPT 插件系统发布",
+                "text": "推出 ChatGPT 插件，允许开发者将第三方服务集成到 ChatGPT 中，扩展其功能。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/chatgpt-plugins/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "8",
+                "day": "28"
+            },
+            "text": {
+                "headline": "ChatGPT Enterprise 发布",
+                "text": "面向企业用户的版本，提供更高安全性、更长上下文窗口、无使用限制，加速企业 AI 采用。"
+            },
+            "group": "产品/合作",
+            "url": "https://openai.com/index/introducing-chatgpt-enterprise/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "9",
+                "day": "25"
+            },
+            "text": {
+                "headline": "ChatGPT 语音与视觉功能发布",
+                "text": "ChatGPT 新增语音对话和图像理解能力，实现多模态交互。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "10",
+                "day": "19"
+            },
+            "text": {
+                "headline": "DALL·E 3 在 ChatGPT Plus 中可用",
+                "text": "DALL·E 3 图像生成能力整合进 ChatGPT Plus 和 Enterprise，提供更精准的图像生成。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "11",
+                "day": "6"
+            },
+            "text": {
+                "headline": "GPTs 与 GPT Store 发布",
+                "text": "在 DevDay 上发布 GPTs（自定义 ChatGPT）和 GPT Store，允许用户创建和分享自定义 AI 助手。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-gpts/"
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "11",
+                "day": "17"
+            },
+            "text": {
+                "headline": "OpenAI 领导层变动",
+                "text": "Sam Altman 被董事会解雇，随后发生员工联名信事件，最终 Altman 回归并重组董事会。"
+            },
+            "group": "公司",
+            "url": "https://openai.com/index/openai-announces-leadership-transition/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "1",
+                "day": "10"
+            },
+            "text": {
+                "headline": "GPT Store 正式上线",
+                "text": "GPT Store 正式对外开放，用户可以浏览和使用社区创建的数百万个 GPT 应用。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-the-gpt-store/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "2",
+                "day": "15"
+            },
+            "text": {
+                "headline": "Sora 文生视频模型发布",
+                "text": "能生成长达 60 秒高质量视频的模型，展示了对物理世界的深度理解，引发视频生成 AI 浪潮。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/sora"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "5",
+                "day": "13"
+            },
+            "text": {
+                "headline": "GPT-4o 发布",
+                "text": "全能多模态模型，支持实时语音、视觉和文本交互，响应速度大幅提升，免费用户也可使用。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "6",
+                "day": " "
+            },
+            "text": {
+                "headline": "苹果与 OpenAI 宣布合作",
+                "text": "Apple 与 OpenAI 达成合作，将 ChatGPT 集成到 iOS、iPadOS 和 macOS 中。"
+            },
+            "group": "合作",
+            "url": "https://openai.com/index/openai-and-apple-announce-partnership/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "7",
+                "day": "25"
+            },
+            "text": {
+                "headline": "SearchGPT 原型发布",
+                "text": "推出 SearchGPT 原型，结合 AI 与实时搜索，提供带来源引用的对话式搜索体验。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/searchgpt-prototype/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "9",
+                "day": "12"
+            },
+            "text": {
+                "headline": "OpenAI o1 发布",
+                "text": "具备复杂推理能力的新模型系列，在科学、编码、数学等领域表现卓越，o1-preview 和 o1-mini 同步推出。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-openai-o1-preview/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "10",
+                "day": "2"
+            },
+            "text": {
+                "headline": "OpenAI 完成 $66 亿融资",
+                "text": "完成 66 亿美元融资轮，估值达 1570 亿美元，成为全球估值最高的私营科技公司之一。投资者包括 Thrive Capital、微软、NVIDIA 等。"
+            },
+            "group": "融资",
+            "url": "https://openai.com/index/scale-the-benefits-of-ai/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "10",
+                "day": "3"
+            },
+            "text": {
+                "headline": "Canvas 发布",
+                "text": "推出 Canvas 界面，为写作和编程项目提供全新的协作编辑体验。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-canvas/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "10",
+                "day": "31"
+            },
+            "text": {
+                "headline": "ChatGPT 搜索功能发布",
+                "text": "ChatGPT 正式集成搜索功能，提供实时信息检索和带引用的回答。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-chatgpt-search/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "12",
+                "day": "5"
+            },
+            "text": {
+                "headline": "ChatGPT Pro 发布",
+                "text": "推出 ChatGPT Pro 订阅，提供无限量使用 o1 模型和高级语音模式等特权。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-chatgpt-pro/"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "12",
+                "day": "9"
+            },
+            "text": {
+                "headline": "Sora 正式发布",
+                "text": "Sora 视频生成模型正式向公众开放，支持生成最高 1080p、最长 20 秒的视频。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/sora"
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "12",
+                "day": "17"
+            },
+            "text": {
+                "headline": "OpenAI o1 与开发者工具更新",
+                "text": "o1 模型正式版发布，同时推出新的开发者工具和功能升级。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/openai-o1-and-new-tools-for-developers/"
+        },
+        {
+            "start_date": {
+                "year": "2025",
+                "month": "1",
+                "day": "21"
+            },
+            "text": {
+                "headline": "Stargate 项目启动",
+                "text": "OpenAI、Oracle、SoftBank 等联合宣布 Stargate 项目，计划投资 $5000 亿美元建设美国 AI 基础设施。"
+            },
+            "group": "公司",
+            "url": "https://openai.com/index/stargate-project/"
+        },
+        {
+            "start_date": {
+                "year": "2025",
+                "month": "1",
+                "day": "23"
+            },
+            "text": {
+                "headline": "Operator 发布",
+                "text": "推出 Operator，一个能够自主执行网页任务的 AI 智能体，可以独立完成购物、预订等操作。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-operator/"
+        },
+        {
+            "start_date": {
+                "year": "2025",
+                "month": "2",
+                "day": "27"
+            },
+            "text": {
+                "headline": "GPT-4.5 发布",
+                "text": "发布 GPT-4.5（代号 Orion），展示更自然的对话能力和更广泛的知识，是 GPT-4 系列的最后一代。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/introducing-gpt-4-5/"
+        },
+        {
+            "start_date": {
+                "year": "2025",
+                "month": "3",
+                "day": "11"
+            },
+            "text": {
+                "headline": "构建智能体的新工具发布",
+                "text": "推出 Responses API、Web 搜索工具、文件搜索工具等，帮助开发者构建更强大的 AI 智能体。"
+            },
+            "group": "产品",
+            "url": "https://openai.com/index/new-tools-for-building-agents/"
+        }
+    ],
+    "openai_news_url": "https://openai.com/news/"
+}

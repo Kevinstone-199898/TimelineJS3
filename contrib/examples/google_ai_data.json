@@ -1,0 +1,122 @@
+{
+  "title": {
+    "text": {
+      "headline": "Google AI 发展历程",
+      "text": "基础研究 · 产品发布 · 战略布局"
+    }
+  },
+  "events": [
+    {
+      "start_date": { "year": "2014", "month": "1" },
+      "text": {
+        "headline": "收购 DeepMind",
+        "text": "以约 4 亿美元收购英国 AI 研究公司 DeepMind，获得世界顶级 AI 研究团队，奠定深度学习研究基础。"
+      },
+      "group": "战略"
+    },
+    {
+      "start_date": { "year": "2016", "month": "3" },
+      "text": {
+        "headline": "AlphaGo 击败李世石",
+        "text": "DeepMind 的 AlphaGo 以 4:1 击败围棋世界冠军李世石，被视为 AI 发展史上的重要里程碑，震惊全球。"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": { "year": "2017", "month": "6" },
+      "text": {
+        "headline": "Transformer 论文发表",
+        "text": "Google Brain 团队发表《Attention Is All You Need》，提出 Transformer 架构，彻底改变了 NLP 和整个 AI 领域。"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": { "year": "2018", "month": "10" },
+      "text": {
+        "headline": "BERT 发布",
+        "text": "双向预训练语言模型，在 11 项 NLP 任务上刷新纪录，预训练+微调范式成为行业标准，影响深远。"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": { "year": "2021", "month": "5" },
+      "text": {
+        "headline": "LaMDA 在 I/O 大会亮相",
+        "text": "专为对话设计的语言模型，在 Google I/O 上展示自然流畅的多轮对话能力，是 Bard 和 Gemini 的前身。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2022", "month": "4" },
+      "text": {
+        "headline": "PaLM 发布",
+        "text": "5400 亿参数的大语言模型，在数学推理、代码生成等复杂任务上表现优异，展示了规模化的潜力。"
+      },
+      "group": "研究"
+    },
+    {
+      "start_date": { "year": "2023", "month": "2" },
+      "text": {
+        "headline": "Bard 仓促发布",
+        "text": "为应对 ChatGPT 冲击紧急推出，发布会演示出现事实错误导致股价下跌 7%，暴露了与 OpenAI 的差距。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "5" },
+      "text": {
+        "headline": "PaLM 2 & Workspace AI",
+        "text": "发布 PaLM 2，多语言和推理能力提升；同时宣布 Gmail、Docs、Sheets 等全线产品集成 AI 能力（Duet AI）。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "12" },
+      "text": {
+        "headline": "Gemini 1.0 发布",
+        "text": "原生多模态模型，分 Ultra/Pro/Nano 三档。Ultra 版在 32 项学术基准中 30 项超越 GPT-4，Bard 升级为 Gemini。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "2" },
+      "text": {
+        "headline": "Gemini 1.5 Pro 发布",
+        "text": "突破性的 100 万 token 超长上下文窗口（后扩展至 200 万），可处理整部电影或超大代码库。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "5" },
+      "text": {
+        "headline": "Gemini 1.5 Flash & Project Astra",
+        "text": "在 Google I/O 发布轻量高速的 Flash 版本；Project Astra 展示实时视觉理解的通用 AI 助手原型。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "9" },
+      "text": {
+        "headline": "NotebookLM 全面升级",
+        "text": "AI 笔记工具 NotebookLM 加入「Audio Overview」功能，可将文档自动生成播客风格音频，迅速走红。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "12" },
+      "text": {
+        "headline": "Gemini 2.0 发布",
+        "text": "新一代旗舰模型，多模态能力大幅提升，支持实时音视频流输入；同发布 Gemini 2.0 Flash 供开发者使用。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2025", "month": "2" },
+      "text": {
+        "headline": "Gemini 2.0 Pro & Flash Thinking",
+        "text": "发布 Gemini 2.0 Pro 实验版及 Flash Thinking 推理模型，在编程和数学推理任务上与 OpenAI o1 系列竞争。"
+      },
+      "group": "产品"
+    }
+  ]
+}

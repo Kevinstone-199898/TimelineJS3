@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenAI 发展历程</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <style>
+    body { margin: 0; font-family: sans-serif; background: #f5f5f5; }
+    h1 { text-align: center; padding: 16px 0 8px; margin: 0; font-size: 1.6em; color: #333; }
+    p.subtitle { text-align: center; margin: 0 0 12px; color: #666; font-size: 0.9em; }
+    #timeline-embed { width: 100%; height: 80vh; }
+  </style>
+</head>
+<body>
+  <h1>OpenAI 发展历程</h1>
+  <p class="subtitle">产品发布 · 融资轮次 · 商业合作</p>
+  <div id="timeline-embed"></div>
+  <script>
+    fetch('./openai_data.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        new TL.Timeline('timeline-embed', data, {
+          language: 'zh-cn',
+          timenav_position: 'bottom',
+          start_at_slide: 1
+        });
+      })
+      .catch(function(err) {
+        document.getElementById('timeline-embed').innerHTML =
+          '<p style="text-align:center;color:red;padding:2em;">加载数据失败：' + err.message + '<br>请确保通过 HTTP 服务器访问（如 python3 -m http.server 8080）</p>';
+      });
+  </script>
+</body>
+</html>

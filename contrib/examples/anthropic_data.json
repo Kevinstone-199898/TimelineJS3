@@ -1,0 +1,106 @@
+{
+  "title": {
+    "text": {
+      "headline": "Anthropic 发展历程",
+      "text": "产品发布 · 融资轮次 · 安全研究"
+    }
+  },
+  "events": [
+    {
+      "start_date": { "year": "2021", "month": "1" },
+      "text": {
+        "headline": "Anthropic 成立",
+        "text": "由 Dario Amodei、Daniela Amodei 等 11 位前 OpenAI 核心成员创立，专注于 AI 安全性研究，总部位于旧金山。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "2022", "month": "4" },
+      "text": {
+        "headline": "种子轮融资 $1.24 亿",
+        "text": "完成 1.24 亿美元种子轮融资，投资方包括 Spark Capital、Google 等，用于核心研究和团队建设。"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2022", "month": "12" },
+      "text": {
+        "headline": "A 轮融资 $7 亿",
+        "text": "完成 7 亿美元 A 轮融资，估值约 50 亿美元，投资方包括 Google、Spark Capital 等。"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2023", "month": "3" },
+      "text": {
+        "headline": "Claude 1 发布",
+        "text": "首个 Claude 模型上线，强调安全性和无害性（Constitutional AI），以「有益、无害、诚实」为核心设计原则。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "5" },
+      "text": {
+        "headline": "B 轮融资 $4.5 亿",
+        "text": "完成 4.5 亿美元 B 轮融资，Google 领投，估值达 50 亿美元，Google 承诺最高 3 亿美元额外投资。"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2023", "month": "7" },
+      "text": {
+        "headline": "Claude 2 发布",
+        "text": "支持 10 万 token 超长上下文，可处理完整书籍或代码库。编程和推理能力显著提升，向公众开放使用。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2023", "month": "9" },
+      "text": {
+        "headline": "亚马逊投资 $12.5 亿",
+        "text": "亚马逊宣布投资最高 40 亿美元（首批 12.5 亿），Claude 模型将通过 AWS Bedrock 提供服务，深度整合亚马逊生态。"
+      },
+      "group": "融资/合作"
+    },
+    {
+      "start_date": { "year": "2024", "month": "3" },
+      "text": {
+        "headline": "Claude 3 系列发布",
+        "text": "一次发布三款：Haiku（快速轻量）、Sonnet（均衡）、Opus（最强），Opus 在多项基准测试超越 GPT-4。首次支持图像理解。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "6" },
+      "text": {
+        "headline": "Claude 3.5 Sonnet 发布",
+        "text": "性能超越 Claude 3 Opus，同时速度更快、成本更低。引入 Artifacts 功能，可在对话中实时渲染代码和内容。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "9" },
+      "text": {
+        "headline": "C 轮融资 $40 亿，估值 $180 亿",
+        "text": "完成 40 亿美元融资，亚马逊追加投资（总承诺达 40 亿美元），估值达 180 亿美元。"
+      },
+      "group": "融资"
+    },
+    {
+      "start_date": { "year": "2024", "month": "10" },
+      "text": {
+        "headline": "Computer Use 功能发布",
+        "text": "Claude 可直接操控电脑界面——移动鼠标、点击按钮、输入文字，是首个具备此能力的主流 AI 模型。"
+      },
+      "group": "产品"
+    },
+    {
+      "start_date": { "year": "2024", "month": "11" },
+      "text": {
+        "headline": "Claude 3.5 Haiku 发布",
+        "text": "最快、最经济的 Claude 模型，性能超越前一代 Opus，适合高频次、低延迟应用场景。"
+      },
+      "group": "产品"
+    }
+  ]
+}

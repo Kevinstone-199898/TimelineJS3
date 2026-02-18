@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline 查看器</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f0f2f5; }
+    nav {
+      background: #1a1a2e;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    nav a { color: #aab; text-decoration: none; font-size: 0.9em; }
+    nav a:hover { color: #fff; }
+    nav .sep { color: #555; }
+    nav .current { color: #fff; font-weight: 600; }
+    #timeline-embed { width: 100%; height: calc(100vh - 42px); }
+    #error {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+      color: #c00;
+      font-size: 1em;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">← 返回导航</a>
+    <span class="sep">/</span>
+    <span class="current" id="nav-title">Loading...</span>
+  </nav>
+
+  <div id="error"></div>
+  <div id="timeline-embed"></div>
+
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    var dataFile = params.get('data') || '';
+    var title = params.get('title') || dataFile;
+
+    document.title = title + ' · Timeline';
+    document.getElementById('nav-title').textContent = title;
+
+    if (!dataFile) {
+      showError('缺少 ?data= 参数，请从<a href="index.html">导航页</a>进入。');
+    } else {
+      fetch('./' + dataFile)
+        .then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status + '：无法加载 ' + dataFile);
+          return r.json();
+        })
+        .then(function(data) {
+          new TL.Timeline('timeline-embed', data, {
+            language: 'zh-cn',
+            timenav_position: 'bottom',
+            start_at_slide: 1
+          });
+        })
+        .catch(function(err) {
+          showError(err.message + '<br><br>请确认文件 <code>' + dataFile + '</code> 存在，且通过 HTTP 服务器访问。');
+        });
+    }
+
+    function showError(msg) {
+      document.getElementById('timeline-embed').style.display = 'none';
+      var el = document.getElementById('error');
+      el.style.display = 'block';
+      el.innerHTML = '⚠️ ' + msg;
+    }
+  </script>
+</body>
+</html>
