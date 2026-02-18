@@ -69,8 +69,8 @@
         "Typecheck passes"
       ],
       "priority": 4,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Phase 3 fully implemented in cmd_phase(3) in scripts/scrape_openai_news.py (committed in US-001). Uses SILICONFLOW_API_KEY + DeepSeek-V3 for translation. All acceptance criteria met."
     },
     {
       "id": "US-005",
