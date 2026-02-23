@@ -305,7 +305,7 @@
           <button class="btn-extract" id="btn-extract">提取信息</button>
         </div>
         <div class="extract-status" id="extract-status"></div>
-        <span class="apikey-toggle" id="apikey-toggle">⚙ 配置 Claude API Key</span>
+        <span class="apikey-toggle" id="apikey-toggle">⚙ 配置 GLM API Key</span>
         <div class="apikey-row" id="apikey-row" style="display:none">
           <input id="f-apikey" type="password" placeholder="sk-ant-…">
           <button id="btn-save-key">保存</button>
@@ -562,7 +562,7 @@
     }
 
     // ── API Key 管理 ──
-    var API_KEY_STORAGE = 'tl_claude_api_key';
+    var API_KEY_STORAGE = 'tl_glm_api_key';
 
     function getApiKey() {
       return localStorage.getItem(API_KEY_STORAGE) || '';
@@ -648,17 +648,16 @@
           '}\n\n' +
           '网页内容：\n' + markdown.slice(0, 4000);
 
-        var apiRes = await fetch('https://api.anthropic.com/v1/messages', {
+        var apiRes = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
           method: 'POST',
           headers: {
-            'x-api-key': apiKey,
-            'anthropic-version': '2023-06-01',
-            'content-type': 'application/json',
-            'anthropic-dangerous-direct-browser-calls': 'true'
+            'Authorization': 'Bearer ' + apiKey,
+            'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            model: 'claude-haiku-4-5-20251001',
+            model: 'glm-4-flash',
             max_tokens: 512,
+            temperature: 0.3,
             messages: [{ role: 'user', content: prompt }]
           })
         });
@@ -668,8 +667,7 @@
           throw new Error(apiData.error && apiData.error.message || 'API 调用失败');
         }
 
-        var raw = apiData.content[0].text.trim();
-        // 兼容 Claude 可能输出 ```json ... ``` 包裹
+        var raw = apiData.choices[0].message.content.trim();
         var jsonStr = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/, '');
         var extracted = JSON.parse(jsonStr);
 
