@@ -1,0 +1,186 @@
+{
+  "title": {
+    "text": {
+      "headline": "互联网发展历程",
+      "text": "网络协议 · Web 时代 · 移动互联网"
+    }
+  },
+  "events": [
+    {
+      "start_date": { "year": "1969", "month": "10" },
+      "text": {
+        "headline": "ARPANET 首次通信",
+        "text": "美国国防部高级研究计划局（ARPA）资助的 ARPANET 在 UCLA 与斯坦福研究所之间成功传输首条消息「lo」（原计划发送「login」，但系统崩溃），奠定互联网基础。"
+      },
+      "group": "基础设施"
+    },
+    {
+      "start_date": { "year": "1974" },
+      "text": {
+        "headline": "TCP/IP 协议提出",
+        "text": "温顿·瑟夫与罗伯特·卡恩发表论文，提出传输控制协议（TCP），后发展为 TCP/IP 协议族，成为互联网通信的核心标准。"
+      },
+      "group": "协议"
+    },
+    {
+      "start_date": { "year": "1983", "month": "1" },
+      "text": {
+        "headline": "ARPANET 全面切换至 TCP/IP",
+        "text": "1983 年 1 月 1 日被称为互联网「诞生日」，ARPANET 正式采用 TCP/IP 协议，现代互联网架构正式确立。"
+      },
+      "group": "基础设施"
+    },
+    {
+      "start_date": { "year": "1984" },
+      "text": {
+        "headline": "DNS 域名系统建立",
+        "text": "域名系统（DNS）正式引入，将难记的 IP 地址转换为可读域名（如 example.com），极大地降低了互联网使用门槛。"
+      },
+      "group": "协议"
+    },
+    {
+      "start_date": { "year": "1991", "month": "8" },
+      "text": {
+        "headline": "万维网（WWW）公开发布",
+        "text": "蒂姆·伯纳斯-李在欧洲核子研究组织（CERN）发布万维网，定义 HTML、HTTP 和 URL 三大基石，互联网从科研工具走向大众。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1993", "month": "4" },
+      "text": {
+        "headline": "CERN 宣布 WWW 永久免费开放",
+        "text": "CERN 正式声明万维网技术完全免费，不收取任何专利费，为互联网商业化奠定开放基础。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1993", "month": "9" },
+      "text": {
+        "headline": "Mosaic 浏览器发布",
+        "text": "NCSA 发布 Mosaic，首款支持图文混排的图形化浏览器，使普通人无需命令行即可浏览 Web，引爆互联网普及浪潮。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1994" },
+      "text": {
+        "headline": "Yahoo! 与 Netscape 创立",
+        "text": "杨致远创建 Yahoo! 目录导航；网景公司发布 Netscape Navigator，Web 商业化元年正式开启。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "1995" },
+      "text": {
+        "headline": "Amazon、eBay、Java、JavaScript 相继诞生",
+        "text": "电子商务与动态 Web 技术在同年爆发：亚马逊开始网上卖书，eBay 上线，Sun 发布 Java，网景引入 JavaScript，Web 进入交互时代。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "1998", "month": "9" },
+      "text": {
+        "headline": "Google 成立",
+        "text": "拉里·佩奇与谢尔盖·布林在斯坦福车库创立 Google，基于 PageRank 算法的搜索引擎迅速超越 Yahoo! 成为全球主流入口。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2000" },
+      "text": {
+        "headline": "互联网泡沫破裂",
+        "text": "纳斯达克指数从峰值 5048 点暴跌，大批 .com 企业倒闭，互联网行业经历深度洗牌，亚马逊、Google 等公司在废墟中崛起。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2003" },
+      "text": {
+        "headline": "Web 2.0 时代兴起",
+        "text": "WordPress（2003）、Facebook（2004）、YouTube（2005）、Twitter（2006）相继诞生，用户生成内容（UGC）与社交网络定义 Web 2.0。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "2004", "month": "2" },
+      "text": {
+        "headline": "Facebook 上线",
+        "text": "马克·扎克伯格在哈佛宿舍发布 Facebook，社交网络正式成为互联网主流形态，十年内月活突破 10 亿。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2007", "month": "1" },
+      "text": {
+        "headline": "iPhone 发布，移动互联网时代开启",
+        "text": "苹果 iPhone 将触控屏与移动宽带融合，App Store（2008）上线后移动应用爆发，互联网流量中心向移动端快速迁移。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "2008" },
+      "text": {
+        "headline": "云计算商业化：AWS 规模扩张",
+        "text": "亚马逊 AWS 于 2006 年推出，2008 年前后进入快速扩张期，云计算成为互联网基础设施，降低创业门槛。"
+      },
+      "group": "基础设施"
+    },
+    {
+      "start_date": { "year": "2010" },
+      "text": {
+        "headline": "移动流量首次超越桌面端",
+        "text": "全球移动互联网流量持续增长，智能手机与 4G 网络普及，移动端成为互联网主要接入方式。"
+      },
+      "group": "基础设施"
+    },
+    {
+      "start_date": { "year": "2012" },
+      "text": {
+        "headline": "全球互联网用户突破 20 亿",
+        "text": "国际电信联盟数据显示全球互联网用户达 20 亿，中国成为全球最大互联网市场，新兴国家接入人口快速增长。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "2016" },
+      "text": {
+        "headline": "HTTPS 加密成为默认标准",
+        "text": "Let's Encrypt 提供免费 TLS 证书，Chrome 开始将非 HTTPS 网站标记为「不安全」，全球 Web 加密率迅速从 30% 升至 80%+。"
+      },
+      "group": "协议"
+    },
+    {
+      "start_date": { "year": "2019" },
+      "text": {
+        "headline": "5G 商用网络开始部署",
+        "text": "韩国、美国等率先推出 5G 商用服务，峰值速率可达 10 Gbps，为物联网、自动驾驶、云游戏等场景奠定网络基础。"
+      },
+      "group": "基础设施"
+    },
+    {
+      "start_date": { "year": "2020" },
+      "text": {
+        "headline": "疫情加速数字化，互联网流量暴增",
+        "text": "新冠疫情推动远程办公、在线教育、视频会议全面爆发，Zoom 日用户从 1000 万飙升至 3 亿，互联网基础设施经受压力测试。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2022" },
+      "text": {
+        "headline": "全球互联网用户突破 50 亿",
+        "text": "据 Datareportal 统计，全球互联网用户达 51 亿，占世界人口 63%，非洲和南亚仍是增速最快的地区。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "2023" },
+      "text": {
+        "headline": "AI 重塑互联网入口",
+        "text": "ChatGPT 上线百日用户破亿，微软 Bing AI、Google Bard 相继上线，搜索引擎与内容分发模式面临 AI 原生产品的根本性挑战。"
+      },
+      "group": "里程碑"
+    }
+  ]
+}

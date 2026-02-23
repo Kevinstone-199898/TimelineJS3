@@ -34,6 +34,8 @@
     .card.google    { border-color: #4285f4; }
     .card.openai-kimi { border-color: #7c3aed; }
     .card.openai-ralph { border-color: #e05c00; }
+    .card.pc        { border-color: #0078d4; }
+    .card.internet  { border-color: #ff6b35; }
 
     footer { text-align: center; padding: 24px; color: #aaa; font-size: 0.8em; }
     footer a { color: #888; }
@@ -41,8 +43,8 @@
 </head>
 <body>
   <header>
-    <h1>AI 公司发展历程</h1>
-    <p>选择一家公司，查看其完整时间轴</p>
+    <h1>科技发展历程</h1>
+    <p>选择一个主题，查看其完整时间轴</p>
   </header>
 
   <div class="grid">
@@ -81,7 +83,21 @@
       <div class="meta">2015 — 2024 · 223 个事件</div>
     </a>
 
-    <!-- 新增公司：复制上方一个 <a class="card"> 块，修改颜色、数据文件和描述即可 -->
+    <a class="card pc" href="viewer.html?data=pc_data.json&title=个人电脑发展历程">
+      <div class="logo">🖥️</div>
+      <h2>个人电脑（PC）</h2>
+      <p>从 Altair 8800 到 AI PC，半个世纪的硬件革命、操作系统演进与产业格局变迁。</p>
+      <div class="meta">1971 — 2024 · 22 个事件</div>
+    </a>
+
+    <a class="card internet" href="viewer.html?data=internet_data.json&title=互联网发展历程">
+      <div class="logo">🌐</div>
+      <h2>互联网</h2>
+      <p>从 ARPANET 到 Web 3.0，从拨号上网到 5G，半个世纪的网络协议、商业浪潮与社会变革。</p>
+      <div class="meta">1969 — 2023 · 22 个事件</div>
+    </a>
+
+    <!-- 新增主题：复制上方一个 <a class="card"> 块，修改颜色、数据文件和描述即可 -->
   </div>
 
   <footer>

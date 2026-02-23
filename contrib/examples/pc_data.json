@@ -1,0 +1,186 @@
+{
+  "title": {
+    "text": {
+      "headline": "个人电脑发展历程",
+      "text": "硬件革命 · 操作系统 · 产业变迁"
+    }
+  },
+  "events": [
+    {
+      "start_date": { "year": "1971" },
+      "text": {
+        "headline": "Intel 4004：世界第一颗商用微处理器",
+        "text": "Intel 发布 4004，4 位架构，2300 个晶体管，主频 740 kHz，标志着微处理器时代的开端。"
+      },
+      "group": "硬件"
+    },
+    {
+      "start_date": { "year": "1975" },
+      "text": {
+        "headline": "Altair 8800 发布",
+        "text": "MITS 推出 Altair 8800，售价 439 美元（套件），被认为是第一台面向大众的个人电脑，引发 DIY 计算机热潮。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1975", "month": "4" },
+      "text": {
+        "headline": "微软成立",
+        "text": "比尔·盖茨与保罗·艾伦在阿尔伯克基成立微软，最初为 Altair 8800 开发 BASIC 解释器。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "1976", "month": "4" },
+      "text": {
+        "headline": "苹果 Apple I 发布",
+        "text": "史蒂夫·乔布斯与史蒂夫·沃兹尼亚克推出 Apple I，售价 666.66 美元，共生产约 200 台。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1977" },
+      "text": {
+        "headline": "Apple II、TRS-80、Commodore PET 相继发布",
+        "text": "1977 年被称为「个人电脑元年」，三款面向普通消费者的整机同年上市，开启家庭电脑时代。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1981", "month": "8" },
+      "text": {
+        "headline": "IBM PC 发布",
+        "text": "IBM 推出型号 5150 个人电脑，搭载 Intel 8088 处理器与 PC-DOS（微软 MS-DOS），开放架构催生了庞大的 IBM 兼容机产业。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1984", "month": "1" },
+      "text": {
+        "headline": "苹果 Macintosh 发布",
+        "text": "苹果推出首款 Macintosh，搭载图形用户界面（GUI）与鼠标，售价 2495 美元，将 GUI 带入大众视野。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "1985", "month": "11" },
+      "text": {
+        "headline": "Windows 1.0 发布",
+        "text": "微软发布 Windows 1.0，为 MS-DOS 提供图形化外壳，开启 Windows 操作系统的漫长历史。"
+      },
+      "group": "操作系统"
+    },
+    {
+      "start_date": { "year": "1989" },
+      "text": {
+        "headline": "Intel 486 与 386 PC 普及",
+        "text": "32 位处理器全面普及，配合硬盘价格下降，个人电脑性能大幅提升，企业市场加速采用。"
+      },
+      "group": "硬件"
+    },
+    {
+      "start_date": { "year": "1990", "month": "5" },
+      "text": {
+        "headline": "Windows 3.0 发布",
+        "text": "Windows 3.0 成为第一个真正商业成功的 Windows 版本，上市 6 个月销量突破 100 万套。"
+      },
+      "group": "操作系统"
+    },
+    {
+      "start_date": { "year": "1993" },
+      "text": {
+        "headline": "Intel Pentium 处理器发布",
+        "text": "Pentium 主频 60/66 MHz，性能较 486 大幅提升，「Intel Inside」营销活动使其家喻户晓。"
+      },
+      "group": "硬件"
+    },
+    {
+      "start_date": { "year": "1995", "month": "8" },
+      "text": {
+        "headline": "Windows 95 发布",
+        "text": "Windows 95 引入「开始」菜单、任务栏与即插即用，发布首日全球售出逾 100 万套，成为 PC 普及化的重要节点。"
+      },
+      "group": "操作系统"
+    },
+    {
+      "start_date": { "year": "1998", "month": "8" },
+      "text": {
+        "headline": "iMac G3 发布",
+        "text": "苹果推出彩色半透明一体机 iMac G3，乔布斯回归后的标志性产品，首年销量超 80 万台，重新定义消费电脑美学。"
+      },
+      "group": "里程碑"
+    },
+    {
+      "start_date": { "year": "2001", "month": "10" },
+      "text": {
+        "headline": "Windows XP 发布",
+        "text": "Windows XP 合并家用与商用版本，稳定性大幅提升，成为史上最长寿的 Windows 版本之一，官方支持延续至 2014 年。"
+      },
+      "group": "操作系统"
+    },
+    {
+      "start_date": { "year": "2006" },
+      "text": {
+        "headline": "Mac 全面转向 Intel 处理器",
+        "text": "苹果完成架构迁移，Mac 改用 Intel 芯片，Boot Camp 使用户可在 Mac 上运行 Windows，推动 Mac 市场份额增长。"
+      },
+      "group": "硬件"
+    },
+    {
+      "start_date": { "year": "2007", "month": "1" },
+      "text": {
+        "headline": "iPhone 发布，PC 时代开始转变",
+        "text": "苹果 iPhone 发布，智能手机兴起，全球 PC 出货量增速开始放缓，计算重心逐渐向移动端迁移。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2008" },
+      "text": {
+        "headline": "上网本（Netbook）热潮",
+        "text": "华硕 Eee PC 引领低价上网本潮流，售价低至 299 美元，全球掀起轻薄便携小屏 PC 热，但随平板兴起而迅速消退。"
+      },
+      "group": "硬件"
+    },
+    {
+      "start_date": { "year": "2010", "month": "1" },
+      "text": {
+        "headline": "iPad 发布，平板冲击 PC 市场",
+        "text": "苹果 iPad 重新定义平板电脑，全球 PC 出货量于 2011 年后持续下滑，传统 PC 厂商面临转型压力。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2011", "month": "10" },
+      "text": {
+        "headline": "Windows 8 与触控 PC",
+        "text": "微软推出 Windows 8，引入 Metro UI 界面，Surface 平板电脑亮相，尝试融合平板与传统 PC 体验。"
+      },
+      "group": "操作系统"
+    },
+    {
+      "start_date": { "year": "2020", "month": "11" },
+      "text": {
+        "headline": "苹果 M1 芯片发布，ARM PC 时代开启",
+        "text": "苹果自研 M1 芯片（ARM 架构）发布，MacBook Air/Pro 性能功耗比大幅领先 x86 竞品，推动 PC 芯片架构变革。"
+      },
+      "group": "硬件"
+    },
+    {
+      "start_date": { "year": "2021" },
+      "text": {
+        "headline": "疫情推动 PC 出货量创十年新高",
+        "text": "新冠疫情期间居家办公、远程教育需求爆发，2021 年全球 PC 出货量达 3.41 亿台，创 2012 年来最高。"
+      },
+      "group": "产业"
+    },
+    {
+      "start_date": { "year": "2024" },
+      "text": {
+        "headline": "AI PC 元年",
+        "text": "Intel Core Ultra、AMD Ryzen AI、高通骁龙 X Elite 等内置 NPU 的处理器相继发布，微软推出 Copilot+ PC，AI 推理能力正式成为 PC 核心卖点。"
+      },
+      "group": "硬件"
+    }
+  ]
+}

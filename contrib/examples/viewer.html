@@ -9,6 +9,8 @@
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f0f2f5; }
+
+    /* ── 顶部导航 ── */
     nav {
       background: #1a1a2e;
       padding: 10px 20px;
@@ -19,7 +21,144 @@
     nav a { color: #aab; text-decoration: none; font-size: 0.9em; }
     nav a:hover { color: #fff; }
     nav .sep { color: #555; }
-    nav .current { color: #fff; font-weight: 600; }
+    nav .current { color: #fff; font-weight: 600; flex: 1; }
+    .nav-btn {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #dde;
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85em;
+      white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
+
+    /* ── 搜索面板 ── */
+    #search-panel {
+      display: none;
+      position: absolute;
+      top: 42px;
+      right: 16px;
+      width: 360px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      z-index: 1000;
+      overflow: hidden;
+    }
+    #search-panel.open { display: block; }
+    #search-input {
+      width: 100%;
+      padding: 12px 16px;
+      border: none;
+      border-bottom: 1px solid #eee;
+      font-size: 0.95em;
+      outline: none;
+    }
+    #search-results {
+      max-height: 320px;
+      overflow-y: auto;
+    }
+    .search-item {
+      padding: 10px 16px;
+      cursor: pointer;
+      border-bottom: 1px solid #f5f5f5;
+      transition: background 0.1s;
+    }
+    .search-item:hover { background: #f0f7ff; }
+    .search-item .s-date { font-size: 0.78em; color: #888; margin-bottom: 2px; }
+    .search-item .s-title { font-size: 0.92em; font-weight: 600; color: #222; }
+    .search-item .s-group {
+      display: inline-block;
+      font-size: 0.72em;
+      padding: 1px 6px;
+      border-radius: 10px;
+      background: #e8f0ff;
+      color: #446;
+      margin-top: 3px;
+    }
+    .search-empty { padding: 20px 16px; text-align: center; color: #aaa; font-size: 0.88em; }
+
+    /* ── 添加事件模态框 ── */
+    #add-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+    }
+    #add-overlay.open { display: flex; }
+    .modal-box {
+      background: #fff;
+      border-radius: 14px;
+      padding: 28px 32px;
+      width: 480px;
+      max-width: 96vw;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+    }
+    .modal-box h3 { margin: 0 0 20px; font-size: 1.15em; color: #1a1a2e; }
+    .form-row { display: flex; gap: 12px; margin-bottom: 14px; }
+    .form-group { display: flex; flex-direction: column; flex: 1; }
+    .form-group label { font-size: 0.8em; color: #666; margin-bottom: 4px; font-weight: 500; }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      border-radius: 7px;
+      font-size: 0.9em;
+      outline: none;
+      transition: border-color 0.15s;
+      font-family: inherit;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus { border-color: #4285f4; }
+    .form-group textarea { resize: vertical; min-height: 72px; }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+    .btn-cancel {
+      padding: 8px 18px; border: 1px solid #ddd; border-radius: 7px;
+      background: #fff; cursor: pointer; font-size: 0.88em; color: #666;
+    }
+    .btn-cancel:hover { background: #f5f5f5; }
+    .btn-submit {
+      padding: 8px 20px; border: none; border-radius: 7px;
+      background: #1a1a2e; color: #fff; cursor: pointer; font-size: 0.88em;
+      font-weight: 600;
+    }
+    .btn-submit:hover { background: #2d2d4e; }
+
+    /* ── 导出提示 ── */
+    #export-bar {
+      display: none;
+      background: #fffbe6;
+      border-bottom: 1px solid #ffe58f;
+      padding: 8px 20px;
+      font-size: 0.85em;
+      color: #555;
+      align-items: center;
+      gap: 12px;
+    }
+    #export-bar.visible { display: flex; }
+    #export-bar strong { color: #333; }
+    #btn-export {
+      margin-left: auto;
+      padding: 4px 14px;
+      border: 1px solid #d4a017;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.85em;
+      color: #7a5400;
+    }
+    #btn-export:hover { background: #fffbe6; }
+
     #timeline-embed { width: 100%; height: calc(100vh - 42px); }
     #error {
       display: none;
@@ -37,7 +176,67 @@
     <a href="index.html">← 返回导航</a>
     <span class="sep">/</span>
     <span class="current" id="nav-title">Loading...</span>
+    <button class="nav-btn" id="btn-search">🔍 搜索</button>
+    <button class="nav-btn" id="btn-add">＋ 添加事件</button>
   </nav>
+
+  <!-- 搜索面板 -->
+  <div id="search-panel">
+    <input id="search-input" type="text" placeholder="输入关键词搜索事件…">
+    <div id="search-results"></div>
+  </div>
+
+  <!-- 已保存事件提示条 -->
+  <div id="export-bar">
+    <strong id="export-bar-msg"></strong>
+    <button id="btn-clear" style="padding:4px 14px;border:1px solid #ccc;border-radius:6px;background:#fff;cursor:pointer;font-size:0.85em;color:#c00;">🗑 清除已添加</button>
+    <button id="btn-export" style="margin-left:0">⬇ 下载 JSON</button>
+  </div>
+
+  <!-- 添加事件模态框 -->
+  <div id="add-overlay">
+    <div class="modal-box">
+      <h3>＋ 添加新事件</h3>
+      <div class="form-row">
+        <div class="form-group" style="flex:2">
+          <label>年份 *</label>
+          <input id="f-year" type="number" placeholder="例：2024" min="1" max="9999">
+        </div>
+        <div class="form-group">
+          <label>月份</label>
+          <input id="f-month" type="number" placeholder="1-12" min="1" max="12">
+        </div>
+        <div class="form-group">
+          <label>日期</label>
+          <input id="f-day" type="number" placeholder="1-31" min="1" max="31">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>标题 *</label>
+          <input id="f-headline" type="text" placeholder="事件标题">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>描述</label>
+          <textarea id="f-text" placeholder="事件详细描述（可选）"></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>分组</label>
+          <input id="f-group" type="text" placeholder="例：产品、融资、里程碑（可选）" list="group-suggestions">
+          <datalist id="group-suggestions"></datalist>
+        </div>
+      </div>
+      <div id="form-error" style="color:#c00;font-size:0.83em;display:none;margin-top:-8px;"></div>
+      <div class="modal-actions">
+        <button class="btn-cancel" id="btn-modal-cancel">取消</button>
+        <button class="btn-submit" id="btn-modal-submit">添加到时间轴</button>
+      </div>
+    </div>
+  </div>
 
   <div id="error"></div>
   <div id="timeline-embed"></div>
@@ -50,6 +249,27 @@
     document.title = title + ' · Timeline';
     document.getElementById('nav-title').textContent = title;
 
+    var timelineData = null;
+    var tlInstance = null;
+    var sortedEvents = [];
+    var addedCount = 0;
+    var STORAGE_KEY = 'tl_added_' + dataFile;
+
+    var GROUP_COLORS = {
+      '政策': 'rgba(30, 90, 160, 0.25)',
+      '研究': 'rgba(30, 140, 80, 0.25)',
+      '产品': 'rgba(130, 50, 160, 0.25)',
+      '融资': 'rgba(210, 90, 20, 0.25)',
+      '合作': 'rgba(180, 150, 20, 0.25)',
+      '里程碑': 'rgba(200, 30, 80, 0.15)',
+      '硬件': 'rgba(20, 120, 160, 0.2)',
+      '操作系统': 'rgba(80, 160, 40, 0.2)',
+      '产业': 'rgba(160, 100, 20, 0.2)',
+      '基础设施': 'rgba(100, 60, 160, 0.2)',
+      '协议': 'rgba(20, 140, 120, 0.2)'
+    };
+
+    // ── 加载数据 ──
     if (!dataFile) {
       showError('缺少 ?data= 参数，请从<a href="index.html">导航页</a>进入。');
     } else {
@@ -59,26 +279,62 @@
           return r.json();
         })
         .then(function(data) {
-          var tl = new TL.Timeline('timeline-embed', data, {
-            language: 'zh-cn',
-            timenav_position: 'bottom',
-            start_at_slide: 1
-          });
-          tl.on('ready', colorGroups);
-          tl.on('change', colorGroups);
+          timelineData = data;
+          // 从 localStorage 合并已保存的事件
+          var saved = loadSavedEvents();
+          if (saved.length) {
+            timelineData.events = (timelineData.events || []).concat(saved);
+            updateExportBar();
+          }
+          buildTimeline();
+          buildGroupSuggestions();
         })
         .catch(function(err) {
           showError(err.message + '<br><br>请确认文件 <code>' + dataFile + '</code> 存在，且通过 HTTP 服务器访问。');
         });
     }
 
-    var GROUP_COLORS = {
-      '政策': 'rgba(30, 90, 160, 0.25)',
-      '研究': 'rgba(30, 140, 80, 0.25)',
-      '产品': 'rgba(130, 50, 160, 0.25)',
-      '融资': 'rgba(210, 90, 20, 0.25)',
-      '合作': 'rgba(180, 150, 20, 0.25)'
-    };
+    function buildTimeline(goToUid) {
+      ensureUniqueIds(timelineData);
+      var embed = document.getElementById('timeline-embed');
+      embed.innerHTML = '';
+      tlInstance = new TL.Timeline('timeline-embed', timelineData, {
+        language: 'zh-cn',
+        timenav_position: 'bottom',
+        start_at_slide: 1
+      });
+      tlInstance.on('ready', function() {
+        colorGroups();
+        buildSortedEvents();
+        if (goToUid) {
+          tlInstance.goToId(goToUid);
+        }
+      });
+      tlInstance.on('change', colorGroups);
+    }
+
+    // 构建按日期排序的事件数组（用于搜索）
+    function buildSortedEvents() {
+      if (!timelineData || !timelineData.events) return;
+      sortedEvents = timelineData.events.slice().sort(function(a, b) {
+        return dateNum(a.start_date) - dateNum(b.start_date);
+      });
+    }
+
+    function dateNum(d) {
+      if (!d) return 0;
+      return parseInt(d.year || 0) * 10000 +
+             parseInt(d.month || 0) * 100 +
+             parseInt(d.day || 0);
+    }
+
+    function formatDate(d) {
+      if (!d) return '';
+      var s = d.year || '';
+      if (d.month) s += '/' + d.month;
+      if (d.day) s += '/' + d.day;
+      return s;
+    }
 
     function colorGroups() {
       document.querySelectorAll('.tl-timegroup').forEach(function(row) {
@@ -87,6 +343,215 @@
           var color = GROUP_COLORS[label.textContent.trim()];
           if (color) row.style.background = color;
         }
+      });
+    }
+
+    // ── 搜索功能 ──
+    var searchPanel = document.getElementById('search-panel');
+    var searchInput = document.getElementById('search-input');
+    var searchResults = document.getElementById('search-results');
+
+    document.getElementById('btn-search').addEventListener('click', function(e) {
+      e.stopPropagation();
+      searchPanel.classList.toggle('open');
+      if (searchPanel.classList.contains('open')) {
+        searchInput.focus();
+        renderSearch('');
+      }
+    });
+
+    searchInput.addEventListener('input', function() {
+      renderSearch(this.value);
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!searchPanel.contains(e.target) && e.target.id !== 'btn-search') {
+        searchPanel.classList.remove('open');
+      }
+    });
+
+    function renderSearch(query) {
+      if (!sortedEvents.length) {
+        searchResults.innerHTML = '<div class="search-empty">数据尚未加载完毕</div>';
+        return;
+      }
+      var q = query.trim().toLowerCase();
+      var matched = q ? sortedEvents.filter(function(ev) {
+        var h = (ev.text && ev.text.headline || '').toLowerCase();
+        var t = (ev.text && ev.text.text || '').toLowerCase();
+        var g = (ev.group || '').toLowerCase();
+        return h.includes(q) || t.includes(q) || g.includes(q);
+      }) : sortedEvents;
+
+      if (!matched.length) {
+        searchResults.innerHTML = '<div class="search-empty">未找到匹配的事件</div>';
+        return;
+      }
+
+      var html = matched.slice(0, 50).map(function(ev) {
+        var headline = ev.text && ev.text.headline || '（无标题）';
+        var date = formatDate(ev.start_date);
+        var group = ev.group || '';
+        var uid = ev.unique_id || '';
+        return '<div class="search-item" data-uid="' + escHtml(uid) + '">' +
+          '<div class="s-date">' + escHtml(date) + '</div>' +
+          '<div class="s-title">' + highlight(escHtml(headline), q) + '</div>' +
+          (group ? '<span class="s-group">' + escHtml(group) + '</span>' : '') +
+          '</div>';
+      }).join('');
+      if (matched.length > 50) {
+        html += '<div class="search-empty">还有 ' + (matched.length - 50) + ' 条结果，请继续输入缩小范围</div>';
+      }
+      searchResults.innerHTML = html;
+
+      searchResults.querySelectorAll('.search-item').forEach(function(item) {
+        item.addEventListener('click', function() {
+          var uid = this.getAttribute('data-uid');
+          if (uid && tlInstance) {
+            tlInstance.goToId(uid);
+          }
+          searchPanel.classList.remove('open');
+        });
+      });
+    }
+
+    function highlight(text, q) {
+      if (!q) return text;
+      var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      return text.replace(re, '<mark style="background:#ffe066;border-radius:2px">$1</mark>');
+    }
+
+    function escHtml(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ── 添加事件功能 ──
+    var addOverlay = document.getElementById('add-overlay');
+
+    document.getElementById('btn-add').addEventListener('click', function() {
+      addOverlay.classList.add('open');
+      document.getElementById('f-year').focus();
+    });
+    document.getElementById('btn-modal-cancel').addEventListener('click', closeModal);
+    addOverlay.addEventListener('click', function(e) {
+      if (e.target === addOverlay) closeModal();
+    });
+
+    function closeModal() {
+      addOverlay.classList.remove('open');
+      document.getElementById('form-error').style.display = 'none';
+    }
+
+    document.getElementById('btn-modal-submit').addEventListener('click', function() {
+      var year = document.getElementById('f-year').value.trim();
+      var month = document.getElementById('f-month').value.trim();
+      var day = document.getElementById('f-day').value.trim();
+      var headline = document.getElementById('f-headline').value.trim();
+      var text = document.getElementById('f-text').value.trim();
+      var group = document.getElementById('f-group').value.trim();
+      var errEl = document.getElementById('form-error');
+
+      if (!year || !headline) {
+        errEl.textContent = '请填写年份和标题（必填项）';
+        errEl.style.display = 'block';
+        return;
+      }
+      if (isNaN(parseInt(year)) || parseInt(year) < 1) {
+        errEl.textContent = '年份格式不正确';
+        errEl.style.display = 'block';
+        return;
+      }
+      errEl.style.display = 'none';
+
+      var uid = 'added_' + Date.now() + '_' + (++addedCount);
+      var newEvent = {
+        unique_id: uid,
+        start_date: { year: year },
+        text: { headline: headline }
+      };
+      if (month) newEvent.start_date.month = month;
+      if (day) newEvent.start_date.day = day;
+      if (text) newEvent.text.text = text;
+      if (group) newEvent.group = group;
+
+      timelineData.events.push(newEvent);
+      // 持久化到 localStorage
+      saveEvent(newEvent);
+      buildTimeline(uid);
+      buildGroupSuggestions();
+      updateExportBar();
+
+      // 清空表单
+      ['f-year','f-month','f-day','f-headline','f-text','f-group'].forEach(function(id) {
+        document.getElementById(id).value = '';
+      });
+      closeModal();
+    });
+
+    // 导出 JSON
+    document.getElementById('btn-export').addEventListener('click', function() {
+      var json = JSON.stringify(timelineData, null, 2);
+      var blob = new Blob([json], { type: 'application/json' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = dataFile.replace('.json', '_modified.json');
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    // 清除已添加事件
+    document.getElementById('btn-clear').addEventListener('click', function() {
+      if (!confirm('确定要删除所有手动添加的事件吗？此操作无法撤销。')) return;
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    });
+
+    // ── localStorage 工具函数 ──
+    function loadSavedEvents() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      } catch(e) { return []; }
+    }
+
+    function saveEvent(ev) {
+      var saved = loadSavedEvents();
+      saved.push(ev);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+    }
+
+    function updateExportBar() {
+      var saved = loadSavedEvents();
+      var bar = document.getElementById('export-bar');
+      if (saved.length) {
+        document.getElementById('export-bar-msg').textContent =
+          '已保存 ' + saved.length + ' 个自定义事件（刷新后仍会保留）';
+        bar.classList.add('visible');
+        document.getElementById('timeline-embed').style.height = 'calc(100vh - 42px - 38px)';
+      } else {
+        bar.classList.remove('visible');
+        document.getElementById('timeline-embed').style.height = 'calc(100vh - 42px)';
+      }
+    }
+
+    // 为分组输入框提供已有分组的建议
+    function buildGroupSuggestions() {
+      if (!timelineData || !timelineData.events) return;
+      var groups = {};
+      timelineData.events.forEach(function(ev) {
+        if (ev.group) groups[ev.group] = true;
+      });
+      var dl = document.getElementById('group-suggestions');
+      dl.innerHTML = Object.keys(groups).map(function(g) {
+        return '<option value="' + escHtml(g) + '">';
+      }).join('');
+    }
+
+    // 确保所有事件都有 unique_id（搜索导航需要）
+    function ensureUniqueIds(data) {
+      if (!data || !data.events) return;
+      data.events.forEach(function(ev, i) {
+        if (!ev.unique_id) ev.unique_id = 'ev_' + i;
       });
     }
 
