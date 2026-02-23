@@ -343,30 +343,13 @@
       background: #eee;
     }
 
-    /* ── 导出提示 ── */
-    #export-bar {
+    /* ── 保存状态 ── */
+    #save-status {
       display: none;
-      background: #fffbe6;
-      border-bottom: 1px solid #ffe58f;
-      padding: 8px 20px;
-      font-size: 0.85em;
-      color: #555;
-      align-items: center;
-      gap: 12px;
+      font-size: 0.82em;
+      font-weight: 600;
+      transition: opacity 0.4s;
     }
-    #export-bar.visible { display: flex; }
-    #export-bar strong { color: #333; }
-    #btn-export {
-      margin-left: auto;
-      padding: 4px 14px;
-      border: 1px solid #d4a017;
-      border-radius: 6px;
-      background: #fff;
-      cursor: pointer;
-      font-size: 0.85em;
-      color: #7a5400;
-    }
-    #btn-export:hover { background: #fffbe6; }
 
     #timeline-embed { width: 100%; height: calc(100vh - 42px); }
     #error {
@@ -388,19 +371,13 @@
     <button class="nav-btn" id="btn-search">🔍 <span data-i18n="search">搜索</span></button>
     <button class="nav-btn" id="btn-add">＋ <span data-i18n="add-event">添加事件</span></button>
     <button class="nav-btn" id="lang-toggle" style="min-width:38px">EN</button>
+    <span id="save-status"></span>
   </nav>
 
   <!-- 搜索面板 -->
   <div id="search-panel">
     <input id="search-input" type="text" data-i18n-ph="search-placeholder" placeholder="输入关键词搜索事件…">
     <div id="search-results"></div>
-  </div>
-
-  <!-- 已保存事件提示条 -->
-  <div id="export-bar">
-    <strong id="export-bar-msg"></strong>
-    <button id="btn-clear" style="padding:4px 14px;border:1px solid #ccc;border-radius:6px;background:#fff;cursor:pointer;font-size:0.85em;color:#c00;">🗑 <span data-i18n="clear-added">清除已添加</span></button>
-    <button id="btn-export" style="margin-left:0">⬇ <span data-i18n="download-json">下载 JSON</span></button>
   </div>
 
   <!-- 添加事件模态框 -->
@@ -628,14 +605,9 @@
     var tlInstance = null;
     var sortedEvents = [];
     var addedCount = 0;
-    var baseEvents = [];        // 原始 JSON 事件，永不修改
     var eventMap = {};          // uid -> event，供操作栏查找
     var currentEventUid = null; // 当前浏览的事件 uid
     var editingUid = null;      // 编辑模式下的目标 uid
-
-    var STORAGE_KEY  = 'tl_added_'   + dataFile;
-    var DELETED_KEY  = 'tl_deleted_' + dataFile;
-    var EDITS_KEY    = 'tl_edits_'   + dataFile;
 
     var GROUP_COLORS = {
       '政策': 'rgba(30, 90, 160, 0.25)',
@@ -663,9 +635,6 @@
         .then(function(data) {
           timelineData = data;
           ensureUniqueIds(timelineData);
-          baseEvents = (timelineData.events || []).slice(); // 保存原始快照
-          applyLocalChanges();
-          updateExportBar();
           buildTimeline();
           buildGroupSuggestions();
         })
@@ -856,11 +825,11 @@
       var hl = (ev && ev.text && ev.text.headline) || currentEventUid;
       if (!confirm(t('confirm-delete', {title: hl}))) return;
 
-      deleteEventByUid(currentEventUid);
-      applyLocalChanges();
+      var uid = currentEventUid;
+      timelineData.events = timelineData.events.filter(function(e) { return e.unique_id !== uid; });
+      saveToServer();
       buildTimeline();
       buildGroupSuggestions();
-      updateExportBar();
       document.getElementById('event-actions').classList.remove('visible');
       currentEventUid = null;
     });
@@ -977,12 +946,11 @@
         var uid = 'added_' + Date.now() + '_' + (++addedCount);
         var newEvent = buildEventObj(uid, ev.year, ev.month, ev.day, ev.headline, ev.text, ev.group, pendingSourceUrl);
         timelineData.events.push(newEvent);
-        saveEvent(newEvent);
         lastUid = uid;
       });
+      saveToServer();
       buildTimeline(lastUid);
       buildGroupSuggestions();
-      updateExportBar();
       pendingExtracted = [];
       document.getElementById('extract-preview').style.display = 'none';
       closeModal();
@@ -1139,35 +1107,23 @@
 
       if (editingUid) {
         // ── 编辑已有事件 ──
-        if (isCustomEvent(editingUid)) {
-          // 直接更新 STORAGE_KEY 里的自定义事件
-          var saved = loadSavedEvents();
-          var idx = -1;
-          saved.forEach(function(ev, i) { if (ev.unique_id === editingUid) idx = i; });
-          if (idx !== -1) {
-            saved[idx] = buildEventObj(editingUid, year, month, day, headline, text, group, source);
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
-          }
-        } else {
-          // 保存到 EDITS_KEY
-          var edits = loadEdits();
-          edits[editingUid] = { year: year, month: month, day: day, headline: headline, text: text, group: group, source: source };
-          localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+        var idx = -1;
+        timelineData.events.forEach(function(e, i) { if (e.unique_id === editingUid) idx = i; });
+        if (idx !== -1) {
+          timelineData.events[idx] = buildEventObj(editingUid, year, month, day, headline, text, group, source);
         }
         var goUid = editingUid;
-        applyLocalChanges();
+        saveToServer();
         buildTimeline(goUid);
         buildGroupSuggestions();
-        updateExportBar();
       } else {
         // ── 添加新事件 ──
         var uid = 'added_' + Date.now() + '_' + (++addedCount);
         var newEvent = buildEventObj(uid, year, month, day, headline, text, group, source);
         timelineData.events.push(newEvent);
-        saveEvent(newEvent);
+        saveToServer();
         buildTimeline(uid);
         buildGroupSuggestions();
-        updateExportBar();
       }
 
       // 清空表单
@@ -1177,46 +1133,36 @@
       closeModal();
     });
 
-    // 导出 JSON
-    document.getElementById('btn-export').addEventListener('click', function() {
-      var json = JSON.stringify(timelineData, null, 2);
-      var blob = new Blob([json], { type: 'application/json' });
-      var url = URL.createObjectURL(blob);
-      var a = document.createElement('a');
-      a.href = url;
-      a.download = dataFile.replace('.json', '_modified.json');
-      a.click();
-      URL.revokeObjectURL(url);
-    });
-
-    // 清除所有本地修改
-    document.getElementById('btn-clear').addEventListener('click', function() {
-      if (!confirm(t('confirm-clear'))) return;
-      localStorage.removeItem(STORAGE_KEY);
-      localStorage.removeItem(DELETED_KEY);
-      localStorage.removeItem(EDITS_KEY);
-      location.reload();
-    });
-
-    // ── localStorage 工具函数 ──
-    function loadSavedEvents() {
-      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch(e) { return []; }
-    }
-    function loadDeleted() {
-      try { return JSON.parse(localStorage.getItem(DELETED_KEY) || '[]'); } catch(e) { return []; }
-    }
-    function loadEdits() {
-      try { return JSON.parse(localStorage.getItem(EDITS_KEY) || '{}'); } catch(e) { return {}; }
+    // ── 服务端保存 ──
+    async function saveToServer() {
+      try {
+        var res = await fetch('/api/save/' + dataFile, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(timelineData, null, 2)
+        });
+        if (!res.ok) {
+          var err = await res.json().catch(function() { return {}; });
+          throw new Error(err.error || 'HTTP ' + res.status);
+        }
+        showSaveStatus('ok');
+      } catch(e) {
+        showSaveStatus('err', e.message);
+      }
     }
 
-    function saveEvent(ev) {
-      var saved = loadSavedEvents();
-      saved.push(ev);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
-    }
-
-    function isCustomEvent(uid) {
-      return loadSavedEvents().some(function(ev) { return ev.unique_id === uid; });
+    function showSaveStatus(type, msg) {
+      var el = document.getElementById('save-status');
+      el.textContent = type === 'ok' ? '✓ Saved' : '⚠ ' + (msg || 'Save failed');
+      el.style.color = type === 'ok' ? '#8f8' : '#faa';
+      el.style.opacity = '1';
+      el.style.display = 'inline';
+      if (type === 'ok') {
+        setTimeout(function() {
+          el.style.opacity = '0';
+          setTimeout(function() { el.style.display = 'none'; }, 400);
+        }, 1800);
+      }
     }
 
     function buildEventObj(uid, year, month, day, headline, text, group, source) {
@@ -1231,59 +1177,6 @@
       if (group) ev.group     = group;
       if (source) ev._source  = source; // 保留原始 URL 供编辑时回填
       return ev;
-    }
-
-    function deleteEventByUid(uid) {
-      if (isCustomEvent(uid)) {
-        var saved = loadSavedEvents().filter(function(ev) { return ev.unique_id !== uid; });
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
-      } else {
-        var deleted = loadDeleted();
-        if (deleted.indexOf(uid) === -1) deleted.push(uid);
-        localStorage.setItem(DELETED_KEY, JSON.stringify(deleted));
-        // 同时清除该事件的编辑记录
-        var edits = loadEdits();
-        delete edits[uid];
-        localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
-      }
-    }
-
-    // 从 baseEvents + 本地变更重建 timelineData.events
-    function applyLocalChanges() {
-      var deleted = loadDeleted();
-      var edits   = loadEdits();
-      var saved   = loadSavedEvents();
-
-      var all = baseEvents.map(function(ev) {
-        var edit = edits[ev.unique_id];
-        if (!edit) return ev;
-        return buildEventObj(ev.unique_id, edit.year, edit.month, edit.day, edit.headline, edit.text, edit.group, edit.source);
-      }).filter(function(ev) {
-        return deleted.indexOf(ev.unique_id) === -1;
-      }).concat(saved);
-
-      timelineData.events = all;
-    }
-
-    function updateExportBar() {
-      var added   = loadSavedEvents().length;
-      var deleted = loadDeleted().length;
-      var edited  = Object.keys(loadEdits()).length;
-      var total   = added + deleted + edited;
-      var bar = document.getElementById('export-bar');
-      if (total > 0) {
-        var parts = [];
-        if (added)   parts.push(t('export-added',   {n: added}));
-        if (edited)  parts.push(t('export-edited',  {n: edited}));
-        if (deleted) parts.push(t('export-deleted', {n: deleted}));
-        document.getElementById('export-bar-msg').textContent =
-          parts.join(' · ') + t('export-suffix');
-        bar.classList.add('visible');
-        document.getElementById('timeline-embed').style.height = 'calc(100vh - 42px - 38px)';
-      } else {
-        bar.classList.remove('visible');
-        document.getElementById('timeline-embed').style.height = 'calc(100vh - 42px)';
-      }
     }
 
     // 为分组输入框提供已有分组的建议
