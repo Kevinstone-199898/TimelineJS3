@@ -134,6 +134,105 @@
     }
     .btn-submit:hover { background: #2d2d4e; }
 
+    /* ── URL 提取区 ── */
+    .url-section {
+      background: #f5f8ff;
+      border: 1px solid #d0deff;
+      border-radius: 9px;
+      padding: 14px 16px;
+      margin-bottom: 18px;
+    }
+    .url-section .section-label {
+      font-size: 0.78em;
+      font-weight: 600;
+      color: #446;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 10px;
+    }
+    .url-row { display: flex; gap: 8px; align-items: center; }
+    .url-row input {
+      flex: 1;
+      padding: 7px 10px;
+      border: 1px solid #c8d8ff;
+      border-radius: 7px;
+      font-size: 0.88em;
+      outline: none;
+      background: #fff;
+    }
+    .url-row input:focus { border-color: #4285f4; }
+    .btn-extract {
+      padding: 7px 14px;
+      border: none;
+      border-radius: 7px;
+      background: #4285f4;
+      color: #fff;
+      cursor: pointer;
+      font-size: 0.85em;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .btn-extract:hover { background: #2b6de0; }
+    .btn-extract:disabled { background: #a0b8f0; cursor: not-allowed; }
+    .extract-status {
+      margin-top: 8px;
+      font-size: 0.82em;
+      min-height: 18px;
+    }
+    .extract-status.loading { color: #4285f4; }
+    .extract-status.ok { color: #1a7a3c; }
+    .extract-status.err { color: #c00; }
+    .apikey-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .apikey-row input {
+      flex: 1;
+      padding: 6px 10px;
+      border: 1px solid #c8d8ff;
+      border-radius: 7px;
+      font-size: 0.83em;
+      outline: none;
+      background: #fff;
+      font-family: monospace;
+    }
+    .apikey-row input:focus { border-color: #4285f4; }
+    .apikey-row button {
+      padding: 6px 12px;
+      border: 1px solid #c8d8ff;
+      border-radius: 7px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.82em;
+      color: #446;
+    }
+    .apikey-row button:hover { background: #eef2ff; }
+    .apikey-toggle {
+      font-size: 0.78em;
+      color: #88a;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 6px;
+      display: inline-block;
+    }
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      color: #bbb;
+      font-size: 0.8em;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #eee;
+    }
+
     /* ── 导出提示 ── */
     #export-bar {
       display: none;
@@ -197,6 +296,24 @@
   <div id="add-overlay">
     <div class="modal-box">
       <h3>＋ 添加新事件</h3>
+
+      <!-- URL 提取区 -->
+      <div class="url-section">
+        <div class="section-label">🔗 从网页链接提取</div>
+        <div class="url-row">
+          <input id="f-url" type="url" placeholder="粘贴网页链接，AI 自动提取信息…">
+          <button class="btn-extract" id="btn-extract">提取信息</button>
+        </div>
+        <div class="extract-status" id="extract-status"></div>
+        <span class="apikey-toggle" id="apikey-toggle">⚙ 配置 Claude API Key</span>
+        <div class="apikey-row" id="apikey-row" style="display:none">
+          <input id="f-apikey" type="password" placeholder="sk-ant-…">
+          <button id="btn-save-key">保存</button>
+        </div>
+      </div>
+
+      <div class="divider">或手动填写</div>
+
       <div class="form-row">
         <div class="form-group" style="flex:2">
           <label>年份 *</label>
@@ -440,7 +557,137 @@
     function closeModal() {
       addOverlay.classList.remove('open');
       document.getElementById('form-error').style.display = 'none';
+      document.getElementById('f-url').value = '';
+      setExtractStatus('', '');
     }
+
+    // ── API Key 管理 ──
+    var API_KEY_STORAGE = 'tl_claude_api_key';
+
+    function getApiKey() {
+      return localStorage.getItem(API_KEY_STORAGE) || '';
+    }
+
+    (function initApiKeyUI() {
+      var toggle = document.getElementById('apikey-toggle');
+      var row = document.getElementById('apikey-row');
+      var input = document.getElementById('f-apikey');
+      var saveBtn = document.getElementById('btn-save-key');
+
+      // 若已保存 key，显示已配置状态
+      if (getApiKey()) {
+        toggle.textContent = '⚙ API Key 已配置（点击修改）';
+      }
+
+      toggle.addEventListener('click', function() {
+        var visible = row.style.display !== 'none';
+        row.style.display = visible ? 'none' : 'flex';
+        if (!visible) {
+          input.value = getApiKey();
+          input.focus();
+        }
+      });
+
+      saveBtn.addEventListener('click', function() {
+        var key = input.value.trim();
+        if (key) {
+          localStorage.setItem(API_KEY_STORAGE, key);
+          toggle.textContent = '⚙ API Key 已配置（点击修改）';
+          row.style.display = 'none';
+          setExtractStatus('ok', 'API Key 已保存');
+          setTimeout(function() { setExtractStatus('', ''); }, 2000);
+        }
+      });
+    })();
+
+    // ── URL 提取逻辑 ──
+    function setExtractStatus(type, msg) {
+      var el = document.getElementById('extract-status');
+      el.className = 'extract-status' + (type ? ' ' + type : '');
+      el.textContent = msg;
+    }
+
+    document.getElementById('btn-extract').addEventListener('click', async function() {
+      var url = document.getElementById('f-url').value.trim();
+      if (!url) {
+        setExtractStatus('err', '请输入网页链接');
+        return;
+      }
+      var apiKey = getApiKey();
+      if (!apiKey) {
+        setExtractStatus('err', '请先配置 Claude API Key');
+        document.getElementById('apikey-row').style.display = 'flex';
+        document.getElementById('f-apikey').focus();
+        return;
+      }
+
+      var btn = document.getElementById('btn-extract');
+      btn.disabled = true;
+      setExtractStatus('loading', '⏳ 正在抓取网页内容…');
+
+      try {
+        // Step 1: 通过 Jina Reader 获取网页正文（无 CORS 限制）
+        var jinaRes = await fetch('https://r.jina.ai/' + url, {
+          headers: { 'Accept': 'text/markdown', 'X-Return-Format': 'markdown' }
+        });
+        if (!jinaRes.ok) throw new Error('网页抓取失败 (HTTP ' + jinaRes.status + ')');
+        var markdown = await jinaRes.text();
+
+        setExtractStatus('loading', '🤖 AI 正在分析内容…');
+
+        // Step 2: 调用 Claude API 提取结构化信息
+        var prompt = '请从以下网页内容中提取一个时间线事件，以 JSON 格式返回，不要输出任何其他内容。\n\n' +
+          'JSON 格式要求（所有文本用中文）：\n' +
+          '{\n' +
+          '  "year": "年份（必填，如 2024）",\n' +
+          '  "month": "月份（如有，1-12，否则空字符串）",\n' +
+          '  "day": "日期（如有，1-31，否则空字符串）",\n' +
+          '  "headline": "简洁的事件标题（15字以内）",\n' +
+          '  "text": "事件摘要（2-3句话，说明关键信息）",\n' +
+          '  "group": "事件类别（从以下选一个最合适的：产品/融资/研究/合作/里程碑/政策/硬件/操作系统/产业/基础设施/协议）"\n' +
+          '}\n\n' +
+          '网页内容：\n' + markdown.slice(0, 4000);
+
+        var apiRes = await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: {
+            'x-api-key': apiKey,
+            'anthropic-version': '2023-06-01',
+            'content-type': 'application/json',
+            'anthropic-dangerous-direct-browser-calls': 'true'
+          },
+          body: JSON.stringify({
+            model: 'claude-haiku-4-5-20251001',
+            max_tokens: 512,
+            messages: [{ role: 'user', content: prompt }]
+          })
+        });
+
+        var apiData = await apiRes.json();
+        if (!apiRes.ok) {
+          throw new Error(apiData.error && apiData.error.message || 'API 调用失败');
+        }
+
+        var raw = apiData.content[0].text.trim();
+        // 兼容 Claude 可能输出 ```json ... ``` 包裹
+        var jsonStr = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/, '');
+        var extracted = JSON.parse(jsonStr);
+
+        // 填入表单
+        document.getElementById('f-year').value    = extracted.year    || '';
+        document.getElementById('f-month').value   = extracted.month   || '';
+        document.getElementById('f-day').value     = extracted.day     || '';
+        document.getElementById('f-headline').value = extracted.headline || '';
+        document.getElementById('f-text').value    = extracted.text    || '';
+        document.getElementById('f-group').value   = extracted.group   || '';
+
+        setExtractStatus('ok', '✅ 提取成功，请确认信息后点击添加');
+      } catch (e) {
+        setExtractStatus('err', '❌ ' + e.message);
+      } finally {
+        btn.disabled = false;
+      }
+    });
 
     document.getElementById('btn-modal-submit').addEventListener('click', function() {
       var year = document.getElementById('f-year').value.trim();
