@@ -382,37 +382,38 @@
 </head>
 <body>
   <nav>
-    <a href="index.html">← 返回导航</a>
+    <a href="index.html" id="nav-back">← 返回导航</a>
     <span class="sep">/</span>
     <span class="current" id="nav-title">Loading...</span>
-    <button class="nav-btn" id="btn-search">🔍 搜索</button>
-    <button class="nav-btn" id="btn-add">＋ 添加事件</button>
+    <button class="nav-btn" id="btn-search">🔍 <span data-i18n="search">搜索</span></button>
+    <button class="nav-btn" id="btn-add">＋ <span data-i18n="add-event">添加事件</span></button>
+    <button class="nav-btn" id="lang-toggle" style="min-width:38px">EN</button>
   </nav>
 
   <!-- 搜索面板 -->
   <div id="search-panel">
-    <input id="search-input" type="text" placeholder="输入关键词搜索事件…">
+    <input id="search-input" type="text" data-i18n-ph="search-placeholder" placeholder="输入关键词搜索事件…">
     <div id="search-results"></div>
   </div>
 
   <!-- 已保存事件提示条 -->
   <div id="export-bar">
     <strong id="export-bar-msg"></strong>
-    <button id="btn-clear" style="padding:4px 14px;border:1px solid #ccc;border-radius:6px;background:#fff;cursor:pointer;font-size:0.85em;color:#c00;">🗑 清除已添加</button>
-    <button id="btn-export" style="margin-left:0">⬇ 下载 JSON</button>
+    <button id="btn-clear" style="padding:4px 14px;border:1px solid #ccc;border-radius:6px;background:#fff;cursor:pointer;font-size:0.85em;color:#c00;">🗑 <span data-i18n="clear-added">清除已添加</span></button>
+    <button id="btn-export" style="margin-left:0">⬇ <span data-i18n="download-json">下载 JSON</span></button>
   </div>
 
   <!-- 添加事件模态框 -->
   <div id="add-overlay">
     <div class="modal-box">
-      <h3 id="modal-title">＋ 添加新事件</h3>
+      <h3 id="modal-title" data-i18n="modal-add">＋ 添加新事件</h3>
 
       <!-- URL 提取区 -->
       <div class="url-section">
-        <div class="section-label">🔗 从网页链接提取</div>
+        <div class="section-label" data-i18n="url-section-label">🔗 从网页链接提取</div>
         <div class="url-row">
-          <input id="f-url" type="url" placeholder="粘贴网页链接，AI 自动提取信息…">
-          <button class="btn-extract" id="btn-extract">提取信息</button>
+          <input id="f-url" type="url" data-i18n-ph="url-placeholder" placeholder="粘贴网页链接，AI 自动提取信息…">
+          <button class="btn-extract" id="btn-extract" data-i18n="btn-extract">提取信息</button>
         </div>
         <div class="extract-status" id="extract-status"></div>
         <!-- 多事件预览 -->
@@ -420,62 +421,62 @@
           <div class="preview-header" id="preview-header"></div>
           <div id="preview-list"></div>
           <div class="preview-footer">
-            <span id="preview-hint">可点击 × 移除不需要的事件</span>
-            <button class="btn-add-all" id="btn-add-all">全部添加到时间轴</button>
+            <span id="preview-hint" data-i18n="preview-hint">可点击 × 移除不需要的事件</span>
+            <button class="btn-add-all" id="btn-add-all" data-i18n="btn-add-all">全部添加到时间轴</button>
           </div>
         </div>
-        <span class="apikey-toggle" id="apikey-toggle">⚙ 配置 GLM API Key</span>
+        <span class="apikey-toggle" id="apikey-toggle" data-i18n="apikey-config">⚙ 配置 GLM API Key</span>
         <div class="apikey-row" id="apikey-row" style="display:none">
           <input id="f-apikey" type="password" placeholder="sk-ant-…">
-          <button id="btn-save-key">保存</button>
+          <button id="btn-save-key" data-i18n="save">保存</button>
         </div>
       </div>
 
-      <div class="divider">或手动填写</div>
+      <div class="divider" data-i18n="or-manual">或手动填写</div>
 
       <div class="form-row">
         <div class="form-group" style="flex:2">
-          <label>年份 *</label>
-          <input id="f-year" type="number" placeholder="例：2024" min="1" max="9999">
+          <label data-i18n="label-year">年份 *</label>
+          <input id="f-year" type="number" data-i18n-ph="ph-year" placeholder="例：2024" min="1" max="9999">
         </div>
         <div class="form-group">
-          <label>月份</label>
+          <label data-i18n="label-month">月份</label>
           <input id="f-month" type="number" placeholder="1-12" min="1" max="12">
         </div>
         <div class="form-group">
-          <label>日期</label>
+          <label data-i18n="label-day">日期</label>
           <input id="f-day" type="number" placeholder="1-31" min="1" max="31">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label>标题 *</label>
-          <input id="f-headline" type="text" placeholder="事件标题">
+          <label data-i18n="label-headline">标题 *</label>
+          <input id="f-headline" type="text" data-i18n-ph="ph-headline" placeholder="事件标题">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label>描述</label>
-          <textarea id="f-text" placeholder="事件详细描述（可选）"></textarea>
+          <label data-i18n="label-text">描述</label>
+          <textarea id="f-text" data-i18n-ph="ph-text" placeholder="事件详细描述（可选）"></textarea>
         </div>
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label>分组</label>
-          <input id="f-group" type="text" placeholder="例：产品、融资、里程碑（可选）" list="group-suggestions">
+          <label data-i18n="label-group">分组</label>
+          <input id="f-group" type="text" data-i18n-ph="ph-group" placeholder="例：产品、融资、里程碑（可选）" list="group-suggestions">
           <datalist id="group-suggestions"></datalist>
         </div>
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label>来源链接</label>
-          <input id="f-source" type="url" placeholder="https://… （将在事件中显示为「查看原文」链接）">
+          <label data-i18n="label-source">来源链接</label>
+          <input id="f-source" type="url" data-i18n-ph="ph-source" placeholder="https://… （将在事件中显示为「查看原文」链接）">
         </div>
       </div>
       <div id="form-error" style="color:#c00;font-size:0.83em;display:none;margin-top:-8px;"></div>
       <div class="modal-actions">
-        <button class="btn-cancel" id="btn-modal-cancel">取消</button>
-        <button class="btn-submit" id="btn-modal-submit">添加到时间轴</button>
+        <button class="btn-cancel" id="btn-modal-cancel" data-i18n="cancel">取消</button>
+        <button class="btn-submit" id="btn-modal-submit" data-i18n="modal-add-btn">添加到时间轴</button>
       </div>
     </div>
   </div>
@@ -483,20 +484,145 @@
   <!-- 浮动事件操作栏（查看某事件时显示） -->
   <div id="event-actions">
     <span id="event-actions-label"></span>
-    <button class="btn-ev-action" id="btn-edit-event">✏️ 编辑</button>
-    <button class="btn-ev-action" id="btn-delete-event">🗑 删除</button>
+    <button class="btn-ev-action" id="btn-edit-event">✏️ <span data-i18n="edit">编辑</span></button>
+    <button class="btn-ev-action" id="btn-delete-event">🗑 <span data-i18n="delete">删除</span></button>
   </div>
 
   <div id="error"></div>
   <div id="timeline-embed"></div>
 
   <script>
+    // ── 国际化 ──
+    var LANG_KEY = 'tl_lang';
+    var I18N = {
+      zh: {
+        'nav-back': '← 返回导航', 'search': '搜索', 'add-event': '添加事件',
+        'lang-btn': 'EN',
+        'search-placeholder': '输入关键词搜索事件…',
+        'clear-added': '清除已添加', 'download-json': '下载 JSON',
+        'modal-add': '＋ 添加新事件', 'modal-edit': '✏️ 编辑事件',
+        'modal-add-btn': '添加到时间轴', 'modal-save-btn': '保存修改',
+        'url-section-label': '🔗 从网页链接提取',
+        'url-placeholder': '粘贴网页链接，AI 自动提取信息…',
+        'btn-extract': '提取信息',
+        'preview-hint': '可点击 × 移除不需要的事件',
+        'btn-add-all': '全部添加到时间轴',
+        'apikey-config': '⚙ 配置 GLM API Key',
+        'apikey-saved': '⚙ API Key 已配置（点击修改）',
+        'save': '保存',
+        'or-manual': '或手动填写',
+        'label-year': '年份 *', 'ph-year': '例：2024',
+        'label-month': '月份', 'label-day': '日期',
+        'label-headline': '标题 *', 'ph-headline': '事件标题',
+        'label-text': '描述', 'ph-text': '事件详细描述（可选）',
+        'label-group': '分组', 'ph-group': '例：产品、融资、里程碑（可选）',
+        'label-source': '来源链接', 'ph-source': 'https://… （将在事件中显示为「查看原文」链接）',
+        'cancel': '取消', 'edit': '编辑', 'delete': '删除',
+        // dynamic
+        'err-year-required': '请填写年份和标题（必填项）',
+        'err-year-invalid': '年份格式不正确',
+        'err-url-empty': '请输入网页链接',
+        'err-no-apikey': '请先配置 GLM API Key',
+        'status-fetching': '⏳ 正在抓取网页内容…',
+        'status-analyzing': '🤖 AI 正在分析内容…',
+        'status-ok-single': '✅ 提取成功，请确认信息后点击添加',
+        'status-ok-multi': '✅ 检测到 {n} 个类别，请在下方确认后批量添加',
+        'status-remain': '✅ 剩余 {n} 个事件',
+        'apikey-saved-msg': 'API Key 已保存',
+        'preview-header': '提取到 {n} 个事件，确认后批量添加：',
+        'export-added': '新增 {n}', 'export-edited': '编辑 {n}', 'export-deleted': '删除 {n}',
+        'export-suffix': ' 个事件（刷新后仍会保留）',
+        'confirm-clear': '确定要清除所有本地修改（新增、编辑、删除）吗？此操作无法撤销。',
+        'confirm-delete': '确定删除「{title}」？',
+        'search-loading': '数据尚未加载完毕',
+        'search-empty': '未找到匹配的事件',
+        'search-more': '还有 {n} 条结果，请继续输入缩小范围',
+        'read-original': '查看原文',
+      },
+      en: {
+        'nav-back': '← Back', 'search': 'Search', 'add-event': 'Add Event',
+        'lang-btn': '中文',
+        'search-placeholder': 'Search events…',
+        'clear-added': 'Clear Added', 'download-json': 'Download JSON',
+        'modal-add': '＋ Add New Event', 'modal-edit': '✏️ Edit Event',
+        'modal-add-btn': 'Add to Timeline', 'modal-save-btn': 'Save Changes',
+        'url-section-label': '🔗 Extract from URL',
+        'url-placeholder': 'Paste a URL and let AI extract the info…',
+        'btn-extract': 'Extract',
+        'preview-hint': 'Click × to remove unwanted events',
+        'btn-add-all': 'Add All to Timeline',
+        'apikey-config': '⚙ Configure GLM API Key',
+        'apikey-saved': '⚙ API Key configured (click to change)',
+        'save': 'Save',
+        'or-manual': 'Or fill in manually',
+        'label-year': 'Year *', 'ph-year': 'e.g. 2024',
+        'label-month': 'Month', 'label-day': 'Day',
+        'label-headline': 'Title *', 'ph-headline': 'Event title',
+        'label-text': 'Description', 'ph-text': 'Event description (optional)',
+        'label-group': 'Group', 'ph-group': 'e.g. Product, Funding, Milestone (optional)',
+        'label-source': 'Source URL', 'ph-source': 'https://… (shown as "View Source" link in the event)',
+        'cancel': 'Cancel', 'edit': 'Edit', 'delete': 'Delete',
+        // dynamic
+        'err-year-required': 'Please fill in year and title (required)',
+        'err-year-invalid': 'Invalid year format',
+        'err-url-empty': 'Please enter a URL',
+        'err-no-apikey': 'Please configure a GLM API Key first',
+        'status-fetching': '⏳ Fetching page content…',
+        'status-analyzing': '🤖 AI is analyzing the content…',
+        'status-ok-single': '✅ Extracted successfully — review and click Add',
+        'status-ok-multi': '✅ Detected {n} categories — confirm below to add all',
+        'status-remain': '✅ {n} events remaining',
+        'apikey-saved-msg': 'API Key saved',
+        'preview-header': 'Extracted {n} events — confirm to add:',
+        'export-added': 'Added {n}', 'export-edited': 'Edited {n}', 'export-deleted': 'Deleted {n}',
+        'export-suffix': ' events (persisted across refreshes)',
+        'confirm-clear': 'Clear all local changes (added, edited, deleted)? This cannot be undone.',
+        'confirm-delete': 'Delete "{title}"?',
+        'search-loading': 'Data not loaded yet',
+        'search-empty': 'No matching events found',
+        'search-more': '{n} more results — keep typing to narrow down',
+        'read-original': 'View Source',
+      }
+    };
+
+    var currentLang = localStorage.getItem(LANG_KEY) || 'zh';
+
+    function t(key, vars) {
+      var s = (I18N[currentLang] || I18N.zh)[key] || key;
+      if (vars) Object.keys(vars).forEach(function(k) { s = s.replace('{' + k + '}', vars[k]); });
+      return s;
+    }
+
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem(LANG_KEY, lang);
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+      document.getElementById('lang-toggle').textContent = t('lang-btn');
+      document.getElementById('nav-back').textContent = t('nav-back');
+      document.querySelectorAll('[data-i18n]').forEach(function(el) {
+        var key = el.getAttribute('data-i18n');
+        el.textContent = t(key);
+      });
+      document.querySelectorAll('[data-i18n-ph]').forEach(function(el) {
+        el.placeholder = t(el.getAttribute('data-i18n-ph'));
+      });
+      // API Key toggle label
+      var toggleEl = document.getElementById('apikey-toggle');
+      if (toggleEl) {
+        toggleEl.textContent = getApiKey() ? t('apikey-saved') : t('apikey-config');
+      }
+    }
+
     var params = new URLSearchParams(window.location.search);
     var dataFile = params.get('data') || '';
     var title = params.get('title') || dataFile;
 
     document.title = title + ' · Timeline';
     document.getElementById('nav-title').textContent = title;
+    document.getElementById('lang-toggle').addEventListener('click', function() {
+      applyLang(currentLang === 'zh' ? 'en' : 'zh');
+    });
+    applyLang(currentLang);
 
     var timelineData = null;
     var tlInstance = null;
@@ -646,19 +772,19 @@
 
     function renderSearch(query) {
       if (!sortedEvents.length) {
-        searchResults.innerHTML = '<div class="search-empty">数据尚未加载完毕</div>';
+        searchResults.innerHTML = '<div class="search-empty">' + t('search-loading') + '</div>';
         return;
       }
       var q = query.trim().toLowerCase();
       var matched = q ? sortedEvents.filter(function(ev) {
         var h = (ev.text && ev.text.headline || '').toLowerCase();
-        var t = (ev.text && ev.text.text || '').toLowerCase();
+        var b = (ev.text && ev.text.text || '').toLowerCase();
         var g = (ev.group || '').toLowerCase();
-        return h.includes(q) || t.includes(q) || g.includes(q);
+        return h.includes(q) || b.includes(q) || g.includes(q);
       }) : sortedEvents;
 
       if (!matched.length) {
-        searchResults.innerHTML = '<div class="search-empty">未找到匹配的事件</div>';
+        searchResults.innerHTML = '<div class="search-empty">' + t('search-empty') + '</div>';
         return;
       }
 
@@ -674,7 +800,7 @@
           '</div>';
       }).join('');
       if (matched.length > 50) {
-        html += '<div class="search-empty">还有 ' + (matched.length - 50) + ' 条结果，请继续输入缩小范围</div>';
+        html += '<div class="search-empty">' + t('search-more', {n: matched.length - 50}) + '</div>';
       }
       searchResults.innerHTML = html;
 
@@ -715,8 +841,8 @@
       document.getElementById('f-source').value  = ev._source || '';
 
       // 切换为编辑模式 UI
-      document.getElementById('modal-title').textContent = '✏️ 编辑事件';
-      document.getElementById('btn-modal-submit').textContent = '保存修改';
+      document.getElementById('modal-title').textContent = t('modal-edit');
+      document.getElementById('btn-modal-submit').textContent = t('modal-save-btn');
       document.querySelector('.url-section').style.display = 'none';
       document.querySelector('.divider').style.display = 'none';
 
@@ -728,7 +854,7 @@
       if (!currentEventUid) return;
       var ev = eventMap[currentEventUid];
       var hl = (ev && ev.text && ev.text.headline) || currentEventUid;
-      if (!confirm('确定删除「' + hl + '」？')) return;
+      if (!confirm(t('confirm-delete', {title: hl}))) return;
 
       deleteEventByUid(currentEventUid);
       applyLocalChanges();
@@ -760,8 +886,8 @@
       setExtractStatus('', '');
       // 重置编辑模式
       editingUid = null;
-      document.getElementById('modal-title').textContent = '＋ 添加新事件';
-      document.getElementById('btn-modal-submit').textContent = '添加到时间轴';
+      document.getElementById('modal-title').textContent = t('modal-add');
+      document.getElementById('btn-modal-submit').textContent = t('modal-add-btn');
       document.querySelector('.url-section').style.display = '';
       document.querySelector('.divider').style.display = '';
     }
@@ -781,7 +907,7 @@
 
       // 若已保存 key，显示已配置状态
       if (getApiKey()) {
-        toggle.textContent = '⚙ API Key 已配置（点击修改）';
+        toggle.textContent = t('apikey-saved');
       }
 
       toggle.addEventListener('click', function() {
@@ -797,9 +923,9 @@
         var key = input.value.trim();
         if (key) {
           localStorage.setItem(API_KEY_STORAGE, key);
-          toggle.textContent = '⚙ API Key 已配置（点击修改）';
+          toggle.textContent = t('apikey-saved');
           row.style.display = 'none';
-          setExtractStatus('ok', 'API Key 已保存');
+          setExtractStatus('ok', t('apikey-saved-msg'));
           setTimeout(function() { setExtractStatus('', ''); }, 2000);
         }
       });
@@ -827,7 +953,7 @@
         '</div>';
       }).join('');
 
-      document.getElementById('preview-header').textContent = '提取到 ' + pendingExtracted.length + ' 个事件，确认后批量添加：';
+      document.getElementById('preview-header').textContent = t('preview-header', {n: pendingExtracted.length});
       document.getElementById('extract-preview').style.display = 'block';
 
       list.querySelectorAll('.preview-remove').forEach(function(btn, i) {
@@ -838,7 +964,7 @@
             setExtractStatus('', '');
           } else {
             renderExtractPreview(pendingExtracted, pendingSourceUrl);
-            setExtractStatus('ok', '✅ 剩余 ' + pendingExtracted.length + ' 个事件');
+            setExtractStatus('ok', t('status-remain', {n: pendingExtracted.length}));
           }
         });
       });
@@ -871,12 +997,12 @@
     document.getElementById('btn-extract').addEventListener('click', async function() {
       var url = document.getElementById('f-url').value.trim();
       if (!url) {
-        setExtractStatus('err', '请输入网页链接');
+        setExtractStatus('err', t('err-url-empty'));
         return;
       }
       var apiKey = getApiKey();
       if (!apiKey) {
-        setExtractStatus('err', '请先配置 Claude API Key');
+        setExtractStatus('err', t('err-no-apikey'));
         document.getElementById('apikey-row').style.display = 'flex';
         document.getElementById('f-apikey').focus();
         return;
@@ -884,7 +1010,7 @@
 
       var btn = document.getElementById('btn-extract');
       btn.disabled = true;
-      setExtractStatus('loading', '⏳ 正在抓取网页内容…');
+      setExtractStatus('loading', t('status-fetching'));
 
       try {
         // Step 1: 通过 Jina Reader 获取网页正文（无 CORS 限制）
@@ -894,7 +1020,7 @@
         if (!jinaRes.ok) throw new Error('网页抓取失败 (HTTP ' + jinaRes.status + ')');
         var markdown = await jinaRes.text();
 
-        setExtractStatus('loading', '🤖 AI 正在分析内容…');
+        setExtractStatus('loading', t('status-analyzing'));
 
         // Step 2: 调用 Claude API 提取结构化信息
         var prompt = [
@@ -976,11 +1102,11 @@
           document.getElementById('f-group').value    = ev.group    || '';
           document.getElementById('f-source').value   = url;
           document.getElementById('extract-preview').style.display = 'none';
-          setExtractStatus('ok', '✅ 提取成功，请确认信息后点击添加');
+          setExtractStatus('ok', t('status-ok-single'));
         } else {
           // 多条：显示预览面板，隐藏手动表单
           renderExtractPreview(items, url);
-          setExtractStatus('ok', '✅ 检测到 ' + items.length + ' 个类别，请在下方确认后批量添加');
+          setExtractStatus('ok', t('status-ok-multi', {n: items.length}));
         }
       } catch (e) {
         setExtractStatus('err', '❌ ' + e.message);
@@ -1000,12 +1126,12 @@
       var errEl = document.getElementById('form-error');
 
       if (!year || !headline) {
-        errEl.textContent = '请填写年份和标题（必填项）';
+        errEl.textContent = t('err-year-required');
         errEl.style.display = 'block';
         return;
       }
       if (isNaN(parseInt(year)) || parseInt(year) < 1) {
-        errEl.textContent = '年份格式不正确';
+        errEl.textContent = t('err-year-invalid');
         errEl.style.display = 'block';
         return;
       }
@@ -1065,7 +1191,7 @@
 
     // 清除所有本地修改
     document.getElementById('btn-clear').addEventListener('click', function() {
-      if (!confirm('确定要清除所有本地修改（新增、编辑、删除）吗？此操作无法撤销。')) return;
+      if (!confirm(t('confirm-clear'))) return;
       localStorage.removeItem(STORAGE_KEY);
       localStorage.removeItem(DELETED_KEY);
       localStorage.removeItem(EDITS_KEY);
@@ -1100,7 +1226,7 @@
       var body = text || '';
       if (source) body += (body ? '<br><br>' : '') +
         '<a href="' + escHtml(source) + '" target="_blank" rel="noopener" ' +
-        'style="font-size:0.85em;color:#4285f4;">📎 查看原文</a>';
+        'style="font-size:0.85em;color:#4285f4;">📎 ' + t('read-original') + '</a>';
       if (body)  ev.text.text = body;
       if (group) ev.group     = group;
       if (source) ev._source  = source; // 保留原始 URL 供编辑时回填
@@ -1147,11 +1273,11 @@
       var bar = document.getElementById('export-bar');
       if (total > 0) {
         var parts = [];
-        if (added)   parts.push('新增 ' + added);
-        if (edited)  parts.push('编辑 ' + edited);
-        if (deleted) parts.push('删除 ' + deleted);
+        if (added)   parts.push(t('export-added',   {n: added}));
+        if (edited)  parts.push(t('export-edited',  {n: edited}));
+        if (deleted) parts.push(t('export-deleted', {n: deleted}));
         document.getElementById('export-bar-msg').textContent =
-          parts.join(' · ') + ' 个事件（刷新后仍会保留）';
+          parts.join(' · ') + t('export-suffix');
         bar.classList.add('visible');
         document.getElementById('timeline-embed').style.height = 'calc(100vh - 42px - 38px)';
       } else {
