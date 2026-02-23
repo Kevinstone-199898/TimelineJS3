@@ -387,6 +387,12 @@
           <datalist id="group-suggestions"></datalist>
         </div>
       </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>来源链接</label>
+          <input id="f-source" type="url" placeholder="https://… （将在事件中显示为「查看原文」链接）">
+        </div>
+      </div>
       <div id="form-error" style="color:#c00;font-size:0.83em;display:none;margin-top:-8px;"></div>
       <div class="modal-actions">
         <button class="btn-cancel" id="btn-modal-cancel">取消</button>
@@ -626,7 +632,8 @@
       document.getElementById('f-day').value     = (ev.start_date && ev.start_date.day)   || '';
       document.getElementById('f-headline').value = (ev.text && ev.text.headline) || '';
       document.getElementById('f-text').value    = (ev.text && ev.text.text)     || '';
-      document.getElementById('f-group').value   = ev.group || '';
+      document.getElementById('f-group').value   = ev.group   || '';
+      document.getElementById('f-source').value  = ev._source || '';
 
       // 切换为编辑模式 UI
       document.getElementById('modal-title').textContent = '✏️ 编辑事件';
@@ -795,6 +802,7 @@
         document.getElementById('f-headline').value = extracted.headline || '';
         document.getElementById('f-text').value    = extracted.text    || '';
         document.getElementById('f-group').value   = extracted.group   || '';
+        document.getElementById('f-source').value  = url;
 
         setExtractStatus('ok', '✅ 提取成功，请确认信息后点击添加');
       } catch (e) {
@@ -810,7 +818,8 @@
       var day = document.getElementById('f-day').value.trim();
       var headline = document.getElementById('f-headline').value.trim();
       var text = document.getElementById('f-text').value.trim();
-      var group = document.getElementById('f-group').value.trim();
+      var group  = document.getElementById('f-group').value.trim();
+      var source = document.getElementById('f-source').value.trim();
       var errEl = document.getElementById('form-error');
 
       if (!year || !headline) {
@@ -833,13 +842,13 @@
           var idx = -1;
           saved.forEach(function(ev, i) { if (ev.unique_id === editingUid) idx = i; });
           if (idx !== -1) {
-            saved[idx] = buildEventObj(editingUid, year, month, day, headline, text, group);
+            saved[idx] = buildEventObj(editingUid, year, month, day, headline, text, group, source);
             localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
           }
         } else {
           // 保存到 EDITS_KEY
           var edits = loadEdits();
-          edits[editingUid] = { year: year, month: month, day: day, headline: headline, text: text, group: group };
+          edits[editingUid] = { year: year, month: month, day: day, headline: headline, text: text, group: group, source: source };
           localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
         }
         var goUid = editingUid;
@@ -850,7 +859,7 @@
       } else {
         // ── 添加新事件 ──
         var uid = 'added_' + Date.now() + '_' + (++addedCount);
-        var newEvent = buildEventObj(uid, year, month, day, headline, text, group);
+        var newEvent = buildEventObj(uid, year, month, day, headline, text, group, source);
         timelineData.events.push(newEvent);
         saveEvent(newEvent);
         buildTimeline(uid);
@@ -859,7 +868,7 @@
       }
 
       // 清空表单
-      ['f-year','f-month','f-day','f-headline','f-text','f-group'].forEach(function(id) {
+      ['f-year','f-month','f-day','f-headline','f-text','f-group','f-source'].forEach(function(id) {
         document.getElementById(id).value = '';
       });
       closeModal();
@@ -907,12 +916,17 @@
       return loadSavedEvents().some(function(ev) { return ev.unique_id === uid; });
     }
 
-    function buildEventObj(uid, year, month, day, headline, text, group) {
+    function buildEventObj(uid, year, month, day, headline, text, group, source) {
       var ev = { unique_id: uid, start_date: { year: year }, text: { headline: headline } };
       if (month) ev.start_date.month = month;
       if (day)   ev.start_date.day   = day;
-      if (text)  ev.text.text        = text;
-      if (group) ev.group            = group;
+      var body = text || '';
+      if (source) body += (body ? '<br><br>' : '') +
+        '<a href="' + escHtml(source) + '" target="_blank" rel="noopener" ' +
+        'style="font-size:0.85em;color:#4285f4;">📎 查看原文</a>';
+      if (body)  ev.text.text = body;
+      if (group) ev.group     = group;
+      if (source) ev._source  = source; // 保留原始 URL 供编辑时回填
       return ev;
     }
 
@@ -940,7 +954,7 @@
       var all = baseEvents.map(function(ev) {
         var edit = edits[ev.unique_id];
         if (!edit) return ev;
-        return buildEventObj(ev.unique_id, edit.year, edit.month, edit.day, edit.headline, edit.text, edit.group);
+        return buildEventObj(ev.unique_id, edit.year, edit.month, edit.day, edit.headline, edit.text, edit.group, edit.source);
       }).filter(function(ev) {
         return deleted.indexOf(ev.unique_id) === -1;
       }).concat(saved);
