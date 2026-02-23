@@ -134,6 +134,46 @@
     }
     .btn-submit:hover { background: #2d2d4e; }
 
+    /* ── 浮动事件操作栏 ── */
+    #event-actions {
+      display: none;
+      position: fixed;
+      bottom: 88px;
+      right: 20px;
+      background: rgba(20, 20, 40, 0.93);
+      border-radius: 28px;
+      padding: 7px 10px 7px 16px;
+      gap: 7px;
+      align-items: center;
+      z-index: 500;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      backdrop-filter: blur(6px);
+      max-width: 340px;
+      transition: opacity 0.2s;
+    }
+    #event-actions.visible { display: flex; }
+    #event-actions-label {
+      color: #ccd;
+      font-size: 0.8em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 160px;
+    }
+    .btn-ev-action {
+      padding: 5px 13px;
+      border: none;
+      border-radius: 18px;
+      cursor: pointer;
+      font-size: 0.82em;
+      font-weight: 600;
+      transition: opacity 0.15s;
+      white-space: nowrap;
+    }
+    .btn-ev-action:hover { opacity: 0.82; }
+    #btn-edit-event  { background: #4285f4; color: #fff; }
+    #btn-delete-event { background: #e53935; color: #fff; }
+
     /* ── URL 提取区 ── */
     .url-section {
       background: #f5f8ff;
@@ -295,7 +335,7 @@
   <!-- 添加事件模态框 -->
   <div id="add-overlay">
     <div class="modal-box">
-      <h3>＋ 添加新事件</h3>
+      <h3 id="modal-title">＋ 添加新事件</h3>
 
       <!-- URL 提取区 -->
       <div class="url-section">
@@ -355,6 +395,13 @@
     </div>
   </div>
 
+  <!-- 浮动事件操作栏（查看某事件时显示） -->
+  <div id="event-actions">
+    <span id="event-actions-label"></span>
+    <button class="btn-ev-action" id="btn-edit-event">✏️ 编辑</button>
+    <button class="btn-ev-action" id="btn-delete-event">🗑 删除</button>
+  </div>
+
   <div id="error"></div>
   <div id="timeline-embed"></div>
 
@@ -370,7 +417,14 @@
     var tlInstance = null;
     var sortedEvents = [];
     var addedCount = 0;
-    var STORAGE_KEY = 'tl_added_' + dataFile;
+    var baseEvents = [];        // 原始 JSON 事件，永不修改
+    var eventMap = {};          // uid -> event，供操作栏查找
+    var currentEventUid = null; // 当前浏览的事件 uid
+    var editingUid = null;      // 编辑模式下的目标 uid
+
+    var STORAGE_KEY  = 'tl_added_'   + dataFile;
+    var DELETED_KEY  = 'tl_deleted_' + dataFile;
+    var EDITS_KEY    = 'tl_edits_'   + dataFile;
 
     var GROUP_COLORS = {
       '政策': 'rgba(30, 90, 160, 0.25)',
@@ -397,12 +451,10 @@
         })
         .then(function(data) {
           timelineData = data;
-          // 从 localStorage 合并已保存的事件
-          var saved = loadSavedEvents();
-          if (saved.length) {
-            timelineData.events = (timelineData.events || []).concat(saved);
-            updateExportBar();
-          }
+          ensureUniqueIds(timelineData);
+          baseEvents = (timelineData.events || []).slice(); // 保存原始快照
+          applyLocalChanges();
+          updateExportBar();
           buildTimeline();
           buildGroupSuggestions();
         })
@@ -412,7 +464,6 @@
     }
 
     function buildTimeline(goToUid) {
-      ensureUniqueIds(timelineData);
       var embed = document.getElementById('timeline-embed');
       embed.innerHTML = '';
       tlInstance = new TL.Timeline('timeline-embed', timelineData, {
@@ -423,11 +474,32 @@
       tlInstance.on('ready', function() {
         colorGroups();
         buildSortedEvents();
-        if (goToUid) {
-          tlInstance.goToId(goToUid);
+        buildEventMap();
+        if (goToUid) tlInstance.goToId(goToUid);
+      });
+      tlInstance.on('change', function(data) {
+        colorGroups();
+        var uid = data && data.unique_id;
+        currentEventUid = (uid && eventMap[uid]) ? uid : null;
+        var actionsEl = document.getElementById('event-actions');
+        if (currentEventUid) {
+          var ev = eventMap[currentEventUid];
+          var hl = (ev.text && ev.text.headline) || '';
+          document.getElementById('event-actions-label').textContent =
+            hl.length > 28 ? hl.slice(0, 28) + '…' : hl;
+          actionsEl.classList.add('visible');
+        } else {
+          actionsEl.classList.remove('visible');
         }
       });
-      tlInstance.on('change', colorGroups);
+    }
+
+    function buildEventMap() {
+      eventMap = {};
+      if (!timelineData || !timelineData.events) return;
+      timelineData.events.forEach(function(ev) {
+        if (ev.unique_id) eventMap[ev.unique_id] = ev;
+      });
     }
 
     // 构建按日期排序的事件数组（用于搜索）
@@ -542,6 +614,45 @@
       return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
     }
 
+    // ── 编辑 / 删除事件 ──
+    document.getElementById('btn-edit-event').addEventListener('click', function() {
+      if (!currentEventUid || !eventMap[currentEventUid]) return;
+      var ev = eventMap[currentEventUid];
+      editingUid = currentEventUid;
+
+      // 填入当前事件数据
+      document.getElementById('f-year').value    = (ev.start_date && ev.start_date.year)  || '';
+      document.getElementById('f-month').value   = (ev.start_date && ev.start_date.month) || '';
+      document.getElementById('f-day').value     = (ev.start_date && ev.start_date.day)   || '';
+      document.getElementById('f-headline').value = (ev.text && ev.text.headline) || '';
+      document.getElementById('f-text').value    = (ev.text && ev.text.text)     || '';
+      document.getElementById('f-group').value   = ev.group || '';
+
+      // 切换为编辑模式 UI
+      document.getElementById('modal-title').textContent = '✏️ 编辑事件';
+      document.getElementById('btn-modal-submit').textContent = '保存修改';
+      document.querySelector('.url-section').style.display = 'none';
+      document.querySelector('.divider').style.display = 'none';
+
+      document.getElementById('add-overlay').classList.add('open');
+      document.getElementById('f-headline').focus();
+    });
+
+    document.getElementById('btn-delete-event').addEventListener('click', function() {
+      if (!currentEventUid) return;
+      var ev = eventMap[currentEventUid];
+      var hl = (ev && ev.text && ev.text.headline) || currentEventUid;
+      if (!confirm('确定删除「' + hl + '」？')) return;
+
+      deleteEventByUid(currentEventUid);
+      applyLocalChanges();
+      buildTimeline();
+      buildGroupSuggestions();
+      updateExportBar();
+      document.getElementById('event-actions').classList.remove('visible');
+      currentEventUid = null;
+    });
+
     // ── 添加事件功能 ──
     var addOverlay = document.getElementById('add-overlay');
 
@@ -559,6 +670,12 @@
       document.getElementById('form-error').style.display = 'none';
       document.getElementById('f-url').value = '';
       setExtractStatus('', '');
+      // 重置编辑模式
+      editingUid = null;
+      document.getElementById('modal-title').textContent = '＋ 添加新事件';
+      document.getElementById('btn-modal-submit').textContent = '添加到时间轴';
+      document.querySelector('.url-section').style.display = '';
+      document.querySelector('.divider').style.display = '';
     }
 
     // ── API Key 管理 ──
@@ -708,23 +825,38 @@
       }
       errEl.style.display = 'none';
 
-      var uid = 'added_' + Date.now() + '_' + (++addedCount);
-      var newEvent = {
-        unique_id: uid,
-        start_date: { year: year },
-        text: { headline: headline }
-      };
-      if (month) newEvent.start_date.month = month;
-      if (day) newEvent.start_date.day = day;
-      if (text) newEvent.text.text = text;
-      if (group) newEvent.group = group;
-
-      timelineData.events.push(newEvent);
-      // 持久化到 localStorage
-      saveEvent(newEvent);
-      buildTimeline(uid);
-      buildGroupSuggestions();
-      updateExportBar();
+      if (editingUid) {
+        // ── 编辑已有事件 ──
+        if (isCustomEvent(editingUid)) {
+          // 直接更新 STORAGE_KEY 里的自定义事件
+          var saved = loadSavedEvents();
+          var idx = -1;
+          saved.forEach(function(ev, i) { if (ev.unique_id === editingUid) idx = i; });
+          if (idx !== -1) {
+            saved[idx] = buildEventObj(editingUid, year, month, day, headline, text, group);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+          }
+        } else {
+          // 保存到 EDITS_KEY
+          var edits = loadEdits();
+          edits[editingUid] = { year: year, month: month, day: day, headline: headline, text: text, group: group };
+          localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+        }
+        var goUid = editingUid;
+        applyLocalChanges();
+        buildTimeline(goUid);
+        buildGroupSuggestions();
+        updateExportBar();
+      } else {
+        // ── 添加新事件 ──
+        var uid = 'added_' + Date.now() + '_' + (++addedCount);
+        var newEvent = buildEventObj(uid, year, month, day, headline, text, group);
+        timelineData.events.push(newEvent);
+        saveEvent(newEvent);
+        buildTimeline(uid);
+        buildGroupSuggestions();
+        updateExportBar();
+      }
 
       // 清空表单
       ['f-year','f-month','f-day','f-headline','f-text','f-group'].forEach(function(id) {
@@ -745,18 +877,24 @@
       URL.revokeObjectURL(url);
     });
 
-    // 清除已添加事件
+    // 清除所有本地修改
     document.getElementById('btn-clear').addEventListener('click', function() {
-      if (!confirm('确定要删除所有手动添加的事件吗？此操作无法撤销。')) return;
+      if (!confirm('确定要清除所有本地修改（新增、编辑、删除）吗？此操作无法撤销。')) return;
       localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(DELETED_KEY);
+      localStorage.removeItem(EDITS_KEY);
       location.reload();
     });
 
     // ── localStorage 工具函数 ──
     function loadSavedEvents() {
-      try {
-        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-      } catch(e) { return []; }
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch(e) { return []; }
+    }
+    function loadDeleted() {
+      try { return JSON.parse(localStorage.getItem(DELETED_KEY) || '[]'); } catch(e) { return []; }
+    }
+    function loadEdits() {
+      try { return JSON.parse(localStorage.getItem(EDITS_KEY) || '{}'); } catch(e) { return {}; }
     }
 
     function saveEvent(ev) {
@@ -765,12 +903,64 @@
       localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
     }
 
+    function isCustomEvent(uid) {
+      return loadSavedEvents().some(function(ev) { return ev.unique_id === uid; });
+    }
+
+    function buildEventObj(uid, year, month, day, headline, text, group) {
+      var ev = { unique_id: uid, start_date: { year: year }, text: { headline: headline } };
+      if (month) ev.start_date.month = month;
+      if (day)   ev.start_date.day   = day;
+      if (text)  ev.text.text        = text;
+      if (group) ev.group            = group;
+      return ev;
+    }
+
+    function deleteEventByUid(uid) {
+      if (isCustomEvent(uid)) {
+        var saved = loadSavedEvents().filter(function(ev) { return ev.unique_id !== uid; });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+      } else {
+        var deleted = loadDeleted();
+        if (deleted.indexOf(uid) === -1) deleted.push(uid);
+        localStorage.setItem(DELETED_KEY, JSON.stringify(deleted));
+        // 同时清除该事件的编辑记录
+        var edits = loadEdits();
+        delete edits[uid];
+        localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+      }
+    }
+
+    // 从 baseEvents + 本地变更重建 timelineData.events
+    function applyLocalChanges() {
+      var deleted = loadDeleted();
+      var edits   = loadEdits();
+      var saved   = loadSavedEvents();
+
+      var all = baseEvents.map(function(ev) {
+        var edit = edits[ev.unique_id];
+        if (!edit) return ev;
+        return buildEventObj(ev.unique_id, edit.year, edit.month, edit.day, edit.headline, edit.text, edit.group);
+      }).filter(function(ev) {
+        return deleted.indexOf(ev.unique_id) === -1;
+      }).concat(saved);
+
+      timelineData.events = all;
+    }
+
     function updateExportBar() {
-      var saved = loadSavedEvents();
+      var added   = loadSavedEvents().length;
+      var deleted = loadDeleted().length;
+      var edited  = Object.keys(loadEdits()).length;
+      var total   = added + deleted + edited;
       var bar = document.getElementById('export-bar');
-      if (saved.length) {
+      if (total > 0) {
+        var parts = [];
+        if (added)   parts.push('新增 ' + added);
+        if (edited)  parts.push('编辑 ' + edited);
+        if (deleted) parts.push('删除 ' + deleted);
         document.getElementById('export-bar-msg').textContent =
-          '已保存 ' + saved.length + ' 个自定义事件（刷新后仍会保留）';
+          parts.join(' · ') + ' 个事件（刷新后仍会保留）';
         bar.classList.add('visible');
         document.getElementById('timeline-embed').style.height = 'calc(100vh - 42px - 38px)';
       } else {
