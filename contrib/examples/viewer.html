@@ -258,6 +258,76 @@
       margin-top: 6px;
       display: inline-block;
     }
+    /* ── 多事件预览面板 ── */
+    #extract-preview {
+      display: none;
+      margin-top: 10px;
+      border: 1px solid #c8d8ff;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .preview-header {
+      padding: 8px 12px;
+      background: #eef3ff;
+      font-size: 0.82em;
+      color: #446;
+      font-weight: 600;
+      border-bottom: 1px solid #d8e6ff;
+    }
+    .preview-item {
+      display: flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-bottom: 1px solid #f0f4ff;
+      gap: 8px;
+    }
+    .preview-item:last-child { border-bottom: none; }
+    .preview-item-info { flex: 1; min-width: 0; }
+    .preview-item-date { font-size: 0.75em; color: #888; }
+    .preview-item-headline { font-size: 0.88em; font-weight: 600; color: #222; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .preview-item-group {
+      display: inline-block;
+      font-size: 0.7em;
+      padding: 1px 6px;
+      border-radius: 8px;
+      background: #e8f0ff;
+      color: #446;
+      margin-top: 2px;
+    }
+    .preview-remove {
+      flex-shrink: 0;
+      border: none;
+      background: none;
+      color: #bbb;
+      cursor: pointer;
+      font-size: 1.1em;
+      padding: 2px 4px;
+      border-radius: 4px;
+      line-height: 1;
+    }
+    .preview-remove:hover { background: #fee; color: #e53935; }
+    .preview-footer {
+      padding: 8px 12px;
+      background: #f8faff;
+      border-top: 1px solid #e0e8ff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .preview-footer span { font-size: 0.8em; color: #888; }
+    .btn-add-all {
+      padding: 6px 16px;
+      border: none;
+      border-radius: 6px;
+      background: #1a1a2e;
+      color: #fff;
+      cursor: pointer;
+      font-size: 0.85em;
+      font-weight: 600;
+    }
+    .btn-add-all:hover { background: #2d2d4e; }
+
     .divider {
       display: flex;
       align-items: center;
@@ -345,6 +415,15 @@
           <button class="btn-extract" id="btn-extract">提取信息</button>
         </div>
         <div class="extract-status" id="extract-status"></div>
+        <!-- 多事件预览 -->
+        <div id="extract-preview">
+          <div class="preview-header" id="preview-header"></div>
+          <div id="preview-list"></div>
+          <div class="preview-footer">
+            <span id="preview-hint">可点击 × 移除不需要的事件</span>
+            <button class="btn-add-all" id="btn-add-all">全部添加到时间轴</button>
+          </div>
+        </div>
         <span class="apikey-toggle" id="apikey-toggle">⚙ 配置 GLM API Key</span>
         <div class="apikey-row" id="apikey-row" style="display:none">
           <input id="f-apikey" type="password" placeholder="sk-ant-…">
@@ -676,6 +755,8 @@
       addOverlay.classList.remove('open');
       document.getElementById('form-error').style.display = 'none';
       document.getElementById('f-url').value = '';
+      document.getElementById('extract-preview').style.display = 'none';
+      pendingExtracted = [];
       setExtractStatus('', '');
       // 重置编辑模式
       editingUid = null;
@@ -725,6 +806,62 @@
     })();
 
     // ── URL 提取逻辑 ──
+    // ── 多事件预览 ──
+    var pendingExtracted = []; // 当前待确认的提取结果
+    var pendingSourceUrl = '';
+
+    function renderExtractPreview(items, sourceUrl) {
+      pendingExtracted = items.slice();
+      pendingSourceUrl = sourceUrl;
+
+      var list = document.getElementById('preview-list');
+      list.innerHTML = pendingExtracted.map(function(ev, i) {
+        var date = ev.year + (ev.month ? '/' + ev.month : '') + (ev.day ? '/' + ev.day : '');
+        return '<div class="preview-item" data-idx="' + i + '">' +
+          '<div class="preview-item-info">' +
+            '<div class="preview-item-date">' + escHtml(date) + '</div>' +
+            '<div class="preview-item-headline">' + escHtml(ev.headline || '') + '</div>' +
+            (ev.group ? '<span class="preview-item-group">' + escHtml(ev.group) + '</span>' : '') +
+          '</div>' +
+          '<button class="preview-remove" title="移除">×</button>' +
+        '</div>';
+      }).join('');
+
+      document.getElementById('preview-header').textContent = '提取到 ' + pendingExtracted.length + ' 个事件，确认后批量添加：';
+      document.getElementById('extract-preview').style.display = 'block';
+
+      list.querySelectorAll('.preview-remove').forEach(function(btn, i) {
+        btn.addEventListener('click', function() {
+          pendingExtracted.splice(i, 1);
+          if (pendingExtracted.length === 0) {
+            document.getElementById('extract-preview').style.display = 'none';
+            setExtractStatus('', '');
+          } else {
+            renderExtractPreview(pendingExtracted, pendingSourceUrl);
+            setExtractStatus('ok', '✅ 剩余 ' + pendingExtracted.length + ' 个事件');
+          }
+        });
+      });
+    }
+
+    document.getElementById('btn-add-all').addEventListener('click', function() {
+      if (!pendingExtracted.length) return;
+      var lastUid = null;
+      pendingExtracted.forEach(function(ev) {
+        var uid = 'added_' + Date.now() + '_' + (++addedCount);
+        var newEvent = buildEventObj(uid, ev.year, ev.month, ev.day, ev.headline, ev.text, ev.group, pendingSourceUrl);
+        timelineData.events.push(newEvent);
+        saveEvent(newEvent);
+        lastUid = uid;
+      });
+      buildTimeline(lastUid);
+      buildGroupSuggestions();
+      updateExportBar();
+      pendingExtracted = [];
+      document.getElementById('extract-preview').style.display = 'none';
+      closeModal();
+    });
+
     function setExtractStatus(type, msg) {
       var el = document.getElementById('extract-status');
       el.className = 'extract-status' + (type ? ' ' + type : '');
@@ -760,15 +897,16 @@
         setExtractStatus('loading', '🤖 AI 正在分析内容…');
 
         // Step 2: 调用 Claude API 提取结构化信息
-        var prompt = '请从以下网页内容中提取一个时间线事件，以 JSON 格式返回，不要输出任何其他内容。\n\n' +
-          'JSON 格式要求（所有文本用中文）：\n' +
+        var prompt = '请分析以下网页内容，判断它包含哪些独立的时间线事件类别，每个类别单独生成一条记录。\n\n' +
+          '例如：一篇关于融资且具有里程碑意义的新闻，应返回两条记录，分别归类为"融资"和"里程碑"。\n\n' +
+          '以 JSON 数组格式返回，不要输出任何其他内容。数组中每个对象格式（所有文本用中文）：\n' +
           '{\n' +
           '  "year": "年份（必填，如 2024）",\n' +
           '  "month": "月份（如有，1-12，否则空字符串）",\n' +
           '  "day": "日期（如有，1-31，否则空字符串）",\n' +
-          '  "headline": "简洁的事件标题（15字以内）",\n' +
+          '  "headline": "简洁的事件标题（15字以内，体现该类别视角）",\n' +
           '  "text": "事件摘要（2-3句话，说明关键信息）",\n' +
-          '  "group": "事件类别，从以下选项中选一个最合适的：产品、融资、研究、合作、里程碑、政策、硬件、操作系统、产业、基础设施、协议"\n' +
+          '  "group": "事件类别，从以下选项中选一个：产品、融资、研究、合作、里程碑、政策、硬件、操作系统、产业、基础设施、协议"\n' +
           '}\n\n' +
           '网页内容：\n' + markdown.slice(0, 4000);
 
@@ -780,7 +918,7 @@
           },
           body: JSON.stringify({
             model: 'glm-4-flash',
-            max_tokens: 512,
+            max_tokens: 1024,
             temperature: 0.3,
             messages: [{ role: 'user', content: prompt }]
           })
@@ -793,18 +931,27 @@
 
         var raw = apiData.choices[0].message.content.trim();
         var jsonStr = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/, '');
-        var extracted = JSON.parse(jsonStr);
+        var parsed = JSON.parse(jsonStr);
+        // 兼容 AI 返回单个对象而非数组的情况
+        var items = Array.isArray(parsed) ? parsed : [parsed];
 
-        // 填入表单
-        document.getElementById('f-year').value    = extracted.year    || '';
-        document.getElementById('f-month').value   = extracted.month   || '';
-        document.getElementById('f-day').value     = extracted.day     || '';
-        document.getElementById('f-headline').value = extracted.headline || '';
-        document.getElementById('f-text').value    = extracted.text    || '';
-        document.getElementById('f-group').value   = extracted.group   || '';
-        document.getElementById('f-source').value  = url;
-
-        setExtractStatus('ok', '✅ 提取成功，请确认信息后点击添加');
+        if (items.length === 1) {
+          // 单条：填入表单，沿用原有流程
+          var ev = items[0];
+          document.getElementById('f-year').value     = ev.year     || '';
+          document.getElementById('f-month').value    = ev.month    || '';
+          document.getElementById('f-day').value      = ev.day      || '';
+          document.getElementById('f-headline').value = ev.headline || '';
+          document.getElementById('f-text').value     = ev.text     || '';
+          document.getElementById('f-group').value    = ev.group    || '';
+          document.getElementById('f-source').value   = url;
+          document.getElementById('extract-preview').style.display = 'none';
+          setExtractStatus('ok', '✅ 提取成功，请确认信息后点击添加');
+        } else {
+          // 多条：显示预览面板，隐藏手动表单
+          renderExtractPreview(items, url);
+          setExtractStatus('ok', '✅ 检测到 ' + items.length + ' 个类别，请在下方确认后批量添加');
+        }
       } catch (e) {
         setExtractStatus('err', '❌ ' + e.message);
       } finally {
