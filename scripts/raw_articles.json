@@ -1,0 +1,2932 @@
+[
+  {
+    "url": "https://openai.com/research/index/",
+    "slug": "index",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/research/index/milestone/",
+    "slug": "milestone",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/formal-math/",
+    "slug": "formal-math",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4-research/",
+    "slug": "gpt-4-research",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/sora/",
+    "slug": "sora",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/dall-e/",
+    "slug": "dall-e",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/hello-gpt-4o/",
+    "slug": "hello-gpt-4o",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/multimodal-neurons/",
+    "slug": "multimodal-neurons",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/better-language-models/",
+    "slug": "better-language-models",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/glow/",
+    "slug": "glow",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/openai-five-benchmark-results/",
+    "slug": "openai-five-benchmark-results",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/language-unsupervised/",
+    "slug": "language-unsupervised",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/retro-contest/",
+    "slug": "retro-contest",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together/",
+    "slug": "openai-and-los-alamos-national-laboratory-work-together",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/language-models-are-few-shot-learners/",
+    "slug": "language-models-are-few-shot-learners",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/musenet/",
+    "slug": "musenet",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/solving-rubiks-cube/",
+    "slug": "solving-rubiks-cube",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/sharing-the-latest-model-spec/",
+    "slug": "sharing-the-latest-model-spec",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/clip/",
+    "slug": "clip",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+    "slug": "openai-five-defeats-dota-2-world-champions",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/introducing-swe-bench-verified/",
+    "slug": "introducing-swe-bench-verified",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models/",
+    "slug": "simplifying-stabilizing-and-scaling-continuous-time-consistency-models",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/emergent-tool-use/",
+    "slug": "emergent-tool-use",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/neural-mmo/",
+    "slug": "neural-mmo",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/how-ai-training-scales/",
+    "slug": "how-ai-training-scales",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/reinforcement-learning-with-prediction-based-rewards/",
+    "slug": "reinforcement-learning-with-prediction-based-rewards",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/the-international-2018-results/",
+    "slug": "the-international-2018-results",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/learning-dexterity/",
+    "slug": "learning-dexterity",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/openai-five/",
+    "slug": "openai-five",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/evolved-policy-gradients/",
+    "slug": "evolved-policy-gradients",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/competitive-self-play/",
+    "slug": "competitive-self-play",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/more-on-dota-2/",
+    "slug": "more-on-dota-2",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/dota-2/",
+    "slug": "dota-2",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/robots-that-learn/",
+    "slug": "robots-that-learn",
+    "sitemap_cat": "milestone"
+  },
+  {
+    "url": "https://openai.com/index/learning-to-reason-with-llms/",
+    "slug": "learning-to-reason-with-llms",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "slug": "gpt-4o-mini-advancing-cost-efficient-intelligence",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/research/index/release/",
+    "slug": "release",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+    "slug": "openai-o1-mini-advancing-cost-efficient-reasoning",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-indqa/",
+    "slug": "introducing-indqa",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-aardvark/",
+    "slug": "introducing-aardvark",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+    "slug": "introducing-gpt-5-3-codex-spark",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-2/",
+    "slug": "introducing-gpt-5-2",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+    "slug": "introducing-gpt-5-3-codex",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-deep-research/",
+    "slug": "introducing-deep-research",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-our-next-generation-audio-models/",
+    "slug": "introducing-our-next-generation-audio-models",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/whisper/",
+    "slug": "whisper",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-4-5/",
+    "slug": "introducing-gpt-4-5",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4/",
+    "slug": "gpt-4",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-codex/",
+    "slug": "introducing-codex",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-4o-image-generation/",
+    "slug": "introducing-4o-image-generation",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+    "slug": "introducing-o3-and-o4-mini",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/faster-physics-in-python/",
+    "slug": "faster-physics-in-python",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/openai-gym-beta/",
+    "slug": "openai-gym-beta",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-2-1-5b-release/",
+    "slug": "gpt-2-1-5b-release",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/spinning-up-in-deep-rl/",
+    "slug": "spinning-up-in-deep-rl",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gym-retro/",
+    "slug": "gym-retro",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/block-sparse-gpu-kernels/",
+    "slug": "block-sparse-gpu-kernels",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/learning-from-human-preferences/",
+    "slug": "learning-from-human-preferences",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/universe/",
+    "slug": "universe",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gathering-human-feedback/",
+    "slug": "gathering-human-feedback",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-3-system-card/",
+    "slug": "dall-e-3-system-card",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/requests-for-research-2/",
+    "slug": "requests-for-research-2",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-1-codex-max/",
+    "slug": "gpt-5-1-codex-max",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5/",
+    "slug": "introducing-gpt-5",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/thinking-with-images/",
+    "slug": "thinking-with-images",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4v-system-card/",
+    "slug": "gpt-4v-system-card",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-upgrades-to-codex/",
+    "slug": "introducing-upgrades-to-codex",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/codex-now-generally-available/",
+    "slug": "codex-now-generally-available",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+    "slug": "introducing-gpt-5-2-codex",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+    "slug": "new-chatgpt-images-is-here",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/deliberative-alignment/",
+    "slug": "deliberative-alignment",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-oss-safeguard-technical-report/",
+    "slug": "gpt-oss-safeguard-technical-report",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-3/",
+    "slug": "dall-e-3",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/sora-2/",
+    "slug": "sora-2",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-realtime/",
+    "slug": "introducing-gpt-realtime",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-oss-safeguard/",
+    "slug": "introducing-gpt-oss-safeguard",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-oss/",
+    "slug": "introducing-gpt-oss",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-agent/",
+    "slug": "introducing-chatgpt-agent",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-1/",
+    "slug": "gpt-5-1",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-2/",
+    "slug": "dall-e-2",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-safe-completions/",
+    "slug": "gpt-5-safe-completions",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/safety-gym/",
+    "slug": "safety-gym",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/computer-using-agent/",
+    "slug": "computer-using-agent",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/browsecomp/",
+    "slug": "browsecomp",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/openai-baselines-ppo/",
+    "slug": "openai-baselines-ppo",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/openai-o3-mini/",
+    "slug": "openai-o3-mini",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/openai-baselines-dqn/",
+    "slug": "openai-baselines-dqn",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/roboschool/",
+    "slug": "roboschool",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/triton/",
+    "slug": "triton",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/jukebox/",
+    "slug": "jukebox",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/procgen-benchmark/",
+    "slug": "procgen-benchmark",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/ingredients-for-robotics-research/",
+    "slug": "ingredients-for-robotics-research",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/openai-baselines-acktr-a2c/",
+    "slug": "openai-baselines-acktr-a2c",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/paperbench/",
+    "slug": "paperbench",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/microscope/",
+    "slug": "microscope",
+    "sitemap_cat": "release"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
+    "slug": "gpt-5-2-for-science-and-math",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
+    "slug": "introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/",
+    "slug": "developers-can-now-submit-apps-to-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+    "slug": "testing-ads-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access/",
+    "slug": "our-approach-to-advertising-and-expanding-access",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-health/",
+    "slug": "introducing-chatgpt-health",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/openai-api/",
+    "slug": "openai-api",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+    "slug": "memory-and-new-controls-for-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-codex-app/",
+    "slug": "introducing-the-codex-app",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-for-teachers/",
+    "slug": "chatgpt-for-teachers",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-plus/",
+    "slug": "chatgpt-plus",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt/",
+    "slug": "chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-search/",
+    "slug": "introducing-chatgpt-search",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/",
+    "slug": "gpt-4o-and-more-tools-to-chatgpt-free",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-prism/",
+    "slug": "introducing-prism",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/image-generation-api/",
+    "slug": "image-generation-api",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-data-residency-in-europe/",
+    "slug": "introducing-data-residency-in-europe",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-study-mode/",
+    "slug": "chatgpt-study-mode",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/optimizing-chatgpt/",
+    "slug": "optimizing-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/helping-people-when-they-need-it-most/",
+    "slug": "helping-people-when-they-need-it-most",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone/",
+    "slug": "building-more-helpful-chatgpt-experiences-for-everyone",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/building-towards-age-prediction/",
+    "slug": "building-towards-age-prediction",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-data-residency-in-asia/",
+    "slug": "introducing-data-residency-in-asia",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-o1-preview/",
+    "slug": "introducing-openai-o1-preview",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-now-available-without-waitlist/",
+    "slug": "dall-e-now-available-without-waitlist",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-team/",
+    "slug": "introducing-chatgpt-team",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/start-using-chatgpt-instantly/",
+    "slug": "start-using-chatgpt-instantly",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-for-nonprofits/",
+    "slug": "introducing-openai-for-nonprofits",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-pro/",
+    "slug": "introducing-chatgpt-pro",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-tools-for-chatgpt-enterprise/",
+    "slug": "new-tools-for-chatgpt-enterprise",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program/",
+    "slug": "introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak/",
+    "slug": "chatgpt-can-now-see-hear-and-speak",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/teaching-with-ai/",
+    "slug": "teaching-with-ai",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/march-20-chatgpt-outage/",
+    "slug": "march-20-chatgpt-outage",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpts/",
+    "slug": "introducing-gpts",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-chatgpt-app-for-ios/",
+    "slug": "introducing-the-chatgpt-app-for-ios",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+    "slug": "new-models-and-developer-products-announced-at-devday",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt/",
+    "slug": "new-ways-to-manage-your-data-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/",
+    "slug": "gpt-3-5-turbo-fine-tuning-and-api-updates",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/",
+    "slug": "dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/",
+    "slug": "new-ai-classifier-for-indicating-ai-written-text",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-plugins/",
+    "slug": "chatgpt-plugins",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/function-calling-and-other-api-updates/",
+    "slug": "function-calling-and-other-api-updates",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/custom-instructions-for-chatgpt/",
+    "slug": "custom-instructions-for-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-2-extending-creativity/",
+    "slug": "dall-e-2-extending-creativity",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-journalism/",
+    "slug": "openai-and-journalism",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-embedding-models-and-api-updates/",
+    "slug": "new-embedding-models-and-api-updates",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-introducing-outpainting/",
+    "slug": "dall-e-introducing-outpainting",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-api-now-available-in-public-beta/",
+    "slug": "dall-e-api-now-available-in-public-beta",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/api-no-waitlist/",
+    "slug": "api-no-waitlist",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+    "slug": "introducing-chatgpt-and-whisper-apis",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-and-improved-content-moderation-tooling/",
+    "slug": "new-and-improved-content-moderation-tooling",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-tools-and-features-in-the-responses-api/",
+    "slug": "new-tools-and-features-in-the-responses-api",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-text-and-code-embeddings/",
+    "slug": "introducing-text-and-code-embeddings",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft/",
+    "slug": "openai-licenses-gpt-3-technology-to-microsoft",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/",
+    "slug": "navigating-the-challenges-and-opportunities-of-synthetic-voices",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-frontier/",
+    "slug": "introducing-openai-frontier",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-whatsapp-transition/",
+    "slug": "chatgpt-whatsapp-transition",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/sora-feed-philosophy/",
+    "slug": "sora-feed-philosophy",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-shopping-research/",
+    "slug": "chatgpt-shopping-research",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-gpt-store/",
+    "slug": "introducing-the-gpt-store",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-and-improved-embedding-model/",
+    "slug": "new-and-improved-embedding-model",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4-api-general-availability/",
+    "slug": "gpt-4-api-general-availability",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/sora-first-impressions/",
+    "slug": "sora-first-impressions",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model/",
+    "slug": "upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/more-enterprise-grade-features-for-api-customers/",
+    "slug": "more-enterprise-grade-features-for-api-customers",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/sora-is-here/",
+    "slug": "sora-is-here",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4-1/",
+    "slug": "gpt-4-1",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/retiring-gpt-4o-and-older-models/",
+    "slug": "retiring-gpt-4o-and-older-models",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/disney-sora-agreement/",
+    "slug": "disney-sora-agreement",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-go/",
+    "slug": "introducing-chatgpt-go",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-canvas/",
+    "slug": "introducing-canvas",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-edu/",
+    "slug": "introducing-chatgpt-edu",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/api-prompt-caching/",
+    "slug": "api-prompt-caching",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-fine-tuning/",
+    "slug": "gpt-4o-fine-tuning",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/improvements-to-data-analysis-in-chatgpt/",
+    "slug": "improvements-to-data-analysis-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen/",
+    "slug": "how-the-voices-for-chatgpt-were-chosen",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/searchgpt-prototype/",
+    "slug": "searchgpt-prototype",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-vision-to-the-fine-tuning-api/",
+    "slug": "introducing-vision-to-the-fine-tuning-api",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-realtime-api/",
+    "slug": "introducing-the-realtime-api",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/api-model-distillation/",
+    "slug": "api-model-distillation",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/o1-and-new-tools-for-developers/",
+    "slug": "o1-and-new-tools-for-developers",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/openai-for-healthcare/",
+    "slug": "openai-for-healthcare",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/group-chats-in-chatgpt/",
+    "slug": "group-chats-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-pulse/",
+    "slug": "introducing-chatgpt-pulse",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+    "slug": "introducing-chatgpt-atlas",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-1-for-developers/",
+    "slug": "gpt-5-1-for-developers",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-agentkit/",
+    "slug": "introducing-agentkit",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+    "slug": "introducing-apps-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide/",
+    "slug": "expanding-data-residency-access-to-business-customers-worldwide",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-company-knowledge/",
+    "slug": "introducing-company-knowledge",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-for-developers/",
+    "slug": "introducing-gpt-5-for-developers",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-parental-controls/",
+    "slug": "introducing-parental-controls",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-new-era-of-work/",
+    "slug": "gpt-5-new-era-of-work",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/buy-it-in-chatgpt/",
+    "slug": "buy-it-in-chatgpt",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/introducing-operator/",
+    "slug": "introducing-operator",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/new-tools-for-building-agents/",
+    "slug": "new-tools-for-building-agents",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/more-ways-to-work-with-your-team/",
+    "slug": "more-ways-to-work-with-your-team",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/customizing-gpt-3/",
+    "slug": "customizing-gpt-3",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/expanding-on-sycophancy/",
+    "slug": "expanding-on-sycophancy",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
+    "slug": "sycophancy-in-gpt-4o",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-now-available-in-beta/",
+    "slug": "dall-e-now-available-in-beta",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gpt-3-apps/",
+    "slug": "gpt-3-apps",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-2-update/",
+    "slug": "dall-e-2-update",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2/",
+    "slug": "reducing-bias-and-improving-safety-in-dall-e-2",
+    "sitemap_cat": "product"
+  },
+  {
+    "url": "https://openai.com/index/gdpval/",
+    "slug": "gdpval",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/defining-and-evaluating-political-bias-in-llms/",
+    "slug": "defining-and-evaluating-political-bias-in-llms",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/frontierscience/",
+    "slug": "frontierscience",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
+    "slug": "evaluating-chain-of-thought-monitorability",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/new-result-theoretical-physics/",
+    "slug": "new-result-theoretical-physics",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/scaling-social-science-research/",
+    "slug": "scaling-social-science-research",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
+    "slug": "accelerating-biological-research-in-the-wet-lab",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
+    "slug": "gpt-5-lowers-protein-synthesis-cost",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-model-spec/",
+    "slug": "introducing-the-model-spec",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
+    "slug": "understanding-neural-networks-through-sparse-circuits",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/accelerating-science-gpt-5/",
+    "slug": "accelerating-science-gpt-5",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report/",
+    "slug": "the-state-of-enterprise-ai-2025-report",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/how-people-are-using-chatgpt/",
+    "slug": "how-people-are-using-chatgpt",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/why-language-models-hallucinate/",
+    "slug": "why-language-models-hallucinate",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest/",
+    "slug": "how-confessions-can-keep-language-models-honest",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/evals-drive-next-chapter-of-ai/",
+    "slug": "evals-drive-next-chapter-of-ai",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
+    "slug": "detecting-and-reducing-scheming-in-ai-models",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/affective-use-study/",
+    "slug": "affective-use-study",
+    "sitemap_cat": "research"
+  },
+  {
+    "url": "https://openai.com/index/mixpanel-incident/",
+    "slug": "mixpanel-incident",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-teen-safety-blueprint/",
+    "slug": "introducing-the-teen-safety-blueprint",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/teen-safety-freedom-and-privacy/",
+    "slug": "teen-safety-freedom-and-privacy",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-age-prediction/",
+    "slug": "our-approach-to-age-prediction",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+    "slug": "updating-model-spec-with-teen-protections",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-deutschland/",
+    "slug": "openai-deutschland",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai/",
+    "slug": "introducing-openai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors/",
+    "slug": "adebayo-ogunlesi-joins-openais-board-of-directors",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/announcing-openai-devday/",
+    "slug": "announcing-openai-devday",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/accenture-partnership/",
+    "slug": "accenture-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/frontier-model-forum-updates/",
+    "slug": "frontier-model-forum-updates",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/distill/",
+    "slug": "distill",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-supporters/",
+    "slug": "openai-supporters",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/data-partnerships/",
+    "slug": "data-partnerships",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/announcing-the-stargate-project/",
+    "slug": "announcing-the-stargate-project",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-acquires-rockset/",
+    "slug": "openai-acquires-rockset",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-announces-new-members-to-board-of-directors/",
+    "slug": "openai-announces-new-members-to-board-of-directors",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-microsoft-extend-partnership/",
+    "slug": "openai-and-microsoft-extend-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-acquires-global-illumination/",
+    "slug": "openai-acquires-global-illumination",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news/",
+    "slug": "partnership-with-american-journalism-project-to-support-local-news",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models/",
+    "slug": "openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-london/",
+    "slug": "introducing-openai-london",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-announces-leadership-transition/",
+    "slug": "openai-announces-leadership-transition",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-enterprise/",
+    "slug": "introducing-chatgpt-enterprise",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/",
+    "slug": "sam-altman-returns-as-ceo-openai-has-a-new-initial-board",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-dublin/",
+    "slug": "introducing-openai-dublin",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/axel-springer-partnership/",
+    "slug": "axel-springer-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/team-update-january/",
+    "slug": "team-update-january",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections/",
+    "slug": "how-openai-is-approaching-2024-worldwide-elections",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2018-meet-our-scholars/",
+    "slug": "openai-scholars-2018-meet-our-scholars",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars/",
+    "slug": "openai-scholars",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-hackathon/",
+    "slug": "openai-hackathon",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2018-final-projects/",
+    "slug": "openai-scholars-2018-final-projects",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-lp/",
+    "slug": "openai-lp",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-fellows/",
+    "slug": "openai-fellows",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/economic-impacts/",
+    "slug": "economic-impacts",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2019-final-projects/",
+    "slug": "openai-scholars-2019-final-projects",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2019/",
+    "slug": "openai-scholars-2019",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-fellows-interns-2019/",
+    "slug": "openai-fellows-interns-2019",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/spinning-up-in-deep-rl-workshop-review/",
+    "slug": "spinning-up-in-deep-rl-workshop-review",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-five-benchmark/",
+    "slug": "openai-five-benchmark",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-summer-fellows-2018/",
+    "slug": "openai-summer-fellows-2018",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2019-meet-our-scholars/",
+    "slug": "openai-scholars-2019-meet-our-scholars",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-fellows-fall-2018/",
+    "slug": "openai-fellows-fall-2018",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/procgen-minerl-competitions/",
+    "slug": "procgen-minerl-competitions",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/report-from-the-self-organizing-conference/",
+    "slug": "report-from-the-self-organizing-conference",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/combating-online-child-sexual-exploitation-abuse/",
+    "slug": "combating-online-child-sexual-exploitation-abuse",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/machine-learning-unconference/",
+    "slug": "machine-learning-unconference",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/hackathon-follow-up/",
+    "slug": "hackathon-follow-up",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/learning-day/",
+    "slug": "learning-day",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2020/",
+    "slug": "openai-scholars-2020",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-five-finals/",
+    "slug": "openai-five-finals",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/symposium-2019/",
+    "slug": "symposium-2019",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/discovering-the-minutiae-of-backend-systems/",
+    "slug": "discovering-the-minutiae-of-backend-systems",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-elon-musk/",
+    "slug": "openai-elon-musk",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-en-france/",
+    "slug": "openai-en-france",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/expert-council-on-well-being-and-ai/",
+    "slug": "expert-council-on-well-being-and-ai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/",
+    "slug": "why-our-structure-must-evolve-to-advance-our-mission",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/expanding-economic-opportunity-with-ai/",
+    "slug": "expanding-economic-opportunity-with-ai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/people-first-ai-fund/",
+    "slug": "people-first-ai-fund",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/japan-economic-blueprint/",
+    "slug": "japan-economic-blueprint",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/south-korea-economic-blueprint/",
+    "slug": "south-korea-economic-blueprint",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/ai-mental-health-research-grants/",
+    "slug": "ai-mental-health-research-grants",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-to-acquire-neptune/",
+    "slug": "openai-to-acquire-neptune",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence/",
+    "slug": "a-business-that-scales-with-the-value-of-intelligence",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-nextgenai/",
+    "slug": "introducing-nextgenai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/built-to-benefit-everyone/",
+    "slug": "built-to-benefit-everyone",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/edu-for-countries/",
+    "slug": "edu-for-countries",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/elon-musk-wanted-an-openai-for-profit/",
+    "slug": "elon-musk-wanted-an-openai-for-profit",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-future-partner-on-specialist-content/",
+    "slug": "openai-and-future-partner-on-specialist-content",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership/",
+    "slug": "news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic/",
+    "slug": "enhancing-news-in-chatgpt-with-the-atlantic",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/a-content-and-product-partnership-with-vox-media/",
+    "slug": "a-content-and-product-partnership-with-vox-media",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/gedi/",
+    "slug": "gedi",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/",
+    "slug": "jakub-pachocki-announced-as-chief-scientist",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/",
+    "slug": "review-completed-altman-brockman-to-continue-to-lead-openai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media/",
+    "slug": "global-news-partnerships-le-monde-and-prisa-media",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-japan/",
+    "slug": "introducing-openai-japan",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/api-partnership-with-stack-overflow/",
+    "slug": "api-partnership-with-stack-overflow",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/content-partnership-with-financial-times/",
+    "slug": "content-partnership-with-financial-times",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-reddit-partnership/",
+    "slug": "openai-and-reddit-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-apple-announce-partnership/",
+    "slug": "openai-and-apple-announce-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra/",
+    "slug": "newsroom-ai-catalyst-global-program-with-wan-ifra",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-welcomes-cfo-cpo/",
+    "slug": "openai-welcomes-cfo-cpo",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-structured-outputs-in-the-api/",
+    "slug": "introducing-structured-outputs-in-the-api",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/strategic-content-partnership-with-time/",
+    "slug": "strategic-content-partnership-with-time",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/zico-kolter-joins-openais-board-of-directors/",
+    "slug": "zico-kolter-joins-openais-board-of-directors",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/conde-nast/",
+    "slug": "conde-nast",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/scale-the-benefits-of-ai/",
+    "slug": "scale-the-benefits-of-ai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/new-credit-facility-enhances-financial-flexibility/",
+    "slug": "new-credit-facility-enhances-financial-flexibility",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/hearst/",
+    "slug": "hearst",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/lenfest-institute/",
+    "slug": "lenfest-institute",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/put-ai-to-work-for-your-product-team/",
+    "slug": "put-ai-to-work-for-your-product-team",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/shipping-sora-for-android-with-codex/",
+    "slug": "shipping-sora-for-android-with-codex",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/nonprofit-commission-advisors/",
+    "slug": "nonprofit-commission-advisors",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/nonprofit-commission-report/",
+    "slug": "nonprofit-commission-report",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/50-million-fund-to-build-with-communities/",
+    "slug": "50-million-fund-to-build-with-communities",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce/",
+    "slug": "providing-chatgpt-to-the-entire-us-federal-workforce",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/supporting-nonprofit-and-community-innovation/",
+    "slug": "supporting-nonprofit-and-community-innovation",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-stargate-uae/",
+    "slug": "introducing-stargate-uae",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-stargate-norway/",
+    "slug": "introducing-stargate-norway",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/introducing-stargate-uk/",
+    "slug": "introducing-stargate-uk",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/samsung-and-sk-join-stargate/",
+    "slug": "samsung-and-sk-join-stargate",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/five-new-stargate-sites/",
+    "slug": "five-new-stargate-sites",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/expanding-stargate-to-michigan/",
+    "slug": "expanding-stargate-to-michigan",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/small-business-ai-jam/",
+    "slug": "small-business-ai-jam",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/people-first-ai-fund-grantees/",
+    "slug": "people-first-ai-fund-grantees",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/stargate-sb-energy-partnership/",
+    "slug": "stargate-sb-energy-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-academy-for-news-organizations/",
+    "slug": "openai-academy-for-news-organizations",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/ai-progress-and-recommendations/",
+    "slug": "ai-progress-and-recommendations",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/us-department-of-energy-collaboration/",
+    "slug": "us-department-of-energy-collaboration",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-for-veterans/",
+    "slug": "chatgpt-for-veterans",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-certificate-courses/",
+    "slug": "openai-certificate-courses",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/aws-and-openai-partnership/",
+    "slug": "aws-and-openai-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/1-million-businesses-putting-ai-to-work/",
+    "slug": "1-million-businesses-putting-ai-to-work",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/gartner-2025-emerging-leader/",
+    "slug": "gartner-2025-emerging-leader",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/mental-health-litigation-approach/",
+    "slug": "mental-health-litigation-approach",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/thrive-holdings/",
+    "slug": "thrive-holdings",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership/",
+    "slug": "next-chapter-of-microsoft-openai-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/ten-years/",
+    "slug": "ten-years",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/mattels-iconic-brands/",
+    "slug": "mattels-iconic-brands",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/leadership-updates-march-2025/",
+    "slug": "leadership-updates-march-2025",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/special-projects/",
+    "slug": "special-projects",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/team-update/",
+    "slug": "team-update",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/team-update-august/",
+    "slug": "team-update-august",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/welcome-pieter-and-shivon/",
+    "slug": "welcome-pieter-and-shivon",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/team-plus-plus/",
+    "slug": "team-plus-plus",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/leadership-team-update/",
+    "slug": "leadership-team-update",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2021-final-projects/",
+    "slug": "openai-scholars-2021-final-projects",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-residency/",
+    "slug": "openai-residency",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/helen-toner-joins/",
+    "slug": "helen-toner-joins",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/organizational-update/",
+    "slug": "organizational-update",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-scholars-2020-final-projects/",
+    "slug": "openai-scholars-2020-final-projects",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/the-power-of-continuous-learning/",
+    "slug": "the-power-of-continuous-learning",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/will-hurd-joins/",
+    "slug": "will-hurd-joins",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-appoints-denise-dresser/",
+    "slug": "openai-appoints-denise-dresser",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/intuit-partnership/",
+    "slug": "intuit-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/norad-holiday-collaboration/",
+    "slug": "norad-holiday-collaboration",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/microsoft-invests-in-and-partners-with-openai/",
+    "slug": "microsoft-invests-in-and-partners-with-openai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership/",
+    "slug": "openai-and-guardian-media-group-launch-content-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-microsoft/",
+    "slug": "openai-and-microsoft",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry/",
+    "slug": "partnering-with-axios-expands-openai-work-with-the-news-industry",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-partners-with-schibsted-media-group/",
+    "slug": "openai-partners-with-schibsted-media-group",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/stargate-advances-with-partnership-with-oracle/",
+    "slug": "stargate-advances-with-partnership-with-oracle",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/target-partnership/",
+    "slug": "target-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-foxconn-collaborate/",
+    "slug": "openai-and-foxconn-collaborate",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/statement-on-openai-nonprofit-and-pbc/",
+    "slug": "statement-on-openai-nonprofit-and-pbc",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/joint-statement-from-openai-and-microsoft/",
+    "slug": "joint-statement-from-openai-and-microsoft",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/",
+    "slug": "openai-and-broadcom-announce-strategic-collaboration",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all/",
+    "slug": "ai-as-the-greatest-source-of-empowerment-for-all",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-nvidia-systems-partnership/",
+    "slug": "openai-nvidia-systems-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/announcing-devday-2025/",
+    "slug": "announcing-devday-2025",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/",
+    "slug": "openai-acquires-software-applications-incorporated",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-amd-strategic-partnership/",
+    "slug": "openai-amd-strategic-partnership",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/",
+    "slug": "vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/leadership-expansion-with-fidji-simo/",
+    "slug": "leadership-expansion-with-fidji-simo",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories/",
+    "slug": "strengthening-americas-ai-leadership-with-the-us-national-laboratories",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-the-csu-system/",
+    "slug": "openai-and-the-csu-system",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/march-funding-updates/",
+    "slug": "march-funding-updates",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/evolving-our-structure/",
+    "slug": "evolving-our-structure",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/openai-pioneers-program/",
+    "slug": "openai-pioneers-program",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/court-rejects-elon/",
+    "slug": "court-rejects-elon",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai/",
+    "slug": "bertelsmann-powers-creativity-and-productivity-with-openai",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/nonprofit-commission-guidance/",
+    "slug": "nonprofit-commission-guidance",
+    "sitemap_cat": "company"
+  },
+  {
+    "url": "https://openai.com/index/confidence-building-measures-for-artificial-intelligence/",
+    "slug": "confidence-building-measures-for-artificial-intelligence",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/disrupting-a-covert-iranian-influence-operation/",
+    "slug": "disrupting-a-covert-iranian-influence-operation",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/ai-agent-link-safety/",
+    "slug": "ai-agent-link-safety",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/trusted-access-for-cyber/",
+    "slug": "trusted-access-for-cyber",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
+    "slug": "ai-literacy-resources-for-teens-and-parents",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/weak-to-strong-generalization/",
+    "slug": "weak-to-strong-generalization",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/moving-ai-governance-forward/",
+    "slug": "moving-ai-governance-forward",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/how-should-ai-systems-behave/",
+    "slug": "how-should-ai-systems-behave",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/planning-for-agi-and-beyond/",
+    "slug": "planning-for-agi-and-beyond",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-ai-safety/",
+    "slug": "our-approach-to-ai-safety",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/red-teaming-network/",
+    "slug": "red-teaming-network",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/governance-of-superintelligence/",
+    "slug": "governance-of-superintelligence",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/superalignment-fast-grants/",
+    "slug": "superalignment-fast-grants",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/frontier-risk-and-preparedness/",
+    "slug": "frontier-risk-and-preparedness",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/insights-from-global-conversations/",
+    "slug": "insights-from-global-conversations",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/frontier-model-forum/",
+    "slug": "frontier-model-forum",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/democratic-inputs-to-ai-grant-program-update/",
+    "slug": "democratic-inputs-to-ai-grant-program-update",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-2-codex-system-card/",
+    "slug": "gpt-5-2-codex-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/openai-raising-concerns-policy/",
+    "slug": "openai-raising-concerns-policy",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-3-codex-system-card/",
+    "slug": "gpt-5-3-codex-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/sora-system-card/",
+    "slug": "sora-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-alignment-research/",
+    "slug": "our-approach-to-alignment-research",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/openai-safety-update/",
+    "slug": "openai-safety-update",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research/",
+    "slug": "expanding-on-how-voice-engine-works-and-our-safety-research",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/update-on-safety-and-security-practices/",
+    "slug": "update-on-safety-and-security-practices",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/operator-system-card/",
+    "slug": "operator-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/deep-research-system-card/",
+    "slug": "deep-research-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/",
+    "slug": "gpt-5-system-card-addendum-gpt-5-codex",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
+    "slug": "us-caisi-uk-aisi-ai-update",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-system-card/",
+    "slug": "gpt-5-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-system-card-sensitive-conversations/",
+    "slug": "gpt-5-system-card-sensitive-conversations",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/strengthening-safety-with-external-testing/",
+    "slug": "strengthening-safety-with-external-testing",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-1-codex-max-system-card/",
+    "slug": "gpt-5-1-codex-max-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
+    "slug": "strengthening-chatgpt-responses-in-sensitive-conversations",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/updating-our-preparedness-framework/",
+    "slug": "updating-our-preparedness-framework",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4-5-system-card/",
+    "slug": "gpt-4-5-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-image-generation-system-card-addendum/",
+    "slug": "gpt-4o-image-generation-system-card-addendum",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum/",
+    "slug": "o3-o4-mini-codex-system-card-addendum",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/openai-technical-goals/",
+    "slug": "openai-technical-goals",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/openai-pytorch/",
+    "slug": "openai-pytorch",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/best-practices-for-deploying-language-models/",
+    "slug": "best-practices-for-deploying-language-models",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/using-gpt-4-for-content-moderation/",
+    "slug": "using-gpt-4-for-content-moderation",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/child-safety-adopting-sbd-principles/",
+    "slug": "child-safety-adopting-sbd-principles",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/",
+    "slug": "preparing-for-future-ai-capabilities-in-biology",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/o3-o4-mini-system-card/",
+    "slug": "o3-o4-mini-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3/",
+    "slug": "o3-o4-mini-system-card-addendum-operator-o3",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-agent-system-card/",
+    "slug": "chatgpt-agent-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-oss-model-card/",
+    "slug": "gpt-oss-model-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/",
+    "slug": "estimating-worst-case-frontier-risks-of-open-weight-llms",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/openai-anthropic-safety-evaluation/",
+    "slug": "openai-anthropic-safety-evaluation",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/",
+    "slug": "gpt-5-system-card-addendum-gpt-5-1",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/sora-2-system-card/",
+    "slug": "sora-2-system-card",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2/",
+    "slug": "gpt-5-system-card-update-gpt-5-2",
+    "sitemap_cat": "safety"
+  },
+  {
+    "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu/",
+    "slug": "the-next-chapter-for-ai-in-the-eu",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/bringing-chatgpt-to-genaimil/",
+    "slug": "bringing-chatgpt-to-genaimil",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-localization/",
+    "slug": "our-approach-to-localization",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/snowflake-partnership/",
+    "slug": "snowflake-partnership",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/emea-youth-and-wellbeing-grant/",
+    "slug": "emea-youth-and-wellbeing-grant",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang/",
+    "slug": "how-countries-can-end-the-capability-overhang",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/stargate-community/",
+    "slug": "stargate-community",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/pvh-future-of-fashion/",
+    "slug": "pvh-future-of-fashion",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/horizon-1000/",
+    "slug": "horizon-1000",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai/",
+    "slug": "servicenow-powers-actionable-enterprise-ai-with-openai",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/strengthening-the-us-ai-supply-chain/",
+    "slug": "strengthening-the-us-ai-supply-chain",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/investing-in-merge-labs/",
+    "slug": "investing-in-merge-labs",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/instacart-partnership/",
+    "slug": "instacart-partnership",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/deutsche-telekom-collaboration/",
+    "slug": "deutsche-telekom-collaboration",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/bbva-collaboration-expansion/",
+    "slug": "bbva-collaboration-expansion",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/agentic-ai-foundation/",
+    "slug": "agentic-ai-foundation",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/cerebras-partnership/",
+    "slug": "cerebras-partnership",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/estonia-schools-and-chatgpt/",
+    "slug": "estonia-schools-and-chatgpt",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/aarp-partnership-older-adults-online-safety/",
+    "slug": "aarp-partnership-older-adults-online-safety",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/the-next-chapter-for-uk-sovereign-ai/",
+    "slug": "the-next-chapter-for-uk-sovereign-ai",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/index/openai-for-ireland/",
+    "slug": "openai-for-ireland",
+    "sitemap_cat": "global-affairs"
+  },
+  {
+    "url": "https://openai.com/research/index/publication/",
+    "slug": "publication",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/",
+    "slug": "building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/practices-for-governing-agentic-ai-systems/",
+    "slug": "practices-for-governing-agentic-ai-systems",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/frontier-ai-regulation/",
+    "slug": "frontier-ai-regulation",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/",
+    "slug": "improving-mathematical-reasoning-with-process-supervision",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/gpts-are-gpts/",
+    "slug": "gpts-are-gpts",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/forecasting-misuse/",
+    "slug": "forecasting-misuse",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/",
+    "slug": "a-hazard-analysis-framework-for-code-synthesis-large-language-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/measuring-goodharts-law/",
+    "slug": "measuring-goodharts-law",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/economic-impacts-research/",
+    "slug": "economic-impacts-research",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/solving-math-word-problems/",
+    "slug": "solving-math-word-problems",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/summarizing-books/",
+    "slug": "summarizing-books",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/testing-robustness/",
+    "slug": "testing-robustness",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/gpt-2-6-month-follow-up/",
+    "slug": "gpt-2-6-month-follow-up",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/discovering-types-for-entity-disambiguation/",
+    "slug": "discovering-types-for-entity-disambiguation",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/democratic-inputs-to-ai/",
+    "slug": "democratic-inputs-to-ai",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/the-instruction-hierarchy/",
+    "slug": "the-instruction-hierarchy",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/",
+    "slug": "finding-gpt4s-mistakes-with-gpt-4",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards/",
+    "slug": "improving-model-safety-behavior-with-rule-based-rewards",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/openai-o1-system-card/",
+    "slug": "openai-o1-system-card",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/mle-bench/",
+    "slug": "mle-bench",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/advancing-red-teaming-with-people-and-ai/",
+    "slug": "advancing-red-teaming-with-people-and-ai",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/",
+    "slug": "trading-inference-time-compute-for-adversarial-robustness",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-system-card/",
+    "slug": "gpt-4o-system-card",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/healthbench/",
+    "slug": "healthbench",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/instruction-following/",
+    "slug": "instruction-following",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/image-gpt/",
+    "slug": "image-gpt",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/improving-language-model-behavior/",
+    "slug": "improving-language-model-behavior",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/webgpt/",
+    "slug": "webgpt",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/critiques/",
+    "slug": "critiques",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-to-summarize-with-human-feedback/",
+    "slug": "learning-to-summarize-with-human-feedback",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/fine-tuning-gpt-2/",
+    "slug": "fine-tuning-gpt-2",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-a-hierarchy/",
+    "slug": "learning-a-hierarchy",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/debate/",
+    "slug": "debate",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/reptile/",
+    "slug": "reptile",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/cooperation-on-safety/",
+    "slug": "cooperation-on-safety",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/robust-adversarial-inputs/",
+    "slug": "robust-adversarial-inputs",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/unsupervised-sentiment-neuron/",
+    "slug": "unsupervised-sentiment-neuron",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/third-person-imitation-learning/",
+    "slug": "third-person-imitation-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model/",
+    "slug": "transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/evolution-through-large-models/",
+    "slug": "evolution-through-large-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning/",
+    "slug": "benchmarking-safe-exploration-in-deep-reinforcement-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification/",
+    "slug": "adversarial-training-methods-for-semi-supervised-text-classification",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/truthfulqa/",
+    "slug": "truthfulqa",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/concrete-ai-safety-problems/",
+    "slug": "concrete-ai-safety-problems",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words/",
+    "slug": "teaching-models-to-express-their-uncertainty-in-words",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data/",
+    "slug": "semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/",
+    "slug": "understanding-the-source-of-what-we-see-and-hear-online",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/",
+    "slug": "text-and-code-embeddings-by-contrastive-pre-training",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/generative-language-modeling-for-automated-theorem-proving/",
+    "slug": "generative-language-modeling-for-automated-theorem-proving",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/adversarial-attacks-on-neural-network-policies/",
+    "slug": "adversarial-attacks-on-neural-network-policies",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models/",
+    "slug": "understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/preparing-for-malicious-uses-of-ai/",
+    "slug": "preparing-for-malicious-uses-of-ai",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle/",
+    "slug": "efficient-training-of-language-models-to-fill-in-the-middle",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/interpretable-and-pedagogical-examples/",
+    "slug": "interpretable-and-pedagogical-examples",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-complex-goals-with-iterated-amplification/",
+    "slug": "learning-complex-goals-with-iterated-amplification",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/point-e/",
+    "slug": "point-e",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/ai-safety-needs-social-scientists/",
+    "slug": "ai-safety-needs-social-scientists",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/language-models-can-explain-neurons-in-language-models/",
+    "slug": "language-models-can-explain-neurons-in-language-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/introducing-activation-atlases/",
+    "slug": "introducing-activation-atlases",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/",
+    "slug": "a-holistic-approach-to-undesired-content-detection-in-the-real-world",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/o3-mini-system-card/",
+    "slug": "o3-mini-system-card",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "slug": "video-generation-models-as-world-simulators",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results/",
+    "slug": "computational-limitations-in-robust-classification-and-win-win-results",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types/",
+    "slug": "transfer-of-adversarial-robustness-between-perturbation-types",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/improving-verifiability/",
+    "slug": "improving-verifiability",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-2-pre-training-mitigations/",
+    "slug": "dall-e-2-pre-training-mitigations",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/extracting-concepts-from-gpt-4/",
+    "slug": "extracting-concepts-from-gpt-4",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/introducing-simpleqa/",
+    "slug": "introducing-simpleqa",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/evaluating-fairness-in-chatgpt/",
+    "slug": "evaluating-fairness-in-chatgpt",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/",
+    "slug": "accelerating-life-sciences-research-with-retro-biosciences",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/ffjord/",
+    "slug": "ffjord",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/large-scale-study-of-curiosity-driven-learning/",
+    "slug": "large-scale-study-of-curiosity-driven-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/variational-option-discovery-algorithms/",
+    "slug": "variational-option-discovery-algorithms",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-policy-representations-in-multiagent-systems/",
+    "slug": "learning-policy-representations-in-multiagent-systems",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/gamepad/",
+    "slug": "gamepad",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/gotta-learn-fast/",
+    "slug": "gotta-learn-fast",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines/",
+    "slug": "variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/improving-gans-using-optimal-transport/",
+    "slug": "improving-gans-using-optimal-transport",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/on-first-order-meta-learning-algorithms/",
+    "slug": "on-first-order-meta-learning-algorithms",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning/",
+    "slug": "some-considerations-on-learning-to-explore-via-meta-reinforcement-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/multi-goal-reinforcement-learning/",
+    "slug": "multi-goal-reinforcement-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/interpretable-machine-learning-through-teaching/",
+    "slug": "interpretable-machine-learning-through-teaching",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization/",
+    "slug": "learning-sparse-neural-networks-through-l0-regularization",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/generalizing-from-simulation/",
+    "slug": "generalizing-from-simulation",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning/",
+    "slug": "asymmetric-actor-critic-for-image-based-robot-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization/",
+    "slug": "sim-to-real-transfer-of-robotic-control-with-dynamics-randomization",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping/",
+    "slug": "domain-randomization-and-generative-models-for-robotic-grasping",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/meta-learning-for-wrestling/",
+    "slug": "meta-learning-for-wrestling",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-to-model-other-minds/",
+    "slug": "learning-to-model-other-minds",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-with-opponent-learning-awareness/",
+    "slug": "learning-with-opponent-learning-awareness",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/better-exploration-with-parameter-noise/",
+    "slug": "better-exploration-with-parameter-noise",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/hindsight-experience-replay/",
+    "slug": "hindsight-experience-replay",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/teacher-student-curriculum-learning/",
+    "slug": "teacher-student-curriculum-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-to-cooperate-compete-and-communicate/",
+    "slug": "learning-to-cooperate-compete-and-communicate",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/ucb-exploration-via-q-ensembles/",
+    "slug": "ucb-exploration-via-q-ensembles",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning/",
+    "slug": "equivalence-between-policy-gradients-and-soft-q-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning/",
+    "slug": "stochastic-neural-networks-for-hierarchical-reinforcement-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/evolution-strategies/",
+    "slug": "evolution-strategies",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/one-shot-imitation-learning/",
+    "slug": "one-shot-imitation-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations/",
+    "slug": "emergence-of-grounded-compositional-language-in-multi-agent-populations",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/prediction-and-control-with-temporal-segment-models/",
+    "slug": "prediction-and-control-with-temporal-segment-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/pixelcnn-plus-plus/",
+    "slug": "pixelcnn-plus-plus",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/exploration/",
+    "slug": "exploration",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models/",
+    "slug": "on-the-quantitative-analysis-of-decoder-based-generative-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models/",
+    "slug": "a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/rl2/",
+    "slug": "rl2",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/variational-lossy-autoencoder/",
+    "slug": "variational-lossy-autoencoder",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/extensions-and-limitations-of-the-neural-gpu/",
+    "slug": "extensions-and-limitations-of-the-neural-gpu",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/generative-models/",
+    "slug": "generative-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/weight-normalization/",
+    "slug": "weight-normalization",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/consistency-models/",
+    "slug": "consistency-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/improved-techniques-for-training-consistency-models/",
+    "slug": "improved-techniques-for-training-consistency-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/swe-lancer/",
+    "slug": "swe-lancer",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/emergent-misalignment/",
+    "slug": "emergent-misalignment",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/ai-clinical-copilot-penda-health/",
+    "slug": "ai-clinical-copilot-penda-health",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/collective-alignment-aug-2025-updates/",
+    "slug": "collective-alignment-aug-2025-updates",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/quantifying-generalization-in-reinforcement-learning/",
+    "slug": "quantifying-generalization-in-reinforcement-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/sparse-transformer/",
+    "slug": "sparse-transformer",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/scaling-laws-for-reward-model-overoptimization/",
+    "slug": "scaling-laws-for-reward-model-overoptimization",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/techniques-for-training-large-neural-networks/",
+    "slug": "techniques-for-training-large-neural-networks",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/",
+    "slug": "hierarchical-text-conditional-image-generation-with-clip-latents",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/",
+    "slug": "dota-2-with-large-scale-deep-reinforcement-learning",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/energy-based-models/",
+    "slug": "energy-based-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/learning-concepts-with-energy-functions/",
+    "slug": "learning-concepts-with-energy-functions",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/plan-online-learn-offline/",
+    "slug": "plan-online-learn-offline",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/ai-and-efficiency/",
+    "slug": "ai-and-efficiency",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/scaling-laws-for-neural-language-models/",
+    "slug": "scaling-laws-for-neural-language-models",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/deep-double-descent/",
+    "slug": "deep-double-descent",
+    "sitemap_cat": "publication"
+  },
+  {
+    "url": "https://openai.com/index/chain-of-thought-monitoring/",
+    "slug": "chain-of-thought-monitoring",
+    "sitemap_cat": "publication"
+  }
+]

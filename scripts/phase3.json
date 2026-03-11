@@ -1,0 +1,602 @@
+[
+  {
+    "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media/",
+    "slug": "global-news-partnerships-le-monde-and-prisa-media",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "07",
+    "headline_zh": "OpenAI与全球新闻媒体合作",
+    "summary_zh": "OpenAI宣布与法国《世界报》和西班牙Prisa Media建立全球新闻合作伙伴关系。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-japan/",
+    "slug": "introducing-openai-japan",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "04",
+    "headline_zh": "OpenAI进入日本市场",
+    "summary_zh": "OpenAI宣布在日本设立办事处，并推出针对日语优化的GPT-4模型。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/api-partnership-with-stack-overflow/",
+    "slug": "api-partnership-with-stack-overflow",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "OpenAI与Stack Overflow合作",
+    "summary_zh": "OpenAI宣布与Stack Overflow建立API合作伙伴关系，整合开发者问答数据。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/content-partnership-with-financial-times/",
+    "slug": "content-partnership-with-financial-times",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "04",
+    "headline_zh": "OpenAI与《金融时报》合作",
+    "summary_zh": "OpenAI宣布与英国《金融时报》达成内容合作伙伴关系。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-reddit-partnership/",
+    "slug": "openai-and-reddit-partnership",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "OpenAI与Reddit合作",
+    "summary_zh": "OpenAI宣布与Reddit建立数据合作伙伴关系，获取平台内容训练AI模型。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-apple-announce-partnership/",
+    "slug": "openai-and-apple-announce-partnership",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "06",
+    "headline_zh": "OpenAI与苹果合作",
+    "summary_zh": "OpenAI宣布与苹果达成战略合作，将ChatGPT整合到iOS系统中。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/strategic-content-partnership-with-time/",
+    "slug": "strategic-content-partnership-with-time",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "OpenAI与《时代》周刊合作",
+    "summary_zh": "OpenAI宣布与美国《时代》周刊达成战略内容合作伙伴关系。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/conde-nast/",
+    "slug": "conde-nast",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "OpenAI与康泰纳仕合作",
+    "summary_zh": "OpenAI宣布与出版巨头康泰纳仕达成内容合作伙伴关系。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/hearst/",
+    "slug": "hearst",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "OpenAI与赫斯特集团合作",
+    "summary_zh": "OpenAI宣布与美国媒体巨头赫斯特集团达成内容合作伙伴关系。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/50-million-fund-to-build-with-communities/",
+    "slug": "50-million-fund-to-build-with-communities",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "5000万美元社区建设基金",
+    "summary_zh": "OpenAI宣布设立5000万美元基金，用于支持社区驱动的AI项目和创新。",
+    "category": "融资"
+  },
+  {
+    "url": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce/",
+    "slug": "providing-chatgpt-to-the-entire-us-federal-workforce",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "向全美联邦雇员提供ChatGPT",
+    "summary_zh": "OpenAI与美国政府合作，为所有联邦雇员提供ChatGPT访问权限。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/introducing-stargate-uae/",
+    "slug": "introducing-stargate-uae",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "Stargate项目落户阿联酋",
+    "summary_zh": "OpenAI宣布在阿联酋建立Stargate项目，推动全球AI基础设施发展。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/introducing-stargate-norway/",
+    "slug": "introducing-stargate-norway",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "Stargate项目落户挪威",
+    "summary_zh": "OpenAI宣布在挪威建立Stargate项目，加强欧洲AI基础设施建设。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/introducing-stargate-uk/",
+    "slug": "introducing-stargate-uk",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "Stargate项目落户英国",
+    "summary_zh": "OpenAI宣布在英国建立Stargate项目，推动欧洲AI技术发展。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/samsung-and-sk-join-stargate/",
+    "slug": "samsung-and-sk-join-stargate",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "三星和SK加入Stargate",
+    "summary_zh": "三星和SK集团宣布加入OpenAI的Stargate项目，共同推进AI基础设施。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/five-new-stargate-sites/",
+    "slug": "five-new-stargate-sites",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "新增五个Stargate站点",
+    "summary_zh": "OpenAI宣布在全球新增五个Stargate项目站点，扩大AI基础设施网络。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/expanding-stargate-to-michigan/",
+    "slug": "expanding-stargate-to-michigan",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "Stargate扩展至密歇根",
+    "summary_zh": "OpenAI宣布将Stargate项目扩展至美国密歇根州，加强本地AI能力。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/stargate-sb-energy-partnership/",
+    "slug": "stargate-sb-energy-partnership",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "Stargate与SB能源合作",
+    "summary_zh": "OpenAI与SB能源达成合作，为Stargate项目提供可持续能源支持。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-academy-for-news-organizations/",
+    "slug": "openai-academy-for-news-organizations",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "12",
+    "headline_zh": "新闻机构OpenAI学院",
+    "summary_zh": "OpenAI推出面向新闻机构的培训学院，帮助行业适应AI技术。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/ai-progress-and-recommendations/",
+    "slug": "ai-progress-and-recommendations",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "12",
+    "headline_zh": "AI进展与建议报告",
+    "summary_zh": "OpenAI发布AI技术进展报告，并提出相关政策建议。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/us-department-of-energy-collaboration/",
+    "slug": "us-department-of-energy-collaboration",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "01",
+    "headline_zh": "与美国能源部合作",
+    "summary_zh": "OpenAI与美国能源部达成合作，推动AI在能源领域的应用。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/aws-and-openai-partnership/",
+    "slug": "aws-and-openai-partnership",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "02",
+    "headline_zh": "与AWS达成合作",
+    "summary_zh": "OpenAI宣布与亚马逊AWS建立战略合作伙伴关系，共同推进AI云服务。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/1-million-businesses-putting-ai-to-work/",
+    "slug": "1-million-businesses-putting-ai-to-work",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "03",
+    "headline_zh": "百万企业使用AI",
+    "summary_zh": "OpenAI宣布已有超过100万家企业正在使用其AI产品和服务。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership/",
+    "slug": "next-chapter-of-microsoft-openai-partnership",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "微软与OpenAI深化合作",
+    "summary_zh": "微软宣布扩大与OpenAI的合作伙伴关系，投资数十亿美元并整合AI技术到其产品中。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/intuit-partnership/",
+    "slug": "intuit-partnership",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "OpenAI与Intuit合作",
+    "summary_zh": "OpenAI与财务软件公司Intuit达成合作，将AI技术整合到其财务产品中。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/microsoft-invests-in-and-partners-with-openai/",
+    "slug": "microsoft-invests-in-and-partners-with-openai",
+    "sitemap_cat": "company",
+    "year": "2019",
+    "month": "07",
+    "headline_zh": "微软投资并合作OpenAI",
+    "summary_zh": "微软宣布投资10亿美元并与OpenAI建立战略合作伙伴关系，共同开发AI技术。",
+    "category": "融资"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership/",
+    "slug": "openai-and-guardian-media-group-launch-content-partnership",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "07",
+    "headline_zh": "OpenAI与卫报媒体集团合作",
+    "summary_zh": "OpenAI与卫报媒体集团达成内容合作，探索AI在新闻行业的应用。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-microsoft/",
+    "slug": "openai-and-microsoft",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "OpenAI与微软深化合作",
+    "summary_zh": "OpenAI与微软宣布扩大合作伙伴关系，微软将增加对OpenAI的投资。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry/",
+    "slug": "partnering-with-axios-expands-openai-work-with-the-news-industry",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "OpenAI与Axios合作",
+    "summary_zh": "OpenAI与新闻机构Axios合作，进一步拓展AI在新闻行业的应用。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-partners-with-schibsted-media-group/",
+    "slug": "openai-partners-with-schibsted-media-group",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "OpenAI与Schibsted媒体集团合作",
+    "summary_zh": "OpenAI与北欧媒体巨头Schibsted达成合作，推动AI在新闻领域的创新。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/stargate-advances-with-partnership-with-oracle/",
+    "slug": "stargate-advances-with-partnership-with-oracle",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "03",
+    "headline_zh": "OpenAI与Oracle合作推进Stargate",
+    "summary_zh": "OpenAI与Oracle合作推进Stargate项目，共同开发下一代AI基础设施。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-foxconn-collaborate/",
+    "slug": "openai-and-foxconn-collaborate",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "04",
+    "headline_zh": "OpenAI与富士康合作",
+    "summary_zh": "OpenAI与富士康宣布合作，探索AI在制造业的应用。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/statement-on-openai-nonprofit-and-pbc/",
+    "slug": "statement-on-openai-nonprofit-and-pbc",
+    "sitemap_cat": "company",
+    "year": "2019",
+    "month": "03",
+    "headline_zh": "OpenAI非营利与营利架构声明",
+    "summary_zh": "OpenAI发布声明，解释其非营利与营利并行的组织结构。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/joint-statement-from-openai-and-microsoft/",
+    "slug": "joint-statement-from-openai-and-microsoft",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "OpenAI与微软联合声明",
+    "summary_zh": "OpenAI与微软发布联合声明，重申双方的长期合作伙伴关系。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/",
+    "slug": "openai-and-broadcom-announce-strategic-collaboration",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "02",
+    "headline_zh": "OpenAI与博通战略合作",
+    "summary_zh": "OpenAI与半导体公司博通宣布战略合作，优化AI芯片性能。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-nvidia-systems-partnership/",
+    "slug": "openai-nvidia-systems-partnership",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "12",
+    "headline_zh": "OpenAI与英伟达系统合作",
+    "summary_zh": "OpenAI与英伟达达成系统合作，共同优化AI硬件基础设施。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/",
+    "slug": "openai-acquires-software-applications-incorporated",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "01",
+    "headline_zh": "OpenAI收购Software Applications",
+    "summary_zh": "OpenAI宣布收购Software Applications公司，增强其企业软件能力。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-amd-strategic-partnership/",
+    "slug": "openai-amd-strategic-partnership",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "OpenAI与AMD战略合作",
+    "summary_zh": "OpenAI与AMD宣布战略合作，共同开发高性能AI计算解决方案。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/",
+    "slug": "vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig",
+    "sitemap_cat": "company",
+    "year": "2024",
+    "month": "06",
+    "headline_zh": "OpenAI收购Statsig",
+    "summary_zh": "OpenAI收购Statsig公司，其创始人Vijaye Raji将担任应用CTO。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories/",
+    "slug": "strengthening-americas-ai-leadership-with-the-us-national-laboratories",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "OpenAI与美国国家实验室合作",
+    "summary_zh": "OpenAI宣布与美国国家实验室合作，加强美国在人工智能领域的领导地位。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-the-csu-system/",
+    "slug": "openai-and-the-csu-system",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "OpenAI与加州州立大学系统合作",
+    "summary_zh": "OpenAI与加州州立大学系统达成合作，推动AI在教育领域的应用。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/march-funding-updates/",
+    "slug": "march-funding-updates",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "OpenAI融资更新",
+    "summary_zh": "OpenAI宣布新一轮融资进展，进一步支持其AI研发。",
+    "category": "融资"
+  },
+  {
+    "url": "https://openai.com/index/evolving-our-structure/",
+    "slug": "evolving-our-structure",
+    "sitemap_cat": "company",
+    "year": "2019",
+    "month": "03",
+    "headline_zh": "OpenAI结构调整",
+    "summary_zh": "OpenAI宣布从非营利组织转变为有限营利组织，以更好地筹集资金。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai/",
+    "slug": "bertelsmann-powers-creativity-and-productivity-with-openai",
+    "sitemap_cat": "company",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "OpenAI与贝塔斯曼合作",
+    "summary_zh": "OpenAI与贝塔斯曼合作，利用AI提升创造力和生产力。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/weak-to-strong-generalization/",
+    "slug": "weak-to-strong-generalization",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "12",
+    "headline_zh": "弱到强泛化研究",
+    "summary_zh": "OpenAI发布弱到强泛化研究，探索AI模型的泛化能力。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/moving-ai-governance-forward/",
+    "slug": "moving-ai-governance-forward",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "推进AI治理",
+    "summary_zh": "OpenAI发布关于推进AI治理的声明，强调全球合作的重要性。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/how-should-ai-systems-behave/",
+    "slug": "how-should-ai-systems-behave",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "02",
+    "headline_zh": "AI系统行为准则",
+    "summary_zh": "OpenAI探讨AI系统应如何行为，提出伦理和行为准则。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/planning-for-agi-and-beyond/",
+    "slug": "planning-for-agi-and-beyond",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "02",
+    "headline_zh": "AGI及未来规划",
+    "summary_zh": "OpenAI发布关于AGI及未来发展的规划与愿景。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-ai-safety/",
+    "slug": "our-approach-to-ai-safety",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "02",
+    "headline_zh": "AI安全方法",
+    "summary_zh": "OpenAI阐述其在AI安全方面的研究方法与策略。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/red-teaming-network/",
+    "slug": "red-teaming-network",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "红队网络计划",
+    "summary_zh": "OpenAI启动红队网络计划，加强AI模型的安全测试。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/governance-of-superintelligence/",
+    "slug": "governance-of-superintelligence",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "超级智能治理",
+    "summary_zh": "OpenAI发布关于超级智能治理的声明，呼吁全球合作。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/superalignment-fast-grants/",
+    "slug": "superalignment-fast-grants",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "07",
+    "headline_zh": "超级对齐快速资助",
+    "summary_zh": "OpenAI宣布超级对齐计划，提供资金支持AI对齐研究。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/frontier-risk-and-preparedness/",
+    "slug": "frontier-risk-and-preparedness",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "前沿风险与准备",
+    "summary_zh": "OpenAI发布前沿AI风险与准备框架，应对潜在风险。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/frontier-model-forum/",
+    "slug": "frontier-model-forum",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "07",
+    "headline_zh": "前沿模型论坛",
+    "summary_zh": "OpenAI联合其他公司成立前沿模型论坛，推动AI安全发展。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/openai-raising-concerns-policy/",
+    "slug": "openai-raising-concerns-policy",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "OpenAI担忧政策",
+    "summary_zh": "OpenAI发布政策，鼓励员工报告AI安全担忧。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/sora-system-card/",
+    "slug": "sora-system-card",
+    "sitemap_cat": "safety",
+    "year": "2024",
+    "month": "02",
+    "headline_zh": "Sora系统卡",
+    "summary_zh": "OpenAI发布视频生成模型Sora的系统卡，详细说明其能力与限制。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
+    "slug": "us-caisi-uk-aisi-ai-update",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "美英AI安全合作",
+    "summary_zh": "OpenAI参与美英AI安全研究所合作，推动全球AI安全标准。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-system-card/",
+    "slug": "gpt-5-system-card",
+    "sitemap_cat": "safety",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "GPT-5系统卡",
+    "summary_zh": "OpenAI发布GPT-5的系统卡，详细说明其能力与安全措施。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu/",
+    "slug": "the-next-chapter-for-ai-in-the-eu",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "欧盟AI新篇章",
+    "summary_zh": "OpenAI宣布在欧盟地区推进AI技术应用与合规发展的重要政策声明。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/snowflake-partnership/",
+    "slug": "snowflake-partnership",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "与Snowflake合作",
+    "summary_zh": "OpenAI宣布与数据云公司Snowflake建立战略合作伙伴关系，整合AI与数据分析能力。",
+    "category": "合作"
+  }
+]

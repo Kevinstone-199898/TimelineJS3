@@ -1,0 +1,372 @@
+[
+  {
+    "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai/",
+    "slug": "servicenow-powers-actionable-enterprise-ai-with-openai",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "OpenAI与ServiceNow合作",
+    "summary_zh": "OpenAI与ServiceNow合作，为企业提供可操作的AI解决方案。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/instacart-partnership/",
+    "slug": "instacart-partnership",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "OpenAI与Instacart合作",
+    "summary_zh": "OpenAI与Instacart合作，提升其购物体验的AI能力。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/deutsche-telekom-collaboration/",
+    "slug": "deutsche-telekom-collaboration",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "04",
+    "headline_zh": "OpenAI与德国电信合作",
+    "summary_zh": "OpenAI与德国电信合作，推动AI技术在电信领域的应用。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/bbva-collaboration-expansion/",
+    "slug": "bbva-collaboration-expansion",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "OpenAI与BBVA扩大合作",
+    "summary_zh": "OpenAI与西班牙BBVA银行扩大合作，提升金融服务AI能力。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/cerebras-partnership/",
+    "slug": "cerebras-partnership",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "OpenAI与Cerebras合作",
+    "summary_zh": "OpenAI与Cerebras合作，加速AI模型的训练与推理。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/estonia-schools-and-chatgpt/",
+    "slug": "estonia-schools-and-chatgpt",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "07",
+    "headline_zh": "爱沙尼亚学校引入ChatGPT",
+    "summary_zh": "OpenAI与爱沙尼亚合作，将ChatGPT引入学校教育系统。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/aarp-partnership-older-adults-online-safety/",
+    "slug": "aarp-partnership-older-adults-online-safety",
+    "sitemap_cat": "global-affairs",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "OpenAI与AARP合作",
+    "summary_zh": "OpenAI与AARP合作，提升老年人网络安全意识。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/",
+    "slug": "building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "构建生物威胁预警系统",
+    "summary_zh": "OpenAI发布研究，构建LLM辅助生物威胁创建的预警系统。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/practices-for-governing-agentic-ai-systems/",
+    "slug": "practices-for-governing-agentic-ai-systems",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "代理AI系统治理实践",
+    "summary_zh": "OpenAI发布代理AI系统治理的最佳实践指南。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/frontier-ai-regulation/",
+    "slug": "frontier-ai-regulation",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "前沿AI监管政策",
+    "summary_zh": "OpenAI发布关于前沿AI技术监管的政策声明。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/",
+    "slug": "improving-mathematical-reasoning-with-process-supervision",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "12",
+    "headline_zh": "改进数学推理能力",
+    "summary_zh": "OpenAI发布研究，通过过程监督改进AI的数学推理能力。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/gpt-2-6-month-follow-up/",
+    "slug": "gpt-2-6-month-follow-up",
+    "sitemap_cat": "publication",
+    "year": "2019",
+    "month": "11",
+    "headline_zh": "GPT-2六个月跟进",
+    "summary_zh": "OpenAI发布GPT-2模型六个月后的使用情况和影响报告。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-system-card/",
+    "slug": "gpt-4o-system-card",
+    "sitemap_cat": "publication",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "GPT-4o系统卡",
+    "summary_zh": "OpenAI发布GPT-4o模型的系统卡，详细介绍了其能力和安全措施。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/instruction-following/",
+    "slug": "instruction-following",
+    "sitemap_cat": "publication",
+    "year": "2022",
+    "month": "01",
+    "headline_zh": "指令遵循研究",
+    "summary_zh": "OpenAI发布关于如何训练AI模型更好遵循人类指令的研究成果。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/image-gpt/",
+    "slug": "image-gpt",
+    "sitemap_cat": "publication",
+    "year": "2020",
+    "month": "06",
+    "headline_zh": "Image GPT发布",
+    "summary_zh": "OpenAI推出基于GPT架构的图像生成模型Image GPT。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/improving-language-model-behavior/",
+    "slug": "improving-language-model-behavior",
+    "sitemap_cat": "publication",
+    "year": "2021",
+    "month": "04",
+    "headline_zh": "改进语言模型行为",
+    "summary_zh": "OpenAI发布研究，探讨如何使语言模型行为更符合人类价值观。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/webgpt/",
+    "slug": "webgpt",
+    "sitemap_cat": "publication",
+    "year": "2021",
+    "month": "12",
+    "headline_zh": "WebGPT发布",
+    "summary_zh": "OpenAI推出能够浏览网页回答问题的人工智能系统WebGPT。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/learning-to-summarize-with-human-feedback/",
+    "slug": "learning-to-summarize-with-human-feedback",
+    "sitemap_cat": "publication",
+    "year": "2020",
+    "month": "09",
+    "headline_zh": "人类反馈学习摘要",
+    "summary_zh": "OpenAI展示如何通过人类反馈训练AI模型生成更好的文本摘要。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/fine-tuning-gpt-2/",
+    "slug": "fine-tuning-gpt-2",
+    "sitemap_cat": "publication",
+    "year": "2019",
+    "month": "07",
+    "headline_zh": "GPT-2微调研究",
+    "summary_zh": "OpenAI发布关于GPT-2模型微调技术的研究论文。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/debate/",
+    "slug": "debate",
+    "sitemap_cat": "publication",
+    "year": "2018",
+    "month": "05",
+    "headline_zh": "AI辩论研究",
+    "summary_zh": "OpenAI提出通过AI辩论来验证AI系统决策的方法。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/cooperation-on-safety/",
+    "slug": "cooperation-on-safety",
+    "sitemap_cat": "publication",
+    "year": "2018",
+    "month": "06",
+    "headline_zh": "AI安全合作",
+    "summary_zh": "OpenAI宣布与其他机构合作研究AI安全问题。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/unsupervised-sentiment-neuron/",
+    "slug": "unsupervised-sentiment-neuron",
+    "sitemap_cat": "publication",
+    "year": "2017",
+    "month": "04",
+    "headline_zh": "无监督情感神经元",
+    "summary_zh": "OpenAI发现神经网络可以无监督学习情感分析能力。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/evolution-through-large-models/",
+    "slug": "evolution-through-large-models",
+    "sitemap_cat": "publication",
+    "year": "2021",
+    "month": "07",
+    "headline_zh": "大模型进化研究",
+    "summary_zh": "OpenAI探索通过大型语言模型实现AI系统自我进化的方法。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/truthfulqa/",
+    "slug": "truthfulqa",
+    "sitemap_cat": "publication",
+    "year": "2021",
+    "month": "09",
+    "headline_zh": "TruthfulQA基准",
+    "summary_zh": "OpenAI发布用于评估AI系统真实性的TruthfulQA基准测试。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/concrete-ai-safety-problems/",
+    "slug": "concrete-ai-safety-problems",
+    "sitemap_cat": "publication",
+    "year": "2016",
+    "month": "06",
+    "headline_zh": "AI安全问题研究",
+    "summary_zh": "OpenAI早期关于AI安全具体问题的研究论文。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/",
+    "slug": "text-and-code-embeddings-by-contrastive-pre-training",
+    "sitemap_cat": "publication",
+    "year": "2022",
+    "month": "01",
+    "headline_zh": "文本与代码嵌入模型",
+    "summary_zh": "OpenAI 发布文本与代码嵌入模型，通过对比预训练提升语义理解能力。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models/",
+    "slug": "understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models",
+    "sitemap_cat": "publication",
+    "year": "2021",
+    "month": "08",
+    "headline_zh": "大型语言模型的社会影响",
+    "summary_zh": "OpenAI 发布研究报告，探讨大型语言模型的能力、局限性和社会影响。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/preparing-for-malicious-uses-of-ai/",
+    "slug": "preparing-for-malicious-uses-of-ai",
+    "sitemap_cat": "publication",
+    "year": "2018",
+    "month": "02",
+    "headline_zh": "应对AI恶意使用",
+    "summary_zh": "OpenAI 发布政策声明，呼吁关注并预防AI技术的恶意使用。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/point-e/",
+    "slug": "point-e",
+    "sitemap_cat": "publication",
+    "year": "2022",
+    "month": "12",
+    "headline_zh": "Point-E 3D生成模型",
+    "summary_zh": "OpenAI 发布Point-E，一种高效生成3D点云的AI模型。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "slug": "video-generation-models-as-world-simulators",
+    "sitemap_cat": "publication",
+    "year": "2024",
+    "month": "02",
+    "headline_zh": "Sora视频生成模型",
+    "summary_zh": "OpenAI 发布Sora，一种能够模拟物理世界的视频生成模型。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/",
+    "slug": "accelerating-life-sciences-research-with-retro-biosciences",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "04",
+    "headline_zh": "OpenAI与Retro Biosciences合作",
+    "summary_zh": "OpenAI宣布与Retro Biosciences合作，加速生命科学研究。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/consistency-models/",
+    "slug": "consistency-models",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "一致性模型发布",
+    "summary_zh": "OpenAI发布一致性模型，一种新的生成模型方法，提高了生成效率和质量。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/ai-clinical-copilot-penda-health/",
+    "slug": "ai-clinical-copilot-penda-health",
+    "sitemap_cat": "publication",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "AI临床助手合作",
+    "summary_zh": "OpenAI与Penda Health合作推出AI临床助手，提升医疗诊断效率。",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/sparse-transformer/",
+    "slug": "sparse-transformer",
+    "sitemap_cat": "publication",
+    "year": "2019",
+    "month": "04",
+    "headline_zh": "稀疏Transformer发布",
+    "summary_zh": "OpenAI发布稀疏Transformer，显著提升长序列处理效率。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/",
+    "slug": "dota-2-with-large-scale-deep-reinforcement-learning",
+    "sitemap_cat": "publication",
+    "year": "2018",
+    "month": "06",
+    "headline_zh": "Dota 2 AI突破",
+    "summary_zh": "OpenAI的AI在Dota 2中击败职业玩家，展示强化学习强大能力。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/scaling-laws-for-neural-language-models/",
+    "slug": "scaling-laws-for-neural-language-models",
+    "sitemap_cat": "publication",
+    "year": "2020",
+    "month": "01",
+    "headline_zh": "神经语言模型缩放定律",
+    "summary_zh": "OpenAI发布关于神经语言模型性能与计算资源、数据量和模型规模之间关系的重要研究成果。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/deep-double-descent/",
+    "slug": "deep-double-descent",
+    "sitemap_cat": "publication",
+    "year": "2019",
+    "month": "12",
+    "headline_zh": "深度双下降现象",
+    "summary_zh": "OpenAI研究发现深度学习模型在参数过多时会出现性能再次提升的现象，挑战传统偏差-方差权衡理论。",
+    "category": "研究"
+  }
+]

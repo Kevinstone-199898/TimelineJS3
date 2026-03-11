@@ -78,7 +78,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, '127.0.0.1', () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`\n  Timeline server started`);
   console.log(`  → http://localhost:${PORT}/\n`);
 });

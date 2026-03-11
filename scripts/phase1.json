@@ -1,0 +1,632 @@
+[
+  {
+    "url": "https://openai.com/index/gpt-4-research/",
+    "slug": "gpt-4-research",
+    "sitemap_cat": "milestone",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "GPT-4研究发布",
+    "summary_zh": "OpenAI发布GPT-4技术报告，展示其多模态能力和性能提升",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/sora/",
+    "slug": "sora",
+    "sitemap_cat": "milestone",
+    "year": "2024",
+    "month": "02",
+    "headline_zh": "Sora发布",
+    "summary_zh": "OpenAI推出文本生成视频模型Sora，实现高质量视频生成",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/dall-e/",
+    "slug": "dall-e",
+    "sitemap_cat": "milestone",
+    "year": "2021",
+    "month": "01",
+    "headline_zh": "DALL-E发布",
+    "summary_zh": "OpenAI推出文本生成图像模型DALL-E，开创AI图像生成新领域",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/hello-gpt-4o/",
+    "slug": "hello-gpt-4o",
+    "sitemap_cat": "milestone",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "GPT-4o发布",
+    "summary_zh": "OpenAI发布GPT-4o模型，实现更快、更便宜的多模态交互",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/better-language-models/",
+    "slug": "better-language-models",
+    "sitemap_cat": "milestone",
+    "year": "2019",
+    "month": "02",
+    "headline_zh": "GPT-2发布",
+    "summary_zh": "OpenAI发布GPT-2语言模型，但因担忧滥用最初未完全开源",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/openai-five-benchmark-results/",
+    "slug": "openai-five-benchmark-results",
+    "sitemap_cat": "milestone",
+    "year": "2018",
+    "month": "06",
+    "headline_zh": "OpenAI Five基准测试",
+    "summary_zh": "OpenAI Five在Dota 2中击败业余人类团队，展示强化学习进展",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together/",
+    "slug": "openai-and-los-alamos-national-laboratory-work-together",
+    "sitemap_cat": "milestone",
+    "year": "2024",
+    "month": "06",
+    "headline_zh": "与洛斯阿拉莫斯合作",
+    "summary_zh": "OpenAI与洛斯阿拉莫斯国家实验室合作研究AI安全",
+    "category": "合作"
+  },
+  {
+    "url": "https://openai.com/index/language-models-are-few-shot-learners/",
+    "slug": "language-models-are-few-shot-learners",
+    "sitemap_cat": "milestone",
+    "year": "2020",
+    "month": "05",
+    "headline_zh": "GPT-3论文发表",
+    "summary_zh": "OpenAI发表GPT-3论文，展示少样本学习能力",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/musenet/",
+    "slug": "musenet",
+    "sitemap_cat": "milestone",
+    "year": "2019",
+    "month": "04",
+    "headline_zh": "MuseNet发布",
+    "summary_zh": "OpenAI推出音乐生成模型MuseNet，可创作多种风格音乐",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/solving-rubiks-cube/",
+    "slug": "solving-rubiks-cube",
+    "sitemap_cat": "milestone",
+    "year": "2019",
+    "month": "10",
+    "headline_zh": "解魔方机器人",
+    "summary_zh": "OpenAI展示机械手解魔方能力，展示强化学习在机器人领域的应用",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/clip/",
+    "slug": "clip",
+    "sitemap_cat": "milestone",
+    "year": "2021",
+    "month": "01",
+    "headline_zh": "CLIP模型发布",
+    "summary_zh": "OpenAI发布CLIP模型，实现图像与文本的跨模态理解",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+    "slug": "openai-five-defeats-dota-2-world-champions",
+    "sitemap_cat": "milestone",
+    "year": "2019",
+    "month": "04",
+    "headline_zh": "OpenAI Five击败世界冠军",
+    "summary_zh": "OpenAI Five在Dota 2中击败世界冠军团队，创AI里程碑",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/openai-five/",
+    "slug": "openai-five",
+    "sitemap_cat": "milestone",
+    "year": "2018",
+    "month": "06",
+    "headline_zh": "OpenAI Five发布",
+    "summary_zh": "OpenAI发布OpenAI Five，这是首个在Dota 2中击败职业战队的AI系统。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "slug": "gpt-4o-mini-advancing-cost-efficient-intelligence",
+    "sitemap_cat": "release",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "GPT-4o Mini发布",
+    "summary_zh": "OpenAI发布GPT-4o Mini，一款更高效、成本更低的智能模型。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/whisper/",
+    "slug": "whisper",
+    "sitemap_cat": "release",
+    "year": "2022",
+    "month": "09",
+    "headline_zh": "Whisper发布",
+    "summary_zh": "OpenAI发布Whisper语音识别模型，支持多语言转录和翻译。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4/",
+    "slug": "gpt-4",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "GPT-4发布",
+    "summary_zh": "OpenAI发布GPT-4多模态大模型，性能显著提升并支持图像输入。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-codex/",
+    "slug": "introducing-codex",
+    "sitemap_cat": "release",
+    "year": "2021",
+    "month": "08",
+    "headline_zh": "Codex发布",
+    "summary_zh": "OpenAI发布Codex模型，为GitHub Copilot提供技术支持。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/openai-gym-beta/",
+    "slug": "openai-gym-beta",
+    "sitemap_cat": "release",
+    "year": "2016",
+    "month": "04",
+    "headline_zh": "OpenAI Gym测试版",
+    "summary_zh": "OpenAI推出强化学习研究平台Gym的测试版本。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/gpt-2-1-5b-release/",
+    "slug": "gpt-2-1-5b-release",
+    "sitemap_cat": "release",
+    "year": "2019",
+    "month": "11",
+    "headline_zh": "GPT-2 1.5B发布",
+    "summary_zh": "OpenAI发布完整版GPT-2模型，参数量达15亿。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/gym-retro/",
+    "slug": "gym-retro",
+    "sitemap_cat": "release",
+    "year": "2018",
+    "month": "06",
+    "headline_zh": "Gym Retro发布",
+    "summary_zh": "OpenAI推出Gym Retro平台，支持经典游戏环境用于强化学习研究。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/learning-from-human-preferences/",
+    "slug": "learning-from-human-preferences",
+    "sitemap_cat": "release",
+    "year": "2017",
+    "month": "03",
+    "headline_zh": "人类偏好学习研究",
+    "summary_zh": "OpenAI发表通过人类反馈优化强化学习算法的研究成果。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/universe/",
+    "slug": "universe",
+    "sitemap_cat": "release",
+    "year": "2016",
+    "month": "12",
+    "headline_zh": "Universe平台发布",
+    "summary_zh": "OpenAI推出Universe平台，用于训练AI玩电子游戏和使用应用程序。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-3-system-card/",
+    "slug": "dall-e-3-system-card",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "DALL-E 3系统卡",
+    "summary_zh": "发布DALL-E 3图像生成模型的系统卡，详细说明其安全性和性能。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5/",
+    "slug": "introducing-gpt-5",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "GPT-5发布",
+    "summary_zh": "OpenAI发布新一代语言模型GPT-5，性能大幅提升。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4v-system-card/",
+    "slug": "gpt-4v-system-card",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "GPT-4V系统卡",
+    "summary_zh": "发布GPT-4V多模态模型的系统卡，详细说明其视觉能力。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/codex-now-generally-available/",
+    "slug": "codex-now-generally-available",
+    "sitemap_cat": "release",
+    "year": "2021",
+    "month": "08",
+    "headline_zh": "Codex全面开放",
+    "summary_zh": "OpenAI宣布Codex API全面开放，支持开发者使用。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+    "slug": "new-chatgpt-images-is-here",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "ChatGPT支持图像",
+    "summary_zh": "ChatGPT新增图像生成和识别功能，提升多模态交互体验。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-3/",
+    "slug": "dall-e-3",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "DALL-E 3发布",
+    "summary_zh": "OpenAI发布第三代图像生成模型DALL-E 3，图像质量显著提升。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-realtime/",
+    "slug": "introducing-gpt-realtime",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "GPT实时版发布",
+    "summary_zh": "OpenAI推出GPT实时版，支持更低延迟的交互体验。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-agent/",
+    "slug": "introducing-chatgpt-agent",
+    "sitemap_cat": "release",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "ChatGPT代理发布",
+    "summary_zh": "OpenAI推出ChatGPT代理功能，支持自动化任务处理。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-2/",
+    "slug": "dall-e-2",
+    "sitemap_cat": "release",
+    "year": "2022",
+    "month": "04",
+    "headline_zh": "DALL-E 2发布",
+    "summary_zh": "OpenAI发布第二代图像生成模型DALL-E 2，图像生成能力大幅提升。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/jukebox/",
+    "slug": "jukebox",
+    "sitemap_cat": "release",
+    "year": "2020",
+    "month": "04",
+    "headline_zh": "Jukebox发布",
+    "summary_zh": "OpenAI发布Jukebox，一个能生成音乐（包括歌词）的神经网络模型。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
+    "slug": "introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "07",
+    "headline_zh": "ChatGPT锁定模式",
+    "summary_zh": "OpenAI在ChatGPT中引入锁定模式和提升风险标签，增强内容安全控制。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/",
+    "slug": "developers-can-now-submit-apps-to-chatgpt",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "ChatGPT开放应用提交",
+    "summary_zh": "OpenAI允许开发者向ChatGPT提交应用，扩展其功能生态。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+    "slug": "testing-ads-in-chatgpt",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "ChatGPT测试广告",
+    "summary_zh": "OpenAI开始在ChatGPT中测试广告功能，探索商业化路径。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access/",
+    "slug": "our-approach-to-advertising-and-expanding-access",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "广告与访问扩展策略",
+    "summary_zh": "OpenAI公布广告策略和扩大ChatGPT访问的计划。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/openai-api/",
+    "slug": "openai-api",
+    "sitemap_cat": "product",
+    "year": "2020",
+    "month": "06",
+    "headline_zh": "OpenAI API发布",
+    "summary_zh": "OpenAI推出通用API，允许开发者访问其强大的AI模型。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-codex-app/",
+    "slug": "introducing-the-codex-app",
+    "sitemap_cat": "product",
+    "year": "2021",
+    "month": "08",
+    "headline_zh": "Codex应用发布",
+    "summary_zh": "OpenAI推出基于GPT-3的Codex应用，专注于代码生成。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-plus/",
+    "slug": "chatgpt-plus",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "02",
+    "headline_zh": "ChatGPT Plus发布",
+    "summary_zh": "OpenAI推出ChatGPT Plus订阅服务，提供更快的响应时间和优先访问。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt/",
+    "slug": "chatgpt",
+    "sitemap_cat": "product",
+    "year": "2022",
+    "month": "11",
+    "headline_zh": "ChatGPT发布",
+    "summary_zh": "OpenAI发布ChatGPT，引发全球AI聊天机器人热潮。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/",
+    "slug": "gpt-4o-and-more-tools-to-chatgpt-free",
+    "sitemap_cat": "product",
+    "year": "2024",
+    "month": "05",
+    "headline_zh": "GPT-4o发布",
+    "summary_zh": "OpenAI发布GPT-4o模型，并向免费用户开放更多功能。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/image-generation-api/",
+    "slug": "image-generation-api",
+    "sitemap_cat": "product",
+    "year": "2021",
+    "month": "01",
+    "headline_zh": "图像生成API发布",
+    "summary_zh": "OpenAI推出DALL·E图像生成API，允许开发者创建AI生成图像。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-data-residency-in-europe/",
+    "slug": "introducing-data-residency-in-europe",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "欧洲数据驻留",
+    "summary_zh": "OpenAI宣布在欧洲建立数据驻留，满足当地数据隐私法规要求。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/introducing-data-residency-in-asia/",
+    "slug": "introducing-data-residency-in-asia",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "亚洲数据驻留",
+    "summary_zh": "OpenAI宣布在亚洲建立数据驻留，扩展全球数据合规能力。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-now-available-without-waitlist/",
+    "slug": "dall-e-now-available-without-waitlist",
+    "sitemap_cat": "product",
+    "year": "2022",
+    "month": "07",
+    "headline_zh": "DALL·E开放访问",
+    "summary_zh": "OpenAI宣布DALL·E图像生成系统取消等待名单，向公众开放。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-team/",
+    "slug": "introducing-chatgpt-team",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "推出ChatGPT团队版",
+    "summary_zh": "OpenAI推出面向团队的ChatGPT订阅服务，提供更高效的协作功能。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-for-nonprofits/",
+    "slug": "introducing-openai-for-nonprofits",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "推出非营利组织计划",
+    "summary_zh": "OpenAI为非营利组织提供特殊访问权限和折扣，支持其使用AI技术。",
+    "category": "政策"
+  },
+  {
+    "url": "https://openai.com/index/new-tools-for-chatgpt-enterprise/",
+    "slug": "new-tools-for-chatgpt-enterprise",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "ChatGPT企业版新工具",
+    "summary_zh": "OpenAI为企业用户推出新工具，增强ChatGPT在企业环境中的应用。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program/",
+    "slug": "introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "微调API改进",
+    "summary_zh": "OpenAI改进微调API并扩展自定义模型计划，提升开发者体验。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak/",
+    "slug": "chatgpt-can-now-see-hear-and-speak",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "09",
+    "headline_zh": "ChatGPT支持多模态",
+    "summary_zh": "ChatGPT新增视觉和语音功能，支持更丰富的交互方式。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpts/",
+    "slug": "introducing-gpts",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "推出GPTs",
+    "summary_zh": "OpenAI推出GPTs，允许用户创建自定义版本的ChatGPT。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-chatgpt-app-for-ios/",
+    "slug": "introducing-the-chatgpt-app-for-ios",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "05",
+    "headline_zh": "推出iOS版ChatGPT应用",
+    "summary_zh": "OpenAI发布iOS版ChatGPT应用，方便用户随时随地使用。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+    "slug": "new-models-and-developer-products-announced-at-devday",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "11",
+    "headline_zh": "DevDay发布新模型",
+    "summary_zh": "OpenAI在DevDay上宣布新模型和开发者产品，推动AI技术发展。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/",
+    "slug": "gpt-3-5-turbo-fine-tuning-and-api-updates",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "08",
+    "headline_zh": "GPT-3.5 Turbo微调更新",
+    "summary_zh": "OpenAI推出GPT-3.5 Turbo的微调功能和API更新，提升模型性能。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/",
+    "slug": "dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "10",
+    "headline_zh": "DALL-E 3上线",
+    "summary_zh": "DALL-E 3图像生成模型正式在ChatGPT Plus和企业版中提供。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/",
+    "slug": "new-ai-classifier-for-indicating-ai-written-text",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "推出AI文本检测器",
+    "summary_zh": "OpenAI发布AI文本检测器，帮助识别AI生成的内容。",
+    "category": "研究"
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-plugins/",
+    "slug": "chatgpt-plugins",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "ChatGPT插件",
+    "summary_zh": "OpenAI推出ChatGPT插件功能，扩展其应用场景和能力。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/function-calling-and-other-api-updates/",
+    "slug": "function-calling-and-other-api-updates",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "06",
+    "headline_zh": "API功能调用更新",
+    "summary_zh": "OpenAI为API添加函数调用功能，提升开发者灵活性。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/new-embedding-models-and-api-updates/",
+    "slug": "new-embedding-models-and-api-updates",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "01",
+    "headline_zh": "新嵌入模型与API更新",
+    "summary_zh": "OpenAI发布新的文本嵌入模型和API更新，提升开发者体验。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-introducing-outpainting/",
+    "slug": "dall-e-introducing-outpainting",
+    "sitemap_cat": "product",
+    "year": "2022",
+    "month": "08",
+    "headline_zh": "DALL·E推出外绘功能",
+    "summary_zh": "DALL·E新增外绘功能，允许用户扩展图像边界并生成新内容。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/dall-e-api-now-available-in-public-beta/",
+    "slug": "dall-e-api-now-available-in-public-beta",
+    "sitemap_cat": "product",
+    "year": "2022",
+    "month": "11",
+    "headline_zh": "DALL·E API公测版发布",
+    "summary_zh": "DALL·E API正式进入公测阶段，开发者可集成图像生成功能。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/api-no-waitlist/",
+    "slug": "api-no-waitlist",
+    "sitemap_cat": "product",
+    "year": "2021",
+    "month": "11",
+    "headline_zh": "API取消等待名单",
+    "summary_zh": "OpenAI宣布取消API访问的等待名单，全面开放使用。",
+    "category": "产品"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+    "slug": "introducing-chatgpt-and-whisper-apis",
+    "sitemap_cat": "product",
+    "year": "2023",
+    "month": "03",
+    "headline_zh": "推出ChatGPT和Whisper API",
+    "summary_zh": "OpenAI发布ChatGPT和Whisper的API，支持开发者集成对话和语音转文本功能。",
+    "category": "产品"
+  }
+]

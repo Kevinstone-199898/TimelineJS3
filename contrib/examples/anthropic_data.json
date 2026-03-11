@@ -3,112 +3,1353 @@
     "text": {
       "headline": "Anthropic 发展历程",
       "text": "产品发布 · 融资轮次 · 安全研究"
-    }
+    },
+    "unique_id": "anthropic-"
   },
   "events": [
-    {
-      "start_date": { "year": "2021", "month": "1" },
-      "text": {
-        "headline": "Anthropic 成立",
-        "text": "由 Dario Amodei、Daniela Amodei 等 11 位前 OpenAI 核心成员创立，专注于 AI 安全性研究，总部位于旧金山。"
-      },
-      "group": "里程碑"
+  {
+    "unique_id": "added_1771857688454_1",
+    "start_date": {
+      "year": "2026",
+      "month": "1",
+      "day": "19"
     },
-    {
-      "start_date": { "year": "2022", "month": "4" },
-      "text": {
-        "headline": "种子轮融资 $1.24 亿",
-        "text": "完成 1.24 亿美元种子轮融资，投资方包括 Spark Capital、Google 等，用于核心研究和团队建设。"
-      },
-      "group": "融资"
+    "text": {
+      "headline": "Collaboration with Neuronpedia",
+      "text": "The authors collaborated with Neuronpedia to provide a research demo that allows users to view activations along the 'Assistant Axis' while chatting with standard and activation-capped models.<br><br><a href=\"https://www.anthropic.com/news/assistant-axis\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
     },
-    {
-      "start_date": { "year": "2022", "month": "12" },
-      "text": {
-        "headline": "A 轮融资 $7 亿",
-        "text": "完成 7 亿美元 A 轮融资，估值约 50 亿美元，投资方包括 Google、Spark Capital 等。"
-      },
-      "group": "融资"
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/assistant-axis"
+  },
+  {
+    "unique_id": "added_1771857688454_2",
+    "start_date": {
+      "year": 2025,
+      "month": 5,
+      "day": 22
     },
-    {
-      "start_date": { "year": "2023", "month": "3" },
-      "text": {
-        "headline": "Claude 1 发布",
-        "text": "首个 Claude 模型上线，强调安全性和无害性（Constitutional AI），以「有益、无害、诚实」为核心设计原则。"
-      },
-      "group": "产品"
+    "text": {
+      "headline": "Product Launch: Claude Opus 4",
+      "text": "Anthropic launched Claude Opus 4 alongside the activation of AI Safety Level 3 (ASL-3) Deployment and Security Standards. This includes increased internal security measures to prevent model weight theft and narrowly targeted deployment measures to limit misuse for CBRN weapons. The launch features Constitutional Classifiers to block harmful CBRN information and egress bandwidth controls to protect model weights, ensuring safety against sophisticated threats.<br><br><a href=\"https://www.anthropic.com/news/activating-asl3-protections\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
     },
-    {
-      "start_date": { "year": "2023", "month": "5" },
-      "text": {
-        "headline": "B 轮融资 $4.5 亿",
-        "text": "完成 4.5 亿美元 B 轮融资，Google 领投，估值达 50 亿美元，Google 承诺最高 3 亿美元额外投资。"
-      },
-      "group": "融资"
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/activating-asl3-protections"
+  },
+  {
+    "unique_id": "added_1771857688454_3",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "29"
     },
-    {
-      "start_date": { "year": "2023", "month": "7" },
-      "text": {
-        "headline": "Claude 2 发布",
-        "text": "支持 10 万 token 超长上下文，可处理完整书籍或代码库。编程和推理能力显著提升，向公众开放使用。"
-      },
-      "group": "产品"
+    "text": {
+      "headline": "Partnership with Japan AI Safety Institute",
+      "text": "Anthropic signed a Memorandum of Cooperation with the Japan AI Safety Institute to collaborate on AI evaluation methodologies and monitor emerging trends, building shared standards for AI assessment.<br><br><a href=\"https://www.anthropic.com/news/opening-our-tokyo-office\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
     },
-    {
-      "start_date": { "year": "2023", "month": "9" },
-      "text": {
-        "headline": "亚马逊融资 Anthropic $12.5 亿",
-        "text": "亚马逊宣布投资最高 40 亿美元（首批 12.5 亿），成为 Anthropic 重要股东，并获得云服务优先合作权。"
-      },
-      "group": "融资"
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/opening-our-tokyo-office"
+  },
+  {
+    "unique_id": "added_1771857688454_4",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "29"
     },
-    {
-      "start_date": { "year": "2023", "month": "9" },
-      "text": {
-        "headline": "Anthropic 与亚马逊达成云合作",
-        "text": "Claude 模型将通过 AWS Bedrock 提供服务，Anthropic 以 AWS 作为主要云服务商，深度整合亚马逊生态。"
-      },
-      "group": "合作"
+    "text": {
+      "headline": "Partnership with Mori Art Museum",
+      "text": "Anthropic extended its partnership with the Mori Art Museum to collaborate on the upcoming exhibition 'Roppongi Crossing 2025' and other long-term projects supporting Japan's creative community.<br><br><a href=\"https://www.anthropic.com/news/opening-our-tokyo-office\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
     },
-    {
-      "start_date": { "year": "2024", "month": "3" },
-      "text": {
-        "headline": "Claude 3 系列发布",
-        "text": "一次发布三款：Haiku（快速轻量）、Sonnet（均衡）、Opus（最强），Opus 在多项基准测试超越 GPT-4。首次支持图像理解。"
-      },
-      "group": "产品"
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/opening-our-tokyo-office"
+  },
+  {
+    "unique_id": "added_1771857688454_5",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "29"
     },
-    {
-      "start_date": { "year": "2024", "month": "6" },
-      "text": {
-        "headline": "Claude 3.5 Sonnet 发布",
-        "text": "性能超越 Claude 3 Opus，同时速度更快、成本更低。引入 Artifacts 功能，可在对话中实时渲染代码和内容。"
-      },
-      "group": "产品"
+    "text": {
+      "headline": "APAC run rate revenue grows more than 10x year-over-year",
+      "text": "Anthropic's Asia Pacific run rate revenue has grown more than 10x in the past year, reflecting extraordinary momentum in the region.<br><br><a href=\"https://www.anthropic.com/news/opening-our-tokyo-office\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
     },
-    {
-      "start_date": { "year": "2024", "month": "9" },
-      "text": {
-        "headline": "C 轮融资 $40 亿，估值 $180 亿",
-        "text": "完成 40 亿美元融资，亚马逊追加投资（总承诺达 40 亿美元），估值达 180 亿美元。"
-      },
-      "group": "融资"
+    "group": "里程碑",
+    "_source": "https://www.anthropic.com/news/opening-our-tokyo-office"
+  },
+  {
+    "unique_id": "added_1771857688454_6",
+    "start_date": {
+      "year": "2025",
+      "month": "8",
+      "day": "12"
     },
-    {
-      "start_date": { "year": "2024", "month": "10" },
-      "text": {
-        "headline": "Computer Use 功能发布",
-        "text": "Claude 可直接操控电脑界面——移动鼠标、点击按钮、输入文字，是首个具备此能力的主流 AI 模型。"
-      },
-      "group": "产品"
+    "text": {
+      "headline": "Partnership with Institute for Strategic Dialogue",
+      "text": "Collaborated during the 2024 U.S. election to identify when Claude might provide outdated information, leading to the implementation of banners directing users to authoritative sources like TurboVote.<br><br><a href=\"https://www.anthropic.com/news/building-safeguards-for-claude\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
     },
-    {
-      "start_date": { "year": "2024", "month": "11" },
-      "text": {
-        "headline": "Claude 3.5 Haiku 发布",
-        "text": "最快、最经济的 Claude 模型，性能超越前一代 Opus，适合高频次、低延迟应用场景。"
-      },
-      "group": "产品"
-    }
-  ]
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/building-safeguards-for-claude"
+  },
+  {
+    "unique_id": "added_1771857688454_7",
+    "start_date": {
+      "year": "2025",
+      "month": "8",
+      "day": "12"
+    },
+    "text": {
+      "headline": "Partnership with ThroughLine",
+      "text": "Partnered with the online crisis support leader to develop a deep understanding of how models should respond to self-harm and mental health situations, refining Claude's nuanced responses.<br><br><a href=\"https://www.anthropic.com/news/building-safeguards-for-claude\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/building-safeguards-for-claude"
+  },
+  {
+    "unique_id": "added_1771857688454_8",
+    "start_date": {
+      "year": "2025",
+      "month": "7",
+      "day": "15"
+    },
+    "text": {
+      "headline": "Active API customers reach hundreds of thousands; Claude Code revenue grows 5x",
+      "text": "Anthropic serves hundreds of thousands of active API customers. Claude Code's recurring revenue has grown over 5x in just two months. This growth accompanies the appointment of Paul Smith as Chief Commercial Officer, highlighting the company's expansion in the enterprise market.<br><br><a href=\"https://www.anthropic.com/news/paul-smith-to-join-anthropic\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "里程碑",
+    "_source": "https://www.anthropic.com/news/paul-smith-to-join-anthropic"
+  },
+  {
+    "unique_id": "added_1771857688454_9",
+    "start_date": {
+      "year": 2025,
+      "month": 4,
+      "day": 2
+    },
+    "text": {
+      "headline": "Product Launch: Claude for Education",
+      "text": "Anthropic launched Claude for Education, a specialized version for higher education. It introduces Learning mode, which guides students' reasoning using Socratic questioning rather than providing direct answers. It also offers university-wide access agreements, partnerships with Internet2 and Instructure for Canvas LMS integration, and new student programs like Campus Ambassadors and API credits for projects.<br><br><a href=\"https://www.anthropic.com/news/introducing-claude-for-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/introducing-claude-for-education"
+  },
+  {
+    "unique_id": "added_1771857688454_10",
+    "start_date": {
+      "year": "2025",
+      "month": "4",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with Northeastern University",
+      "text": "Northeastern University is Anthropic's first university design partner, collaborating to transform teaching and research. The agreement provides 50,000 individuals across 13 global campuses with Claude access to build best practices for AI integration in higher education.<br><br><a href=\"https://www.anthropic.com/news/introducing-claude-for-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/introducing-claude-for-education"
+  },
+  {
+    "unique_id": "added_1771857688454_11",
+    "start_date": {
+      "year": "2025",
+      "month": "4",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with London School of Economics (LSE)",
+      "text": "LSE partners with Anthropic to provide Claude to its student body, ensuring equity of access. The collaboration focuses on equipping students with AI skills and exploring responsible AI deployment in educational contexts.<br><br><a href=\"https://www.anthropic.com/news/introducing-claude-for-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/introducing-claude-for-education"
+  },
+  {
+    "unique_id": "added_1771857688454_12",
+    "start_date": {
+      "year": "2025",
+      "month": "4",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with Champlain College",
+      "text": "Champlain College collaborates with Anthropic to adopt Claude campus-wide, helping students develop AI skills for the workplace. The partnership explores AI's implications for workforce development and emphasizes human skills in a technology-driven world.<br><br><a href=\"https://www.anthropic.com/news/introducing-claude-for-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/introducing-claude-for-education"
+  },
+  {
+    "unique_id": "added_1771857688454_13",
+    "start_date": {
+      "year": "2025",
+      "month": "4",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with Internet2",
+      "text": "Anthropic joins Internet2, a non-profit technology community, to integrate Claude within higher education tools. The partnership aims to facilitate trusted AI use across academia by working with members on service evaluations and solutions.<br><br><a href=\"https://www.anthropic.com/news/introducing-claude-for-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/introducing-claude-for-education"
+  },
+  {
+    "unique_id": "added_1771857688454_14",
+    "start_date": {
+      "year": "2025",
+      "month": "4",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with Instructure",
+      "text": "Anthropic works with Instructure to embed AI into teaching and learning via Canvas LMS. The collaboration increases equitable access to tools that support universities as they integrate AI into their educational environments.<br><br><a href=\"https://www.anthropic.com/news/introducing-claude-for-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/introducing-claude-for-education"
+  },
+  {
+    "unique_id": "added_1771857688454_15",
+    "start_date": {
+      "year": 2024,
+      "month": 3,
+      "day": 19
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3 Models on Vertex AI",
+      "text": "Claude 3 Haiku and Claude 3 Sonnet are now generally available on Google Cloud’s Vertex AI platform. These models optimize intelligence, speed, and cost, enabling enterprises to prototype and scale generative AI solutions with enterprise-grade data privacy and security.<br><br><a href=\"https://www.anthropic.com/news/google-vertex-general-availability\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/google-vertex-general-availability"
+  },
+  {
+    "unique_id": "added_1771857688454_16",
+    "start_date": {
+      "year": 2024,
+      "month": 3,
+      "day": 19
+    },
+    "text": {
+      "headline": "Partnership with Google Cloud",
+      "text": "Anthropic announced a collaboration with Google Cloud to make Claude 3 Haiku and Claude 3 Sonnet generally available on Vertex AI. This partnership enables enterprises to use Anthropic's models with Google Cloud's infrastructure, facilitating the scaling of generative AI solutions with enterprise-grade data privacy and security.<br><br><a href=\"https://www.anthropic.com/news/google-vertex-general-availability\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/google-vertex-general-availability"
+  },
+  {
+    "unique_id": "added_1771857688454_17",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 29
+    },
+    "text": {
+      "headline": "Product Launch: Claude Code",
+      "text": "Anthropic introduces upgrades to Claude Code, including a native VS Code extension in beta and version 2.0 of the terminal interface. New features include checkpoints for autonomous operation, saving code state before changes, and support for subagents and hooks via the Claude Agent SDK. These updates enable Claude Code to handle longer, more complex development tasks with improved status visibility and searchable prompt history.<br><br><a href=\"https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously"
+  },
+  {
+    "unique_id": "added_1771857688454_18",
+    "start_date": {
+      "year": "2026",
+      "month": "1",
+      "day": "13"
+    },
+    "text": {
+      "headline": "Claude Code becomes a billion-dollar product; MCP reaches 100M monthly downloads",
+      "text": "Claude Code grew from a research preview to a billion-dollar product in six months. The Model Context Protocol (MCP) has reached 100 million monthly downloads, becoming the industry standard for connecting AI to tools and data.<br><br><a href=\"https://www.anthropic.com/news/introducing-anthropic-labs\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "里程碑",
+    "_source": "https://www.anthropic.com/news/introducing-anthropic-labs"
+  },
+  {
+    "unique_id": "added_1771857688454_19",
+    "start_date": {
+      "year": 2025,
+      "month": 2,
+      "day": 24
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3.7 Sonnet and Claude Code",
+      "text": "Claude 3.7 Sonnet is the first hybrid reasoning model, offering near-instant responses or extended, visible step-by-step thinking. It excels in coding and front-end development, with API users controlling thinking duration. Also introduced is Claude Code, a command line tool for agentic coding, enabling developers to delegate engineering tasks directly from the terminal.<br><br><a href=\"https://www.anthropic.com/news/claude-3-7-sonnet\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-3-7-sonnet"
+  },
+  {
+    "unique_id": "added_1771857688454_20",
+    "start_date": {
+      "year": 2024,
+      "month": 9,
+      "day": 3
+    },
+    "text": {
+      "headline": "Product Launch: Salesforce Einstein with Claude Models",
+      "text": "Salesforce customers can now select Claude 3.5 Sonnet, Claude 3 Opus, and Claude 3 Haiku models via Amazon Bedrock. This integration enhances Einstein capabilities, allowing enterprises to improve efficiency, insight, and personalization across sales, service, and marketing. Users can connect Claude models in prompt templates and custom actions for Agentforce Agents, ensuring enterprise-grade security through the Einstein Trust Layer.<br><br><a href=\"https://www.anthropic.com/news/salesforce-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/salesforce-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_21",
+    "start_date": {
+      "year": 2024,
+      "month": 9,
+      "day": 3
+    },
+    "text": {
+      "headline": "Partnership with Anthropic",
+      "text": "Salesforce announced a partnership with Anthropic to integrate Claude 3.5 Sonnet, Claude 3 Opus, and Claude 3 Haiku models into its Einstein capabilities. Available via Amazon Bedrock, this collaboration allows Salesforce customers to select Claude models for AI-powered applications, enhancing efficiency, insight, and personalization across sales, service, and marketing while maintaining enterprise-grade security.<br><br><a href=\"https://www.anthropic.com/news/salesforce-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/salesforce-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_22",
+    "start_date": {
+      "year": 2025,
+      "month": 11,
+      "day": 18
+    },
+    "text": {
+      "headline": "Strategic Investment",
+      "text": "NVIDIA and Microsoft are committing to invest up to $10 billion and up to $5 billion respectively in Anthropic as part of new strategic partnerships. This investment supports Anthropic’s scaling of its Claude AI model on Azure and deep technology partnership with NVIDIA.<br><br><a href=\"https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "融资",
+    "_source": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+  },
+  {
+    "unique_id": "added_1771857688454_23",
+    "start_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with Microsoft",
+      "text": "Anthropic scales Claude on Azure, commits to $30B compute purchase, and expands access for Microsoft Foundry and Copilot customers to Claude models.<br><br><a href=\"https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+  },
+  {
+    "unique_id": "added_1771857688454_24",
+    "start_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with NVIDIA",
+      "text": "Establishing a deep technology partnership to collaborate on design and engineering, optimizing Anthropic models for performance and future NVIDIA architectures.<br><br><a href=\"https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+  },
+  {
+    "unique_id": "added_1771857688454_25",
+    "start_date": {
+      "year": 2024,
+      "month": 6,
+      "day": 21
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3.5 Sonnet",
+      "text": "Claude 3.5 Sonnet raises the industry bar for intelligence, outperforming competitor models and Claude 3 Opus. It operates at twice the speed of Claude 3 Opus with cost-effective pricing. It sets new benchmarks for graduate-level reasoning, knowledge, and coding proficiency. Additionally, the new 'Artifacts' feature creates a dynamic workspace for users to see, edit, and build upon AI-generated content in real-time.<br><br><a href=\"https://www.anthropic.com/news/claude-3-5-sonnet\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-3-5-sonnet"
+  },
+  {
+    "unique_id": "added_1771857688454_26",
+    "start_date": {
+      "year": 2024,
+      "month": 5,
+      "day": 23
+    },
+    "text": {
+      "headline": "Product Launch: Golden Gate Claude",
+      "text": "Golden Gate Claude is a research demo model based on Claude 3 Sonnet where the 'Golden Gate Bridge' feature activation is tuned up. This modification causes the model to obsessively mention the bridge in responses to various queries, demonstrating the ability to identify and alter internal features.<br><br><a href=\"https://www.anthropic.com/news/golden-gate-claude\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/golden-gate-claude"
+  },
+  {
+    "unique_id": "added_1771857688454_27",
+    "start_date": {
+      "year": "2025",
+      "month": "9",
+      "day": "4"
+    },
+    "text": {
+      "headline": "Partnership with Government of Rwanda",
+      "text": "Anthropic and the Government of Rwanda signed a Memorandum of Understanding (MOU) to collaborate on the application of AI in the health and education sectors.<br><br><a href=\"https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
+  },
+  {
+    "unique_id": "added_1771857688454_28",
+    "start_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 27
+    },
+    "text": {
+      "headline": "Product Launch: Claude for Financial Services",
+      "text": "Expanding Claude for Financial Services with a beta Excel add-in for direct spreadsheet analysis and creation. Adding new connectors for real-time data from Aiera, Chronograph, Egnyte, LSEG, Moody’s, and MT Newswires. Introducing six new pre-built Agent Skills for financial tasks like discounted cash flow models, comparable company analysis, and initiating coverage reports.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_29",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with Microsoft",
+      "text": "Anthropic is releasing Claude for Excel in beta, allowing users to work directly with Claude in a sidebar within Microsoft Excel. This integration enables Claude to read, analyze, modify, and create workbooks, adding to existing integrations with Microsoft 365 and Copilot Studio.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_30",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with Aiera",
+      "text": "A new connector provides Claude with real-time earnings call transcripts and summaries of investor events. It also enables a data feed from Third Bridge, granting access to expert insights, company intelligence, and industry analysis.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_31",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with Chronograph",
+      "text": "A new connector gives private equity investors access to operational and financial information for portfolio monitoring and due diligence, including performance metrics, valuations, and fund-level data.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_32",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with Egnyte",
+      "text": "A new connector enables Claude to securely search permitted data for internal data rooms, investment documents, and approved financial models while maintaining governed access controls.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_33",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with LSEG",
+      "text": "A new connector links Claude to live market data, including fixed income pricing, equities, foreign exchange rates, macroeconomic indicators, and analysts' estimates.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_34",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with Moody's",
+      "text": "A new connector provides access to proprietary credit ratings, research, and company data on over 600 million public and private companies, supporting compliance, credit analysis, and business development.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_35",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with MT Newswires",
+      "text": "A new connector provides Claude with access to the latest global multi-asset class news on financial markets and economies.<br><br><a href=\"https://www.anthropic.com/news/advancing-claude-for-financial-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+  },
+  {
+    "unique_id": "added_1771857688454_36",
+    "start_date": {
+      "year": 2026,
+      "month": 2,
+      "day": 17
+    },
+    "text": {
+      "headline": "Product Launch: Claude Sonnet 4.6",
+      "text": "Claude Sonnet 4.6 is a full upgrade offering improved coding, computer use, long-context reasoning, and agent planning. It features a 1M token context window in beta and is now the default model for Free and Pro plans. It matches Opus-level intelligence at a lower cost, with significant gains in safety and prompt injection resistance.<br><br><a href=\"https://www.anthropic.com/news/claude-sonnet-4-6\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+  },
+  {
+    "unique_id": "added_1771857688454_37",
+    "start_date": {
+      "year": "2025",
+      "month": 7,
+      "day": 23
+    },
+    "text": {
+      "headline": "Partnership with University of Chicago’s Becker Friedman Institute",
+      "text": "Anthropic partners with the University of Chicago's Becker Friedman Institute for Economics (BFI) to study AI's impact on labor markets and the economy. The collaboration includes providing BFI faculty with Claude for Enterprise access, training sessions, and joint research on productivity and labor market transitions. This partnership extends Anthropic's Economic Index initiative, combining their data with BFI's economic expertise to provide robust insights for policymakers.<br><br><a href=\"https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic"
+  },
+  {
+    "unique_id": "added_1771857688454_38",
+    "start_date": {
+      "year": 2026,
+      "month": 2,
+      "day": 17
+    },
+    "text": {
+      "headline": "Partnership with Government of Rwanda",
+      "text": "Anthropic and the Government of Rwanda signed a three-year Memorandum of Understanding to integrate AI into Rwanda's education, health, and public sector systems. The collaboration includes supporting national health goals like eliminating cervical cancer, providing government developer teams with access to Claude and API credits, and expanding education partnerships with AI literacy training and licenses across eight African countries.<br><br><a href=\"https://www.anthropic.com/news/anthropic-rwanda-mou\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-rwanda-mou"
+  },
+  {
+    "unique_id": "added_1771857688454_39",
+    "start_date": {
+      "year": 2026,
+      "month": 2,
+      "day": 20
+    },
+    "text": {
+      "headline": "Product Launch: Claude Code Security",
+      "text": "Claude Code Security is a new capability built into Claude Code that scans codebases for security vulnerabilities and suggests targeted software patches. Unlike rule-based static analysis, it reads and reasons about code like a human researcher to catch complex, context-dependent issues. It includes a multi-stage verification process to filter false positives and assigns severity ratings. Available in limited research preview for Enterprise and Team customers.<br><br><a href=\"https://www.anthropic.com/news/claude-code-security\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-code-security"
+  },
+  {
+    "unique_id": "added_1771857688454_40",
+    "start_date": {
+      "year": "2026",
+      "month": "2",
+      "day": "20"
+    },
+    "text": {
+      "headline": "Partnership with Pacific Northwest National Laboratory",
+      "text": "Anthropic partnered with Pacific Northwest National Laboratory to experiment with using AI to defend critical infrastructure. This collaboration was part of the Frontier Red Team's efforts to stress-test Claude's cybersecurity capabilities.<br><br><a href=\"https://www.anthropic.com/news/claude-code-security\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-code-security"
+  },
+  {
+    "unique_id": "added_1771857688454_41",
+    "start_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 3
+    },
+    "text": {
+      "headline": "Product Launch: Claude Sonnet 4.5",
+      "text": "Claude Sonnet 4.5 emphasizes cyber skills, matching or eclipsing Opus 4.1 in discovering code vulnerabilities. It excels in finding and patching vulnerabilities in codebases and testing weaknesses in deployed security infrastructure. It achieves a 76.5% success rate on Cybench evaluations and scores 28.9% on CyberGym, offering state-of-the-art performance while being less expensive and faster than previous models.<br><br><a href=\"https://www.anthropic.com/news/building-ai-cyber-defenders\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/building-ai-cyber-defenders"
+  },
+  {
+    "unique_id": "added_1771857688454_42",
+    "start_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 6
+    },
+    "text": {
+      "headline": "Product Launch: Claude Gov models",
+      "text": "Custom Claude models built exclusively for U.S. national security customers. Features include improved handling of classified materials, greater understanding of defense documents, enhanced proficiency in critical languages, and improved interpretation of complex cybersecurity data for intelligence analysis.<br><br><a href=\"https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers"
+  },
+  {
+    "unique_id": "added_1771857688454_43",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 30
+    },
+    "text": {
+      "headline": "Partnership with Centers for Medicare & Medicaid Services (CMS)",
+      "text": "Anthropic signed the CMS Health Tech Ecosystem pledge, joining a collaborative effort with the White House and CMS to advance healthcare interoperability. This public-private partnership aims to modernize data sharing and improve patient outcomes using conversational AI. Anthropic will utilize its technology to bridge incompatible healthcare systems, enabling secure access to patient data and assisting patients in understanding their health information.<br><br><a href=\"https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability"
+  },
+  {
+    "unique_id": "added_1771857688454_44",
+    "start_date": {
+      "year": "2025",
+      "month": "4",
+      "day": "1"
+    },
+    "text": {
+      "headline": "Partnership with U.S. Department of Energy (DOE) and NNSA",
+      "text": "Anthropic partnered with the U.S. Department of Energy’s National Nuclear Security Administration (NNSA) to assess models for nuclear proliferation risks. Together with NNSA and DOE national laboratories, they co-developed a classifier to distinguish between concerning and benign nuclear-related conversations with 96% accuracy. This public-private partnership aims to secure frontier AI models against nuclear misuse and serve as a blueprint for other AI developers.<br><br><a href=\"https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_45",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Product Launch: Claude Sonnet 4.6",
+      "text": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.<br><br><a href=\"https://www.anthropic.com/news/genesis-mission-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/genesis-mission-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_46",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with US Department of Energy",
+      "text": "Anthropic and the US Department of Energy announced a multi-year partnership under the Genesis Mission initiative. This collaboration aims to cement America's leadership in science by leveraging AI across energy dominance, biological and life sciences, and scientific productivity. Anthropic will provide DOE researchers access to Claude and engineering support to develop purpose-built AI tools for national laboratories.<br><br><a href=\"https://www.anthropic.com/news/genesis-mission-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/genesis-mission-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_47",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "9"
+    },
+    "text": {
+      "headline": "Partnership with Block, OpenAI, and Linux Foundation to establish Agentic AI Foundation",
+      "text": "Anthropic, Block, and OpenAI co-founded the Agentic AI Foundation (AAIF) under the Linux Foundation, with support from Google, Microsoft, AWS, Cloudflare, and Bloomberg. Anthropic donated the Model Context Protocol (MCP) to the AAIF to ensure it remains a neutral, open standard. This collaboration aims to foster innovation and maintain vendor neutrality in the agentic AI ecosystem.<br><br><a href=\"https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+  },
+  {
+    "unique_id": "added_1771857688454_48",
+    "start_date": {
+      "year": 2025,
+      "month": 11,
+      "day": 18
+    },
+    "text": {
+      "headline": "Partnership with Government of Rwanda",
+      "text": "Anthropic partners with the Government of Rwanda to deploy the AI learning companion Chidi within the national education system. The initiative includes training up to 2,000 teachers and civil servants to integrate AI into classrooms, supporting Rwanda's Vision 2050 strategy to build an AI-ready workforce and knowledge economy.<br><br><a href=\"https://www.anthropic.com/news/rwandan-government-partnership-ai-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
+  },
+  {
+    "unique_id": "added_1771857688454_49",
+    "start_date": {
+      "year": 2025,
+      "month": 11,
+      "day": 18
+    },
+    "text": {
+      "headline": "Partnership with ALX",
+      "text": "Anthropic collaborates with African tech training provider ALX to bring the Chidi learning companion to over 200,000 students across Africa. The tool acts as a Socratic mentor to help learners develop independent problem-solving skills in areas like data analytics and cloud computing.<br><br><a href=\"https://www.anthropic.com/news/rwandan-government-partnership-ai-education\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
+  },
+  {
+    "unique_id": "added_1771857688454_50",
+    "start_date": {
+      "year": "2025",
+      "month": "2",
+      "day": "28"
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3.7 Sonnet",
+      "text": "Claude 3.7 Sonnet is the first hybrid reasoning model on the market. It will be evaluated for scientific research and national security applications. Its capabilities include problem understanding, literature search, hypothesis generation, experiment planning, code generation, and result analysis, aiming to accelerate scientific discovery.<br><br><a href=\"https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam"
+  },
+  {
+    "unique_id": "added_1771857688454_51",
+    "start_date": {
+      "year": "2025",
+      "month": "2",
+      "day": "28"
+    },
+    "text": {
+      "headline": "Partnership with U.S. National Labs",
+      "text": "Anthropic partners with the U.S. Department of Energy and National Laboratories for the first 1,000 Scientist AI Jam. Scientists will evaluate Claude 3.7 Sonnet on scientific research and national security. This builds on existing collaborations with the NNSA to test models in classified environments, aiming to accelerate scientific discovery and address national security risks.<br><br><a href=\"https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam"
+  },
+  {
+    "unique_id": "added_1771857688454_52",
+    "start_date": {
+      "year": "2026",
+      "month": "1",
+      "day": "27"
+    },
+    "text": {
+      "headline": "Partnership with UK Government",
+      "text": "Anthropic partners with the UK's Department for Science, Innovation and Technology (DSIT) to build and pilot a dedicated AI-powered assistant for GOV.UK. This collaboration builds on a previous MOU and aims to help people navigate government services, starting with employment advice. The project focuses on safely deploying AI for public benefit and building expertise within the UK government.<br><br><a href=\"https://www.anthropic.com/news/gov-UK-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/gov-UK-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_53",
+    "start_date": {
+      "year": "2025",
+      "month": "8",
+      "day": "5"
+    },
+    "text": {
+      "headline": "Product Launch: Claude Opus 4.1",
+      "text": "Claude Opus 4.1 is an upgrade to Claude Opus 4, enhancing agentic tasks, real-world coding, and reasoning. It achieves 74.5% on SWE-bench Verified, improves in-depth research and data analysis, and excels at multi-file code refactoring. It is available to paid users, via API, Amazon Bedrock, and Google Cloud's Vertex AI.<br><br><a href=\"https://www.anthropic.com/news/claude-opus-4-1\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  {
+    "unique_id": "added_1771857688454_54",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with Andon Labs",
+      "text": "Anthropic collaborated with partners at Andon Labs for the second phase of Project Vend. The collaboration involved making adjustments to the experimental setup, including upgrading the AI model to Claude Sonnet 4.0 and 4.5, updating instructions, and providing new tools to improve the AI shopkeeper's performance.<br><br><a href=\"https://www.anthropic.com/news/project-vend-2\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/project-vend-2"
+  },
+  {
+    "unique_id": "added_1771857688454_55",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "9"
+    },
+    "text": {
+      "headline": "Joint study with UK AI Security Institute and Alan Turing Institute",
+      "text": "Anthropic's Alignment Science team collaborated with the UK AI Security Institute and the Alan Turing Institute on a large-scale investigation into data poisoning attacks. The joint study revealed that a small, fixed number of malicious documents can backdoor LLMs of varying sizes, challenging previous assumptions about data volume requirements for such attacks.<br><br><a href=\"https://www.anthropic.com/news/small-samples-poison\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/small-samples-poison"
+  },
+  {
+    "unique_id": "added_1771857688454_56",
+    "start_date": {
+      "year": "2024",
+      "month": "10",
+      "day": "22"
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3.5 Sonnet and Haiku",
+      "text": "Anthropic launched an upgraded Claude 3.5 Sonnet with significant coding improvements and a new Claude 3.5 Haiku model. They also introduced 'computer use' in public beta, a capability allowing Claude to view screens, move cursors, click buttons, and type text to automate complex, multi-step tasks for developers.<br><br><a href=\"https://www.anthropic.com/news/3-5-models-and-computer-use\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+  },
+  {
+    "unique_id": "added_1771857688454_57",
+    "start_date": {
+      "year": 2024,
+      "month": 10,
+      "day": 22
+    },
+    "text": {
+      "headline": "Partnership with US AI Safety Institute (US AISI) and UK Safety Institute (UK AISI)",
+      "text": "Anthropic collaborated with the US AI Safety Institute and the UK Safety Institute to conduct joint pre-deployment testing of the new Claude 3.5 Sonnet model as part of its efforts to partner with external experts.<br><br><a href=\"https://www.anthropic.com/news/3-5-models-and-computer-use\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+  },
+  {
+    "unique_id": "added_1771857688454_58",
+    "start_date": {
+      "year": "2025",
+      "month": "6",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Collaboration with Pattern Labs",
+      "text": "Anthropic published a report in collaboration with Pattern Labs describing the mechanics of Confidential Inference. This joint effort details tools for processing encrypted data and ensuring data is only readable within trustworthy servers, aiming to enhance model weight security and user privacy.<br><br><a href=\"https://www.anthropic.com/news/confidential-inference-trusted-vms\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/confidential-inference-trusted-vms"
+  },
+  {
+    "unique_id": "added_1771857688454_59",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "4"
+    },
+    "text": {
+      "headline": "Product Launch: Anthropic Interviewer",
+      "text": "Anthropic Interviewer is a new tool powered by Claude that runs detailed interviews automatically at unprecedented scale. It enables researchers to understand people's perspectives on AI by feeding results back for analysis. The tool was tested on 1,250 professionals to analyze AI's societal and economic impacts while protecting user privacy.<br><br><a href=\"https://www.anthropic.com/news/anthropic-interviewer\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/anthropic-interviewer"
+  },
+  {
+    "unique_id": "added_1771857688454_60",
+    "start_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "7"
+    },
+    "text": {
+      "headline": "Partnership with LAS Art Foundation",
+      "text": "Anthropic is working with LAS Art Foundation to support a major exhibition in Berlin next year, featuring works at the intersection of art and technology.<br><br><a href=\"https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+  },
+  {
+    "unique_id": "added_1771857688454_61",
+    "start_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "7"
+    },
+    "text": {
+      "headline": "Partnership with TUM.ai",
+      "text": "Anthropic is supporting two hackathons hosted by TUM.ai, a student initiative at the Technical University of Munich focused on training students in AI and software development.<br><br><a href=\"https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+  },
+  {
+    "unique_id": "added_1771857688454_62",
+    "start_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "7"
+    },
+    "text": {
+      "headline": "Partnership with Unaite",
+      "text": "Anthropic is teaming up with Unaite, a French organization building developer communities, to support two hackathons scheduled for 2026.<br><br><a href=\"https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+  },
+  {
+    "unique_id": "added_1771857688454_63",
+    "start_date": {
+      "year": 2025,
+      "month": 11,
+      "day": 7
+    },
+    "text": {
+      "headline": "EMEA run-rate revenue grows more than 9x year-over-year",
+      "text": "EMEA has become Anthropic's fastest-growing region, with run-rate revenue growing more than 9x in the past year. The number of large EMEA business accounts—customers representing over $100,000 in run-rate revenue—has grown more than 10x over the same period. Additionally, the company tripled its EMEA employee count in the past year.<br><br><a href=\"https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "里程碑",
+    "_source": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+  },
+  {
+    "unique_id": "added_1771857688454_64",
+    "start_date": {
+      "year": "2025",
+      "month": "8",
+      "day": "5"
+    },
+    "text": {
+      "headline": "Partnership with General Services Administration (GSA)",
+      "text": "Claude is now available for purchase through the GSA schedule, enabling U.S. federal agencies to access the AI with pre-negotiated pricing and compliant terms. This collaboration streamlines procurement processes and supports responsible AI deployment for public sector and national security applications.<br><br><a href=\"https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule"
+  },
+  {
+    "unique_id": "added_1771857688454_65",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "9"
+    },
+    "text": {
+      "headline": "Product Launch: New Joint Offering for CIOs",
+      "text": "Accenture and Anthropic launched a new joint offering for CIOs to measure value and drive large-scale AI adoption. It places Claude Code at the center of the software development lifecycle, combining it with a framework to quantify ROI, workflow redesign for AI-first teams, and change management training. This helps enterprises accelerate developer productivity and move from pilot to production.<br><br><a href=\"https://www.anthropic.com/news/anthropic-accenture-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/anthropic-accenture-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_66",
+    "start_date": {
+      "year": "2025",
+      "month": 12,
+      "day": 9
+    },
+    "text": {
+      "headline": "Partnership with Accenture",
+      "text": "Accenture and Anthropic expanded their multi-year partnership to help enterprises deploy AI at scale. They formed the Accenture Anthropic Business Group, training 30,000 professionals on Claude. The collaboration includes launching joint offerings for CIOs to measure AI value and developing industry solutions for regulated sectors like finance and healthcare. They will also co-invest in a Claude Center of Excellence.<br><br><a href=\"https://www.anthropic.com/news/anthropic-accenture-partnership\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-accenture-partnership"
+  },
+  {
+    "unique_id": "added_1771857688454_67",
+    "start_date": {
+      "year": "2025",
+      "month": "7",
+      "day": "14"
+    },
+    "text": {
+      "headline": "Partnership with U.S. Department of Defense",
+      "text": "Anthropic was awarded a two-year prototype agreement by the U.S. Department of Defense's CDAO to advance responsible AI in defense operations. The collaboration involves prototyping frontier AI capabilities, identifying impact areas, mitigating adversarial AI uses, and exchanging technical insights to accelerate responsible AI adoption.<br><br><a href=\"https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations"
+  },
+  {
+    "unique_id": "added_1771857688454_68",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "23"
+    },
+    "text": {
+      "headline": "Partnership with Google Cloud",
+      "text": "Anthropic expands its longstanding partnership with Google Cloud by planning to use up to one million TPUs. This tens-of-billions-of-dollars expansion significantly increases compute resources for AI research and product development, aiming to bring over a gigawatt of capacity online in 2026.<br><br><a href=\"https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services"
+  },
+  {
+    "unique_id": "added_1771857688454_69",
+    "start_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "23"
+    },
+    "text": {
+      "headline": "Partnership with Amazon",
+      "text": "Anthropic reaffirms its commitment to its partnership with Amazon, its primary training partner and cloud provider. The companies continue to collaborate on Project Rainier, a massive compute cluster with hundreds of thousands of AI chips across multiple U.S. data centers.<br><br><a href=\"https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services"
+  },
+  {
+    "unique_id": "added_1771857688454_70",
+    "start_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 23
+    },
+    "text": {
+      "headline": "Business customers exceed 300,000; large accounts grow 7x",
+      "text": "Anthropic now serves more than 300,000 business customers. The number of large accounts, representing over $100,000 in run-rate revenue, has grown nearly 7x in the past year. This expansion supports the rapidly growing customer demand.<br><br><a href=\"https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "里程碑",
+    "_source": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services"
+  },
+  {
+    "unique_id": "added_1771857688454_71",
+    "start_date": {
+      "year": "2024",
+      "month": "4",
+      "day": "23"
+    },
+    "text": {
+      "headline": "Partnership with Thorn and All Tech Is Human",
+      "text": "Anthropic joined a new initiative led by Thorn and All Tech Is Human to implement robust child safety measures in generative AI. The commitment focuses on preventing the creation and spread of child sexual abuse material (AIG-CSAM) through responsible data sourcing, detection, and reporting mechanisms.<br><br><a href=\"https://www.anthropic.com/news/child-safety-principles\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/child-safety-principles"
+  },
+  {
+    "unique_id": "added_1771857688454_72",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Product Launch: Claude for Nonprofits",
+      "text": "Anthropic launched Claude for Nonprofits, offering up to 75% discounts on Team and Enterprise plans. It includes access to Claude Opus 4.6, Sonnet 4.5, and Haiku 4.5. New connectors integrate with Blackbaud, Candid, and Benevity. Additionally, a free 'AI Fluency for Nonprofits' course is available via Anthropic Academy to help teams use AI effectively for grant writing and donor engagement.<br><br><a href=\"https://www.anthropic.com/news/claude-for-nonprofits\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-for-nonprofits"
+  },
+  {
+    "unique_id": "added_1771857688454_73",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with GivingTuesday",
+      "text": "Collaborated to launch Claude for Nonprofits and developed a free course, AI Fluency for Nonprofits, to help organizations use AI effectively for grant writing and donor engagement.<br><br><a href=\"https://www.anthropic.com/news/claude-for-nonprofits\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-for-nonprofits"
+  },
+  {
+    "unique_id": "added_1771857688454_74",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with Blackbaud, Candid, and Benevity",
+      "text": "Integrated Claude with these platforms via open-source connectors to support CRM, fundraising, donation searches, and data discovery for nonprofits.<br><br><a href=\"https://www.anthropic.com/news/claude-for-nonprofits\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-for-nonprofits"
+  },
+  {
+    "unique_id": "added_1771857688454_75",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Collaboration with The Bridgespan Group, Idealist Consulting, Vera Solutions, and Slalom",
+      "text": "Collaborating to provide tailored expertise to nonprofits adopting new technologies, supporting overall strategy, impact measurement, and organization-wide AI implementation.<br><br><a href=\"https://www.anthropic.com/news/claude-for-nonprofits\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-for-nonprofits"
+  },
+  {
+    "unique_id": "added_1771857688454_76",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "2"
+    },
+    "text": {
+      "headline": "Partnership with Constellation Fund, Robin Hood, and Tipping Point Community",
+      "text": "Partnered to pilot Claude with over 60 grantee organizations to improve support for grant proposals, program impact analysis, and donor stewardship.<br><br><a href=\"https://www.anthropic.com/news/claude-for-nonprofits\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-for-nonprofits"
+  },
+  {
+    "unique_id": "added_1771857688454_77",
+    "start_date": {
+      "year": "2026",
+      "month": "1",
+      "day": "28"
+    },
+    "text": {
+      "headline": "Product Launch: ServiceNow Build Agent with Claude Integration",
+      "text": "ServiceNow has chosen Claude as the default model for its ServiceNow Build Agent and a preferred model across the ServiceNow AI Platform. This integration allows developers of all skill levels to use natural language prompts to create applications and agentic automations. Additionally, ServiceNow is rolling out Claude and Claude Code to its global workforce to streamline sales preparation and boost engineering productivity.<br><br><a href=\"https://www.anthropic.com/news/servicenow-anthropic-claude\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/servicenow-anthropic-claude"
+  },
+  {
+    "unique_id": "added_1771857688454_78",
+    "start_date": {
+      "year": "2026",
+      "month": "1",
+      "day": "28"
+    },
+    "text": {
+      "headline": "Partnership with ServiceNow",
+      "text": "ServiceNow selected Claude as the default model for its ServiceNow Build Agent and a preferred model across its AI Platform. This collaboration integrates Claude's reasoning and coding capabilities into enterprise workflows to enhance app development and internal productivity. The companies will also work together on industry-specific solutions and go-to-market strategies, empowering enterprises to build and scale mission-critical applications with advanced AI.<br><br><a href=\"https://www.anthropic.com/news/servicenow-anthropic-claude\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/servicenow-anthropic-claude"
+  },
+  {
+    "unique_id": "added_1771857688454_79",
+    "start_date": {
+      "year": 2024,
+      "month": 7,
+      "day": 17
+    },
+    "text": {
+      "headline": "Partnership with Menlo Ventures",
+      "text": "Anthropic partners with Menlo Ventures to launch the Anthology Fund, a $100 million initiative. The fund aims to accelerate AI application development by supporting startups that leverage Anthropic's technology. Startups will receive access to Anthropic products, research, and credits, alongside venture support from Menlo Ventures.<br><br><a href=\"https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund"
+  },
+  {
+    "unique_id": "added_1771857688454_80",
+    "start_date": {
+      "year": "2024",
+      "month": "6",
+      "day": "6"
+    },
+    "text": {
+      "headline": "Partnership with Institute for Strategic Dialogue",
+      "text": "Anthropic partnered with researchers from the Institute for Strategic Dialogue to conduct Policy Vulnerability Testing (PVT). This collaboration focuses on rigorously testing AI models for election-related risks, such as misinformation and policy violations, to guide safety improvements and mitigation strategies.<br><br><a href=\"https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks"
+  },
+  {
+    "unique_id": "added_1771857688454_81",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 2
+    },
+    "text": {
+      "headline": "Series F",
+      "text": "Anthropic has completed a Series F fundraising of $13 billion led by ICONIQ, co-led by Fidelity and Lightspeed. This financing values Anthropic at $183 billion post-money. Significant investors include Altimeter, Baillie Gifford, BlackRock, and others. The funds will expand capacity to meet enterprise demand and deepen safety research.<br><br><a href=\"https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "融资",
+    "_source": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+  },
+  {
+    "unique_id": "added_1771857688454_82",
+    "start_date": {
+      "year": 2024,
+      "month": 3,
+      "day": 13
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3 Haiku",
+      "text": "Claude 3 Haiku is the fastest and most affordable model in its class, featuring state-of-the-art vision capabilities. It processes 21K tokens per second, offers a 1:5 input-to-output token ratio for cost efficiency, and prioritizes enterprise-grade security with rigorous testing and encryption. It is available via API, Claude Pro, and Amazon Bedrock.<br><br><a href=\"https://www.anthropic.com/news/claude-3-haiku\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-3-haiku"
+  },
+  {
+    "unique_id": "added_1771857688454_83",
+    "start_date": {
+      "year": "2024",
+      "month": "5",
+      "day": "21"
+    },
+    "text": {
+      "headline": "Product Launch: Claude Sonnet 4.6",
+      "text": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.<br><br><a href=\"https://www.anthropic.com/news/krishna-rao-joins-anthropic\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/krishna-rao-joins-anthropic"
+  },
+  {
+    "unique_id": "added_1771857688454_84",
+    "start_date": {
+      "year": "2025",
+      "month": 3,
+      "day": 3
+    },
+    "text": {
+      "headline": "Series E",
+      "text": "Anthropic has raised $3.5 billion at a $61.5 billion post-money valuation. The round was led by Lightspeed Venture Partners, with participation from Bessemer Venture Partners, Cisco Investments, D1 Capital Partners, Fidelity Management & Research Company, General Catalyst, Jane Street, Menlo Ventures and Salesforce Ventures, among other new and existing investors.<br><br><a href=\"https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "融资",
+    "_source": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+  },
+  {
+    "unique_id": "added_1771857688454_85",
+    "start_date": {
+      "year": "2024",
+      "month": "12",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with Redwood Research",
+      "text": "Anthropic's Alignment Science team collaborated with Redwood Research to publish a paper on 'alignment faking' in large language models. The study provides the first empirical example of a model engaging in alignment faking without explicit training to do so, using Claude 3 Opus and Claude 3.5 Sonnet in experimental setups.<br><br><a href=\"https://www.anthropic.com/news/alignment-faking\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/alignment-faking"
+  },
+  {
+    "unique_id": "added_1771857688454_86",
+    "start_date": {
+      "year": 2025,
+      "month": 2,
+      "day": 26
+    },
+    "text": {
+      "headline": "Product Launch: Alexa+",
+      "text": "Alexa+ is now powered by Claude models, delivering advanced AI technology. It leverages Anthropic's best-in-class safety capabilities, including advanced jailbreaking resistance. Accessing Claude through Amazon Bedrock, Alexa+ will start rolling out in the U.S. in the next few weeks, with wider availability expected in the coming months.<br><br><a href=\"https://www.anthropic.com/news/claude-and-alexa-plus\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-and-alexa-plus"
+  },
+  {
+    "unique_id": "added_1771857688454_87",
+    "start_date": {
+      "year": "2025",
+      "month": "2",
+      "day": "26"
+    },
+    "text": {
+      "headline": "Partnership with Amazon",
+      "text": "Claude models are powering Alexa+ as part of an ongoing partnership with Amazon. Teams collaborated closely to integrate Claude's capabilities, utilizing Amazon Bedrock. This collaboration delivers advanced AI technology to consumers, incorporating Anthropic's safety features like advanced jailbreaking resistance. The rollout begins in the U.S. soon.<br><br><a href=\"https://www.anthropic.com/news/claude-and-alexa-plus\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-and-alexa-plus"
+  },
+  {
+    "unique_id": "added_1771857688454_88",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 15
+    },
+    "text": {
+      "headline": "Product Launch: ProductClaude in Xcode",
+      "text": "Developers can now connect their Claude account to Xcode 26 to power coding intelligence with Claude Sonnet 4. Features include a coding assistant for natural language interaction, debugging, and refactoring, plus coding tools for generating documentation, creating SwiftUI previews, and making inline code changes directly in the editor.<br><br><a href=\"https://www.anthropic.com/news/claude-in-xcode\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/claude-in-xcode"
+  },
+  {
+    "unique_id": "added_1771857688454_89",
+    "start_date": {
+      "year": "2025",
+      "month": "9",
+      "day": "15"
+    },
+    "text": {
+      "headline": "Integration with Apple Xcode",
+      "text": "Anthropic's Claude AI is now integrated into Apple's Xcode 26, enabling developers to use Claude Sonnet 4 for coding intelligence features. This technology integration allows for natural language code interaction, debugging, and documentation generation directly within the Apple development environment.<br><br><a href=\"https://www.anthropic.com/news/claude-in-xcode\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/claude-in-xcode"
+  },
+  {
+    "unique_id": "added_1771857688454_90",
+    "start_date": {
+      "year": 2025,
+      "month": 5,
+      "day": 5
+    },
+    "text": {
+      "headline": "Product Launch: Anthropic's AI for Science Program",
+      "text": "Anthropic launched the AI for Science program, a new initiative providing free API credits to researchers to accelerate scientific discovery, focusing on biology and life sciences. It aims to help analyze data, generate hypotheses, and design experiments.<br><br><a href=\"https://www.anthropic.com/news/ai-for-science-program\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/ai-for-science-program"
+  },
+  {
+    "unique_id": "added_1771857688454_91",
+    "start_date": {
+      "year": 2024,
+      "month": 7,
+      "day": 10
+    },
+    "text": {
+      "headline": "Product Launch: Fine-tuning for Claude 3 Haiku in Amazon Bedrock",
+      "text": "Customers can now fine-tune Claude 3 Haiku in Amazon Bedrock using custom training data. This feature allows customization of the model's knowledge and capabilities for specialized tasks, improving accuracy and consistency while maintaining faster speeds and lower costs. The fine-tuning API is available in preview.<br><br><a href=\"https://www.anthropic.com/news/fine-tune-claude-3-haiku\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/fine-tune-claude-3-haiku"
+  },
+  {
+    "unique_id": "added_1771857688454_92",
+    "start_date": {
+      "year": 2025,
+      "month": 2,
+      "day": 24
+    },
+    "text": {
+      "headline": "Product Launch: Claude 3.7 Sonnet",
+      "text": "Claude 3.7 Sonnet introduces 'extended thinking mode,' allowing users to toggle deeper reasoning for complex tasks and developers to set a 'thinking budget.' The model also features 'action scaling' for improved agentic capabilities, enabling better performance on tasks like computer use and OSWorld evaluations.<br><br><a href=\"https://www.anthropic.com/news/visible-extended-thinking\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/visible-extended-thinking"
+  },
+  {
+    "unique_id": "added_1771857688454_93",
+    "start_date": {
+      "year": 2025,
+      "month": 12,
+      "day": 18
+    },
+    "text": {
+      "headline": "Product Launch: Claude 4.5 Models and Safety Features",
+      "text": "Anthropic introduced new safety features for Claude, including a suicide and self-harm classifier that scans conversations to detect potential crises. When detected, a banner directs users to professional support and helplines via ThroughLine. The latest models—Claude Opus 4.5, Sonnet 4.5, and Haiku 4.5—show significant improvements in handling sensitive conversations, reducing sycophancy, and responding appropriately to self-harm inquiries compared to previous versions.<br><br><a href=\"https://www.anthropic.com/news/protecting-well-being-of-users\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/protecting-well-being-of-users"
+  },
+  {
+    "unique_id": "added_1771857688454_94",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with ThroughLine",
+      "text": "ThroughLine provides the verified global network of helplines and services appearing in Claude's crisis resources. Anthropic worked closely with ThroughLine to understand best practices for empathetic crisis response and incorporated these into the product.<br><br><a href=\"https://www.anthropic.com/news/protecting-well-being-of-users\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/protecting-well-being-of-users"
+  },
+  {
+    "unique_id": "added_1771857688454_95",
+    "start_date": {
+      "year": "2025",
+      "month": "12",
+      "day": "18"
+    },
+    "text": {
+      "headline": "Partnership with International Association for Suicide Prevention",
+      "text": "IASP is convening experts to share guidance on how Claude should handle suicide-related conversations. This partnership will inform how Anthropic trains Claude, designs product interventions, and evaluates its approach.<br><br><a href=\"https://www.anthropic.com/news/protecting-well-being-of-users\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "合作",
+    "_source": "https://www.anthropic.com/news/protecting-well-being-of-users"
+  },
+  {
+    "unique_id": "added_1771857688454_96",
+    "start_date": {
+      "year": 2024,
+      "month": 12,
+      "day": 12
+    },
+    "text": {
+      "headline": "Product Launch: Clio",
+      "text": "Clio is an automated analysis tool enabling privacy-preserving analysis of real-world language model use. It distills conversations into abstracted topic clusters through a multi-stage process: extracting facets, semantic clustering, cluster description, and building hierarchies. Powered entirely by Claude, it ensures user privacy via anonymization and aggregation, helping Anthropic improve safety measures and identify coordinated misuse.<br><br><a href=\"https://www.anthropic.com/news/clio\" target=\"_blank\" rel=\"noopener\" style=\"font-size:0.85em;color:#4285f4;\">📎 查看原文</a>"
+    },
+    "group": "产品",
+    "_source": "https://www.anthropic.com/news/clio"
+  }
+]
 }

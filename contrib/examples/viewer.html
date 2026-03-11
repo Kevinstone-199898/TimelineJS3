@@ -1197,6 +1197,18 @@
       if (!data || !data.events) return;
       data.events.forEach(function(ev, i) {
         if (!ev.unique_id) ev.unique_id = 'ev_' + i;
+        // 修复 start_date.data.* 嵌套格式（旧数据兼容）
+        if (ev.start_date && ev.start_date.data) {
+          var d = ev.start_date.data;
+          ev.start_date = { year: d.year, month: d.month };
+          if (d.day) ev.start_date.day = d.day;
+        }
+        // 确保 year/month/day 是字符串
+        if (ev.start_date) {
+          if (ev.start_date.year  != null) ev.start_date.year  = String(ev.start_date.year);
+          if (ev.start_date.month != null) ev.start_date.month = String(parseInt(ev.start_date.month));
+          if (ev.start_date.day   != null) ev.start_date.day   = String(parseInt(ev.start_date.day));
+        }
       });
     }
 
